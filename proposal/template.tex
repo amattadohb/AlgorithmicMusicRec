@@ -1,0 +1,130 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{url}
+\usepackage{wrapfig}
+\usepackage{hyperref} 
+\usepackage{color}
+
+\oddsidemargin 0mm
+\evensidemargin 5mm
+\topmargin -20mm
+\textheight 240mm
+\textwidth 160mm
+
+\parskip 12pt 
+\setlength{\parindent}{0in}
+
+\pagestyle{myheadings} 
+
+\title{Using Music Information Retrieval Feature Selection to Generate Music Suggestions}
+
+\author{Leila Kassiri (lkassir1, lkassir1@jhu.edu), Paul Watson (pwatso14, pwatso14@jhu.edu)}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Abstract}
+% Clearly explain your idea.
+Music-streaming services like Spotify and Soundcloud have revolutionized the music industry and have become increasingly competitive with their music suggestion generators. These generators utilize machine learning to suggest songs to add to specific playlists and to generate entire playlists of songs based on a user’s music listening history. We plan to create our own music suggestion models for individual songs and playlist curation utilizing K-nearest neighbors and Naive Bayes clustering algorithms. The growing field of Music Information Retrieval (MIR) focuses on extracting meaningful features from the raw music files. We plan on experimenting with various features and finding the ideal combination for single song and playlist suggestions. We will use our personal music collections (~4,000 songs) for the data, partitioning the data into training, development, and testing categories. Our overall evaluation of success will be subjective but we will provide the tool to WJHU, the Hopkins student radio station, for their evaluation.
+
+\section{Methods}
+% Explain the methods you will be using and why they are appropriate.
+\begin{itemize}
+
+
+\item Suggesting Songs:\\
+We will implement a recommendation algorithm that uses distance to rank potential suggestions. For features we will use Mel-Frequency Cepstral Coefficients (measures timbre) and Spectral Variability (measures how flat the spectrum is and if some frequency regions are much more prominent than others). For measuring distance we will use Euclidian distance and also separately maximum distance and compare the results of each.
+
+
+\item Creating Playlists:\\
+For creating playlists we are going to use a two-layered recommendation algorithm that uses distance between songs to cluster them based on features. Our algorithm will take in a song and produce a list of songs as output. For the first layer, we will first cluster based on Spectral Centroid (measures how dark or light a song is) and Spectral Rolloff (measures how much energy is in lower frequencies).\\
+For the next layer, we will look at the songs within the target cluster (the cluster that holds the input song) and re-cluster those songs based on Spectral Variability and Zero Crossing Rate (measures noisiness). For the playlist generation, we will take songs from multiple clusters within this layer and try to figure out what distribution of songs between clusters will make the best playlist. As before, we will use Euclidian distance and also separately maximum distance and compare the results of each for each of these layers of clustering.
+
+
+\end{itemize}
+
+
+
+
+
+
+
+\section{Resources}
+% What resources will you use and how will you get them?
+Python Libraries: Numpy and scikits.talkbox\\
+Feature extraction:\\
+Rhythm Pattern Extractor (http://www.ifs.tuwien.ac.at/mir/downloads.html,
+MATLAB and Java),\\
+MARSYAS (http://marsyas.sness.net/ http://sourceforge.net/projects/marsyas, C++),\\
+jMIR (http://jmir.sourceforge.net/, Java),\\
+mirtoolbox (http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/mirtoolbox, MATLAB),\\
+BeatRoot (http://www.elec.qmul.ac.uk/people/simond/beatroot/index.html, Java),\\
+CLAM (http://clam-project.org/, C++),\\
+M2K (http://www.music-ir.org/evaluation/m2k/, Java),\\
+IPython Music Feature Extractor
+(http://www.ifs.tuwien.ac.at/~schindler/lectures/, Python),\\
+
+
+
+
+
+
+\section{Milestones}
+\subsection{Must achieve}
+We must achieve a working song suggestion model as delineated above\\
+We must achieve a working single layer playlist generation model (returns a single cluster as a playlist)\\
+We must implement both Euclidean and maximum distance metrics\\
+\subsection{Expected to achieve}
+We expect to achieve a two-layer playlist generation model as delineated above\\
+\subsection{Would like to achieve}
+We would like to test our playlist generation model with different features at each layer. We want to do this because a good playlist has a balance between homogeneity and variety and we hope to clarify what features should be consistent within a playlist and what features can/should be varied.\\
+
+
+
+
+
+
+\section{Final Writeup}
+% What will appear in the final writeup.
+\begin{enumerate}
+\item Introduction: General introduction about project and why we chose to do music analysis
+\item Background: Background about machine learning in music recommendation, techniques in music information retrieval (MIR)
+\item Explanation of machine learning algorithms used: clustering as well as explanation of data preparation (train/dev/held out data), feature extraction, hyper-parameter tuning
+\item Detailed description of work done and how progress was made over time
+\item Description of results including examples of song suggestions
+\item Evaluation of overall success, comparison to proposal, things to improve and future improvements
+\end{enumerate}
+
+
+
+
+
+\section{Bibliography}
+% A list of the papers relevant to this project.
+Jensen, Kristoffer. “Multiple Scale Music Segmentation Using Rhythm, Timbre, and Harmony.” EURASIP J. Adv. Sig. Proc. 2007 (2007): n. pag.
+
+Peeters, Geoffroy and Xavier Rodet. “Signal-based Music Structure Discovery for Music Audio Summary Generation.” ICMC (2003).
+
+Shlomo Dubnov, Gérard Assayag, Ran El-Yaniv. Universal Classification Applied to Musical Sequences. ICMC: International Computer Music Conference, Oct 1998, Ann Arbor Michigan, United States. pp.1-1, 1998. 
+
+J. H. Jensen, M. G. Christensen, D. P. W. Ellis, S. H. Jensen, "Quantitative analysis of a common audio similarity measure", in IEEE Trans. Audio, Speech, and Language Processing, vol. 17(4), pp. 693–703, May 2009.
+
+J. H. Jensen, D. P. W. Ellis, M. G. Christensen, S. H. Jensen, "Evaluation of distance measures between Gaussian mixture models of MFCCs", in Proc. International Conf. on Music Information Retrieval, 2007, pp. 107–108.
+
+J. H. Jensen, M. G. Christensen, M. Murthi, S. H. Jensen, "Evaluation of MFCC estimation techniques for music similarity", in Proc. European Signal Processing Conference, 2006, pp. 926–930.
+
+J. H. Jensen, M. G. Christensen, D. P. W. Ellis, S. H. Jensen, "A tempo- insensitive distance measure for cover song identification based on chroma features", in Proc. IEEE Int. Conf. Acoust., Speech, and Signal Processing, 2008, pp. 2209–2212.
+
+J. H. Jensen, M. G. Christensen, S. H. Jensen, "A tempo-insensitive repre- sentation of rhythmic patterns", in Proc. European Signal Processing Con- ference, 2009.
+
+J. H. Jensen, M. G. Christensen, S. H. Jensen, "A framework for analysis of music similarity measures", in Proc. European Signal Processing Conference, 2007.
+
+J. H. Jensen, M. G. Christensen, S. H. Jensen, "An amplitude and covariance matrix estimator for signals in colored gaussian noise", in Proc. European Signal Processing Conference, 2009.
+
+M. G. Christensen, J. H. Jensen, A. Jakobsson and S. H. Jensen, "On op- timal filter designs for fundamental frequency estimation", in IEEE Signal Processing Letters, vol. 15, pp. 745-748, 2008.
+
+
+\end{document}
