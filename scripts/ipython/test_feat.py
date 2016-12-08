@@ -4,6 +4,6 @@ from ipython_extract_features import *
 
 #directory = 
 
-filepath = './input_mp3'
+filepath = './music'
 
 extract_feat(filepath)

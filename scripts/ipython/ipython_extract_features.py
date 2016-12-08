@@ -1,7 +1,7 @@
 # Paul
 # this code is adapted from http://www.ifs.tuwien.ac.at/~schindler/lectures/MIR_Feature_Extraction.html
 
-from helpers.rp_extract_batch import mp3_to_wav_batch
+from helpers.rp_extract_batch import *
 from helpers.utilities import *
 from scikits.talkbox import segment_axis
 from numpy.lib import stride_tricks
@@ -9,18 +9,30 @@ from scipy.fftpack import fft
 from scipy.fftpack.realtransforms import dct
 from scipy.signal import lfilter, hamming
 from scipy.io import wavfile
+from subprocess import call
+import python_speech_features
+#import song
 import numpy as np
 import os
 
-def extract_feat(filepath, output_filepath = '/output/'):
+def extract_feat(filepath, output_filepath = 'pickle'):
 
-	mp3_to_wav_batch(filepath)
+	# Convert m4a to mp3
+	m4a_to_mp3_batch(os.path.join(filepath, 'm4a'), outdir=os.path.join(filepath, 'mp3'))
 
-	for subpath, dirs, filelist in os.walk(filepath):
+	# Convert mp3 to wav
+	mp3_to_wav_batch(os.path.join(filepath, 'mp3'), outdir=os.path.join(filepath, 'wav'))
+
+	for subpath, dirs, filelist in os.walk(os.path.join(filepath, 'wav')):
 		for filename in filelist:
 			if filename[-4:] == '.wav':
 
+				# Get track name and artist
+				#name, artist = getTrackDetails(filename)
+
 				samplerate, wavedata = wavfile.read(os.path.join(subpath, filename))
+
+				features = {}
 
 				if wavedata.shape[1] > 1: #Stereo
 
@@ -29,29 +41,108 @@ def extract_feat(filepath, output_filepath = '/output/'):
 
 				# Calculate zero crossing rate
 				block_length = 2048
-				zcr, ts_zcr = zero_crossing_rate(wavedata, block_length, samplerate)
+				zcr_o, ts_zcr = zero_crossing_rate(wavedata, block_length, samplerate)
+				zcr = median_pool(zcr_o)
+				# Normalize
+				zcr = (zcr - np.mean(zcr)) / np.std(zcr)
 				print 'zcr'
 				print zcr
 				print len(zcr)
+				features['zcr'] = zcr
 
 				# Calculate spectral centroid
 				window_size = 1024
-				sc, ts_sc = spectral_centroid(wavedata, window_size, samplerate)
+				sc_o, ts_sc = spectral_centroid(wavedata, window_size, samplerate)
+				sc = median_pool(sc_o)
+				# Normalize
+				sc = (sc - np.mean(sc)) / np.std(sc)
 				print 'sc'
 				print sc
 				print len(sc)
+				features['sc'] = sc
 
 				# Calculate spectral rolloff
-				sr, ts_sr = spectral_rolloff(wavedata, window_size, samplerate, k=0.85)
+				sr_o, ts_sr = spectral_rolloff(wavedata, window_size, samplerate, k=0.85)
+				sr = median_pool(sr_o)
+				# Normalize
+				sr = (sr - np.mean(sr)) / np.std(sr)
 				print 'sr'
 				print sr
 				print len(sr)
+				features['sr'] = sr
 
 				# Calculate MFCC
-				MFCCs = mfcc(wavedata)
+				# MFCCs = mfcc(wavedata)
+				MFCCs_o = python_speech_features.mfcc(wavedata, samplerate=44100)
+				MFCCs = median_pool_2d(MFCCs_o)
+				# Normalize
+				MFCCs = (MFCCs - np.mean(MFCCs)) / np.std(MFCCs)
 				print 'MFCCs'
 				print MFCCs
 				print len(MFCCs)
+				features['mfcc'] = MFCCs
+
+				#track = Song()
+
+
+def median_pool(vector, num_features = 200):
+	output = np.zeros(num_features)
+	window_size = len(vector) % num_features
+	for i in xrange(window_size - 1):
+		window = vector[i:i + window_size]
+		val = np.median(window)
+		output.itemset(i, val)
+	return output
+
+def median_pool_2d(vector, num_features = 200):
+	output = np.zeros(num_features)
+	v = vector.flatten()
+	window_size = len(v) % num_features
+	for i in xrange(window_size - 1):
+		window = v[i:i + window_size]
+		val = np.median(window)
+		output.itemset(i, val)
+	return output
+
+def m4a_to_mp3_batch(path,outdir=None,audiofile_types=('.m4a')):
+
+    get_relative_path = (outdir!=None) # if outdir is specified we need relative path otherwise absolute
+
+    filenames = find_files(path,audiofile_types,get_relative_path)
+
+    n_files = len(filenames)
+    n = 0
+
+    for file in filenames:
+
+        n += 1
+        basename, ext = os.path.splitext(file)
+        mp3_file = basename + '.mp3'
+
+        if outdir: # if outdir is specified we add it in front of the relative file path
+            file = path + os.sep + file
+            mp3_file = outdir + os.sep + mp3_file
+
+            # recreate same subdir path structure as in input path
+            out_subpath = os.path.split(mp3_file)[0]
+
+            if not os.path.exists(out_subpath):
+                os.makedirs(out_subpath)
+
+        # future option: (to avoid recreating the input path subdir structure in outdir)
+        #filename_only = os.path.split(mp3_file)[1]
+
+        try:
+            if not os.path.exists(mp3_file):
+                print "Decoding:", n, "/", n_files, ":"
+                if ext.lower() == '.m4a':
+                    #mp3_decode(file,mp3_file)
+                    #call(['ffmpeg', '-i', file, '-r', '24', '-c:a', 'libmp3lame', '-ac', '2', '-b:a', '190k', mp3_file])
+                    call(['ffmpeg', '-v', '5', '-y', '-i', file, '-acodec', 'libmp3lame', '-ac', '2', '-ab', '192k', mp3_file])
+            else:
+                print "Already existing: " + mp3_file
+        except:
+            print "Not decoded " + file
 
 
 def mfcc(input_data):

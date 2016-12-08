@@ -4,17 +4,6 @@ lkassir1
 Paul Watson
 pwatso14
 
-Things to note:
-	feature extraction:
-
-		the command is "python rp_extract_batch.py <input_path> <feature_file_name>"
-		runs in about 2.2 mb/sec or 132 mb/min
-		.rp files - Rhythm Patterns
-			Rhythm Patterns (also called Fluctuation Patterns) describe modulation amplitudes for a range of modulation frequencies on "critical bands" of the human auditory range, i.e. fluctuations (or rhythm) on a number of frequency bands.
-		.ssd files - Statistical Spectrum Descriptor
-			The Sonogram is calculated as in the first part of the Rhythm Patterns calculation. According to the occurrence of beats or other rhythmic variation of energy on a specific critical band, statistical measures are able to describe the audio content. Our goal is to describe the rhythmic content of a piece of audio by computing the following statistical moments on the Sonogram values of each of the critical bands: mean, median, variance, skewness, kurtosis, min and max value.
-		.rh files - Rhythm Histogram
-			The Rhythm Histogram features we use are a descriptor for general rhythmics in an audio document. Contrary to the Rhythm Patterns and the Statistical Spectrum Descriptor, information is not stored per critical band. Rather, the magnitudes of each modulation frequency bin of all critical bands are summed up, to form a histogram of "rhythmic energy" per modulation frequency.
 
 		
 
