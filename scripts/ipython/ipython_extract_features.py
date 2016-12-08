@@ -10,10 +10,12 @@ from scipy.fftpack.realtransforms import dct
 from scipy.signal import lfilter, hamming
 from scipy.io import wavfile
 from subprocess import call
+from song import *
 import python_speech_features
-#import song
+import eyed3
 import numpy as np
 import os
+import pickle
 
 def extract_feat(filepath, output_filepath = 'pickle'):
 
@@ -28,7 +30,7 @@ def extract_feat(filepath, output_filepath = 'pickle'):
 			if filename[-4:] == '.wav':
 
 				# Get track name and artist
-				#name, artist = getTrackDetails(filename)
+				name, artist = getTrackDetails(os.path.join(filepath, 'mp3', filename[:-4] + '.mp3'))
 
 				samplerate, wavedata = wavfile.read(os.path.join(subpath, filename))
 
@@ -82,7 +84,14 @@ def extract_feat(filepath, output_filepath = 'pickle'):
 				print len(MFCCs)
 				features['mfcc'] = MFCCs
 
-				#track = Song()
+				track = Song(name, artist, features)
+
+				pickle.dump(track, open( os.path.join('music', 'pickle', artist + '_' + name + '.p') , "wb" ))
+
+
+def getTrackDetails(filepath):
+	audiofile = eyed3.load(filepath)
+	return audiofile.tag.title, audiofile.tag.artist
 
 
 def median_pool(vector, num_features = 200):
