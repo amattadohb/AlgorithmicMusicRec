@@ -73,6 +73,7 @@ def extract_feat(filepath, output_filepath = 'pickle'):
 				print len(sr)
 				features['sr'] = sr
 
+				'''
 				# Calculate MFCC
 				# MFCCs = mfcc(wavedata)
 				MFCCs_o = python_speech_features.mfcc(wavedata, samplerate=44100)
@@ -83,7 +84,7 @@ def extract_feat(filepath, output_filepath = 'pickle'):
 				print MFCCs
 				print len(MFCCs)
 				features['mfcc'] = MFCCs
-
+				'''
 				track = Song(name, artist, features)
 
 				pickle.dump(track, open( os.path.join('music', 'pickle', artist + '_' + name + '.p') , "wb" ))

@@ -48,9 +48,17 @@ class SongSuggestion:
 		for song in self.library:
 			#don't include the seed song or other songs by the same artist
 			if song.getArtist() != seed_artist:
-				dist1 = getDist(seed, song, 'mfcc')
+				dist1 = getDist(seed, song, 'sc')
 				dist2 = getDist(seed, song, 'sr')
 				dist = (dist1 + dist2 / 2.0)
+
+			heappush(song_heap, (dist, song))
+
+		suggestions = nsmallest(self.num_songs, song_heap)
+		print("Suggested songs for " + seed_title + " by " + seed_artist)
+		for s in suggestions:
+			print(s.getTitle() + s.getArtist())
+
 
 
 	def getDist(self, seed, compare, feat):
