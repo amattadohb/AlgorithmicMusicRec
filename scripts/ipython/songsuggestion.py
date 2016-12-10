@@ -61,7 +61,7 @@ class SongSuggestion:
 		# print len(song_heap)
 		for s in suggestions:
 			print s[1].getTitle(), s[1].getArtist(), s[0]
-
+		return suggestions
 
 
 	def getDist(self, seed, compare, feat):
