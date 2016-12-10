@@ -19,100 +19,113 @@ import pickle
 
 def extract_feat(filepath, output_filepath = 'pickle'):
 
-	# Convert m4a to mp3
-	m4a_to_mp3_batch(os.path.join(filepath, 'm4a'), outdir=os.path.join(filepath, 'mp3'))
+    # Convert m4a to mp3
+    m4a_to_mp3_batch(os.path.join(filepath, 'm4a'), outdir=os.path.join(filepath, 'mp3'))
 
-	# Convert mp3 to wav
-	mp3_to_wav_batch(os.path.join(filepath, 'mp3'), outdir=os.path.join(filepath, 'wav'))
+    # Convert mp3 to wav
+    mp3_to_wav_batch(os.path.join(filepath, 'mp3'), outdir=os.path.join(filepath, 'wav'))
 
-	for subpath, dirs, filelist in os.walk(os.path.join(filepath, 'wav')):
-		for filename in filelist:
-			if filename[-4:] == '.wav':
+    i = 0
+    for subpath, dirs, filelist in os.walk(os.path.join(filepath, 'wav')):
+        for filename in filelist:
+            if filename[-4:] == '.wav':
 
-				# Get track name and artist
-				name, artist = getTrackDetails(os.path.join(filepath, 'mp3', filename[:-4] + '.mp3'))
+                print 'Extracting features:', i, '/', len(filelist)
+                i += 1
 
-				samplerate, wavedata = wavfile.read(os.path.join(subpath, filename))
+                # Get track name and artist
+                name, artist = getTrackDetails(os.path.join(filepath, 'mp3', filename[:-4] + '.mp3'))
 
-				features = {}
+                #if os.path.isfile( os.path.join('music', 'pickle', artist + '_' + name + '.p') ):
+                #   continue
 
-				if wavedata.shape[1] > 1: #Stereo
+                samplerate, wavedata = wavfile.read(os.path.join(subpath, filename))
 
-					# use combine the channels by calculating their geometric mean
-					wavedata = np.mean(wavedata , axis=1)
+                features = {}
 
-				# Calculate zero crossing rate
-				block_length = 2048
-				zcr_o, ts_zcr = zero_crossing_rate(wavedata, block_length, samplerate)
-				zcr = median_pool(zcr_o)
-				# Normalize
-				zcr = (zcr - np.mean(zcr)) / np.std(zcr)
-				print 'zcr'
-				print zcr
-				print len(zcr)
-				features['zcr'] = zcr
+                if wavedata.shape[1] > 1: #Stereo
 
-				# Calculate spectral centroid
-				window_size = 1024
-				sc_o, ts_sc = spectral_centroid(wavedata, window_size, samplerate)
-				sc = median_pool(sc_o)
-				# Normalize
-				sc = (sc - np.mean(sc)) / np.std(sc)
-				print 'sc'
-				print sc
-				print len(sc)
-				features['sc'] = sc
+                    # use combine the channels by calculating their geometric mean
+                    wavedata = np.mean(wavedata , axis=1)
 
-				# Calculate spectral rolloff
-				sr_o, ts_sr = spectral_rolloff(wavedata, window_size, samplerate, k=0.85)
-				sr = median_pool(sr_o)
-				# Normalize
-				sr = (sr - np.mean(sr)) / np.std(sr)
-				print 'sr'
-				print sr
-				print len(sr)
-				features['sr'] = sr
+                # Calculate zero crossing rate
+                block_length = 2048
+                zcr_o, ts_zcr = zero_crossing_rate(wavedata, block_length, samplerate)
+                zcr = median_pool(zcr_o)
+                # Normalize
+                zcr = zcr - np.mean(zcr)
+                if np.std(zcr) != 0:
+                    zcr = zcr / np.std(zcr)
+                #print 'zcr'
+                #print zcr
+                #print len(zcr)
+                features['zcr'] = zcr
 
-				'''
-				# Calculate MFCC
-				# MFCCs = mfcc(wavedata)
-				MFCCs_o = python_speech_features.mfcc(wavedata, samplerate=44100)
-				MFCCs = median_pool_2d(MFCCs_o)
-				# Normalize
-				MFCCs = (MFCCs - np.mean(MFCCs)) / np.std(MFCCs)
-				print 'MFCCs'
-				print MFCCs
-				print len(MFCCs)
-				features['mfcc'] = MFCCs
-				'''
-				track = Song(name, artist, features)
+                # Calculate spectral centroid
+                window_size = 1024
+                sc_o, ts_sc = spectral_centroid(wavedata, window_size, samplerate)
+                sc = median_pool(sc_o)
+                # Normalize
+                sc = sc - np.mean(sc)
+                if np.std(sc) != 0:
+                    sc = sc / np.std(sc)
+                #print 'sc'
+                #print sc
+                #print len(sc)
+                features['sc'] = sc
 
-				pickle.dump(track, open( os.path.join('music', 'pickle', artist + '_' + name + '.p') , "wb" ))
+                # Calculate spectral rolloff
+                sr_o, ts_sr = spectral_rolloff(wavedata, window_size, samplerate, k=0.85)
+                sr = median_pool(sr_o)
+                # Normalize
+                sr = sr - np.mean(sr)
+                if np.std(sr) != 0:
+                    sr = sr / np.std(sr)
+                #print 'sr'
+                #print sr
+                #print len(sr)
+                features['sr'] = sr
+
+                '''
+                # Calculate MFCC
+                # MFCCs = mfcc(wavedata)
+                MFCCs_o = python_speech_features.mfcc(wavedata, samplerate=44100)
+                MFCCs = median_pool_2d(MFCCs_o)
+                # Normalize
+                MFCCs = (MFCCs - np.mean(MFCCs)) / np.std(MFCCs)
+                print 'MFCCs'
+                print MFCCs
+                print len(MFCCs)
+                features['mfcc'] = MFCCs
+                '''
+                track = Song(name, artist, features)
+
+                pickle.dump(track, open( os.path.join('music', 'pickle', artist + '_' + name + '.p') , "wb" ))
 
 
 def getTrackDetails(filepath):
-	audiofile = eyed3.load(filepath)
-	return audiofile.tag.title, audiofile.tag.artist
+    audiofile = eyed3.load(filepath)
+    return audiofile.tag.title, audiofile.tag.artist
 
 
 def median_pool(vector, num_features = 200):
-	output = np.zeros(num_features)
-	window_size = len(vector) % num_features
-	for i in xrange(window_size - 1):
-		window = vector[i:i + window_size]
-		val = np.median(window)
-		output.itemset(i, val)
-	return output
+    output = np.zeros(num_features)
+    window_size = len(vector) % num_features
+    for i in xrange(window_size - 1):
+        window = vector[i:i + window_size]
+        val = np.median(window)
+        output.itemset(i, val)
+    return output
 
 def median_pool_2d(vector, num_features = 200):
-	output = np.zeros(num_features)
-	v = vector.flatten()
-	window_size = len(v) % num_features
-	for i in xrange(window_size - 1):
-		window = v[i:i + window_size]
-		val = np.median(window)
-		output.itemset(i, val)
-	return output
+    output = np.zeros(num_features)
+    v = vector.flatten()
+    window_size = len(v) % num_features
+    for i in xrange(window_size - 1):
+        window = v[i:i + window_size]
+        val = np.median(window)
+        output.itemset(i, val)
+    return output
 
 def m4a_to_mp3_batch(path,outdir=None,audiofile_types=('.m4a')):
 
@@ -156,80 +169,80 @@ def m4a_to_mp3_batch(path,outdir=None,audiofile_types=('.m4a')):
 
 
 def mfcc(input_data):
-	# Pre-emphasis filter.
+    # Pre-emphasis filter.
 
-	# Parameters
-	nwin = 256
-	nfft = 1024
-	fs = 16000
-	nceps = 13
+    # Parameters
+    nwin = 256
+    nfft = 1024
+    fs = 16000
+    nceps = 13
 
-	# Pre-emphasis factor (to take into account the -6dB/octave
-	# rolloff of the radiation at the lips level)
-	prefac = 0.97
+    # Pre-emphasis factor (to take into account the -6dB/octave
+    # rolloff of the radiation at the lips level)
+    prefac = 0.97
 
-	# MFCC parameters: taken from auditory toolbox
-	over = nwin - 160
+    # MFCC parameters: taken from auditory toolbox
+    over = nwin - 160
 
-	filtered_data = lfilter([1., -prefac], 1, input_data)
+    filtered_data = lfilter([1., -prefac], 1, input_data)
 
-	windows = hamming(256, sym=0)
-	framed_data = segment_axis(filtered_data, nwin, over) * windows
+    windows = hamming(256, sym=0)
+    framed_data = segment_axis(filtered_data, nwin, over) * windows
 
-	# Compute the spectrum magnitude
-	magnitude_spectrum = np.abs(fft(framed_data, nfft, axis=-1))
+    # Compute the spectrum magnitude
+    magnitude_spectrum = np.abs(fft(framed_data, nfft, axis=-1))
 
-	# Compute triangular filterbank for MFCC computation.
+    # Compute triangular filterbank for MFCC computation.
 
-	lowfreq = 133.33
-	linsc = 200/3.
-	logsc = 1.0711703
-	fs = 44100
+    lowfreq = 133.33
+    linsc = 200/3.
+    logsc = 1.0711703
+    fs = 44100
 
-	nlinfilt = 13
-	nlogfilt = 27
+    nlinfilt = 13
+    nlogfilt = 27
 
-	# Total number of filters
-	nfilt = nlinfilt + nlogfilt
+    # Total number of filters
+    nfilt = nlinfilt + nlogfilt
 
-	#------------------------
-	# Compute the filter bank
-	#------------------------
-	# Compute start/middle/end points of the triangular filters in spectral
-	# domain
-	freqs = np.zeros(nfilt+2)
-	freqs[:nlinfilt] = lowfreq + np.arange(nlinfilt) * linsc
-	freqs[nlinfilt:] = freqs[nlinfilt-1] * logsc ** np.arange(1, nlogfilt + 3)
-	heights = 2./(freqs[2:] - freqs[0:-2])
+    #------------------------
+    # Compute the filter bank
+    #------------------------
+    # Compute start/middle/end points of the triangular filters in spectral
+    # domain
+    freqs = np.zeros(nfilt+2)
+    freqs[:nlinfilt] = lowfreq + np.arange(nlinfilt) * linsc
+    freqs[nlinfilt:] = freqs[nlinfilt-1] * logsc ** np.arange(1, nlogfilt + 3)
+    heights = 2./(freqs[2:] - freqs[0:-2])
 
-	# Compute filterbank coeff (in fft domain, in bins)
-	filterbank = np.zeros((nfilt, nfft))
+    # Compute filterbank coeff (in fft domain, in bins)
+    filterbank = np.zeros((nfilt, nfft))
 
-	# FFT bins (in Hz)
-	nfreqs = np.arange(nfft) / (1. * nfft) * fs
+    # FFT bins (in Hz)
+    nfreqs = np.arange(nfft) / (1. * nfft) * fs
 
-	for i in range(nfilt):
+    for i in range(nfilt):
 
-		low = freqs[i]
-		cen = freqs[i+1]
-		hi  = freqs[i+2]
+        low = freqs[i]
+        cen = freqs[i+1]
+        hi  = freqs[i+2]
 
-		lid = np.arange(np.floor(low * nfft / fs) + 1, np.floor(cen * nfft / fs) + 1, dtype=np.int)
+        lid = np.arange(np.floor(low * nfft / fs) + 1, np.floor(cen * nfft / fs) + 1, dtype=np.int)
 
-		rid = np.arange(np.floor(cen * nfft / fs) + 1, np.floor(hi * nfft / fs)  + 1, dtype=np.int)
+        rid = np.arange(np.floor(cen * nfft / fs) + 1, np.floor(hi * nfft / fs)  + 1, dtype=np.int)
 
-		lslope = heights[i] / (cen - low)
-		rslope = heights[i] / (hi - cen)
+        lslope = heights[i] / (cen - low)
+        rslope = heights[i] / (hi - cen)
 
-		filterbank[i][lid] = lslope * (nfreqs[lid] - low)
-		filterbank[i][rid] = rslope * (hi - nfreqs[rid])
+        filterbank[i][lid] = lslope * (nfreqs[lid] - low)
+        filterbank[i][rid] = rslope * (hi - nfreqs[rid])
 
 
-	# apply filter
-	mspec = np.log10(np.dot(magnitude_spectrum, filterbank.T))
+    # apply filter
+    mspec = np.log10(np.dot(magnitude_spectrum, filterbank.T))
 
-	# Use the DCT to 'compress' the coefficients (spectrum -> cepstrum domain)
-	return dct(mspec, type=2, norm='ortho', axis=-1)[:, :nceps]
+    # Use the DCT to 'compress' the coefficients (spectrum -> cepstrum domain)
+    return dct(mspec, type=2, norm='ortho', axis=-1)[:, :nceps]
 
 
 def spectral_rolloff(wavedata, window_size, samplerate, k=0.85):
@@ -278,9 +291,8 @@ def spectral_centroid(wavedata, window_size, samplerate):
         
         power_spectrum = np.abs(magnitude_spectrum[t])**2
         
+
         sc_t = np.sum(power_spectrum * np.arange(1,freqbins+1)) / np.sum(power_spectrum)
-        
-        sc.append(sc_t)
         
     
     sc = np.asarray(sc)

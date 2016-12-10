@@ -1,4 +1,4 @@
 from songsuggestion import *
 
 test = SongSuggestion("euc", 5)
-test.suggest("Ciervos", "Astro")
+test.suggest("Candyman (Remastered LP Version)", "Grateful Dead")

@@ -1,5 +1,7 @@
 
 import numpy as np
+import os
+import pickle
 
 class Song:
 
@@ -20,7 +22,7 @@ class Song:
 	def addFeature(self, dictl):
 		self.features = dictl
 
-class PlaylistGeneration(Predictor):
+class PlaylistGeneration:
 
 	def __init__(self, distance, i, l):
 		self.dtype = distance
@@ -41,11 +43,12 @@ class PlaylistGeneration(Predictor):
 
 	def train(self, feat1, feat2):
 		if self.lambd == 0.0:
-			self.calculate_lambda_bruh(vectors)
-		self.u.append(self.get_dat_mean_yo(vectors))
+			self.calculate_lambda_bruh(feat1, feat2)
+		self.u.append(self.get_dat_mean_yo(self.library, feat1, feat2))
 		self.k = 1
 		
-		for _ in xrange(self.iterations):
+		for ite in xrange(self.iterations):
+			print 'Iteration \t', ite
 			# E
 			self.r = []
 			for _ in xrange(self.k):
@@ -87,11 +90,12 @@ class PlaylistGeneration(Predictor):
 		#get song object of seed song
 		seed = pickle.load(open(os.path.join('music', 'pickle', seed_artist + '_' + seed_title + '.p') , "rb" ))
 
-		vector = np.concatenate((seed.getFeature(feat1), seed.getFeature(feat2)))
-		k, _ = self.closest_cluster(vector)
+		# vector = np.concatenate((seed.getFeature(feat1), seed.getFeature(feat2)))
+		k, _ = self.closest_cluster(seed, feat1, feat2)
 
 		if layer == 0:
 			length = 0
+			print k, len(self.r)
 			for s in self.r[k]:
 				if length >= playlistlen:
 					break
@@ -137,10 +141,10 @@ class PlaylistGeneration(Predictor):
 
 	def closest_cluster(self, song, feat1, feat2):
 		vector = np.concatenate((song.getFeature(feat1), song.getFeature(feat2)))
-		min_dist = float("inf")
+		min_dist = 0
 		min_cluster = -1
 		for k in xrange(self.k):
-
+			print 'suh'
 			mean = self.u[k]
 
 			if self.dtype == 'euc':
@@ -154,7 +158,7 @@ class PlaylistGeneration(Predictor):
 						max_dist = dist
 				dist = max_dist
 
-			if dist < min_dist:
+			if dist < min_dist or min_cluster == -1:
 				min_dist = dist
 				min_cluster = k
 		return (min_cluster, min_dist)
