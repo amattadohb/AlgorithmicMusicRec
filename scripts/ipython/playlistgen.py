@@ -36,3 +36,5 @@ class PlaylistGen:
 	def suggest(self, name, author, feat1, feat2, feat3, feat4):
 		firstlayer = SongSuggestion(self.dtype, self.plength*self.layer0factor)
 		layer0 = firstlayer.suggest(name, author, feat1, feat2)
+
+

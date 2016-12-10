@@ -2,6 +2,7 @@
 import numpy as np
 import os
 import pickle
+from scipy.spatial import distance
 
 class Song:
 
@@ -36,19 +37,18 @@ class PlaylistGeneration:
 		#add all songs to the library
 		for subpath, dirs, filelist in os.walk(os.path.join('./music', 'pickle')):
 			for filename in filelist:
-				if filename[-4:] == '.p':
-					toAdd = pickle.load(open(os.path.join(os.path.join(subpath, filename) , "rb" )))
+				if filename[-2:] == '.p':
+					toAdd = pickle.load(open(os.path.join(os.path.join(subpath, filename) ), "rb" ))
 					self.library.append(toAdd)
 
 
 	def train(self, feat1, feat2):
 		if self.lambd == 0.0:
 			self.calculate_lambda_bruh(feat1, feat2)
-		self.u.append(self.get_dat_mean_yo(self.library, feat1, feat2))
+		self.u.append(self.get_dat_mean_yo(feat1, feat2))
 		self.k = 1
 		
 		for ite in xrange(self.iterations):
-			print 'Iteration \t', ite
 			# E
 			self.r = []
 			for _ in xrange(self.k):
@@ -56,10 +56,9 @@ class PlaylistGeneration:
 
 			for song in self.library: #for song in library
 				k, dist = self.closest_cluster(song, feat1, feat2)
-				#print("lmbda = " + str(self.lambd) + ", distance = " + str(dist))
+				# print("lmbda = " + str(self.lambd) + ", distance = " + str(dist))
 
 				if dist > self.lambd:
-					#print("yo this went to " + str(self.k)) 
 					self.k += 1
 					self.r.append([])
 					self.r[self.k - 1].append(song)
@@ -91,21 +90,21 @@ class PlaylistGeneration:
 		seed = pickle.load(open(os.path.join('music', 'pickle', seed_artist + '_' + seed_title + '.p') , "rb" ))
 
 		# vector = np.concatenate((seed.getFeature(feat1), seed.getFeature(feat2)))
-		k, _ = self.closest_cluster(seed, feat1, feat2)
+		kluster, _ = self.closest_cluster(seed, feat1, feat2)
 
 		if layer == 0:
+			print "Playlist:"
 			length = 0
-			print k, len(self.r)
-			for s in self.r[k]:
+			for s in self.r[kluster]:
 				if length >= playlistlen:
 					break
-				print(s.getTitle() + s.getArtist())
+				print s.getTitle(), s.getArtist()
 				length += 1
 
 
 
 	def get_dat_mean_yo(self, feat1, feat2):
-		mean = np.empty(len(self.library[0].getFeature(feat1)) + len(self.library[0].getFeature(feat2)))
+		mean = np.zeros(len(self.library[0].getFeature(feat1)) + len(self.library[0].getFeature(feat2)))
 		count = 0.0
 
 		for song in self.library:
@@ -115,7 +114,7 @@ class PlaylistGeneration:
 
 	def calculate_lambda_bruh(self, feat1, feat2):
 		mean = self.get_dat_mean_yo(feat1, feat2)
-		s = 0
+		s = 0.0
 		count = 0.0
 		
 
@@ -123,7 +122,7 @@ class PlaylistGeneration:
 			for song in self.library:
 				vector = np.concatenate((song.getFeature(feat1), song.getFeature(feat2)))
 				count += 1.0
-				s += np.linalg.norm(vector - mean) ** 2
+				s += distance.euclidean(vector, mean)# ** 2
 		if self.dtype == 'max':
 			for song in self.library:
 				vector = np.concatenate((song.getFeature(feat1), song.getFeature(feat2)))
@@ -137,18 +136,17 @@ class PlaylistGeneration:
 						max_dist = dist
 				s += max_dist
 
-		self.lambd = (s / count)
+		self.lambd = (s / (count))
 
 	def closest_cluster(self, song, feat1, feat2):
 		vector = np.concatenate((song.getFeature(feat1), song.getFeature(feat2)))
 		min_dist = 0
 		min_cluster = -1
 		for k in xrange(self.k):
-			print 'suh'
 			mean = self.u[k]
 
 			if self.dtype == 'euc':
-				dist = np.linalg.norm(vector - mean) ** 2
+				dist = distance.euclidean(vector, mean)# ** 2
 			if self.dtype == 'max':
 				max_dist = 0
 				#find max distance
