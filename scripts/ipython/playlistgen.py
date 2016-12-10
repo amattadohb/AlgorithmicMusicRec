@@ -1,6 +1,7 @@
 import numpy as np
 import os 
 import pickle
+from songsuggestion import *
 
 class Song:
 
@@ -32,6 +33,6 @@ class PlaylistGen:
 		self.r = []
 		self.k = 0
 
-	def suggest(self, name, author):
+	def suggest(self, name, author, feat1, feat2, feat3, feat4):
 		firstlayer = SongSuggestion(self.dtype, self.plength*self.layer0factor)
-		layer0 = firstlayer.suggest(name, author)
+		layer0 = firstlayer.suggest(name, author, feat1, feat2)

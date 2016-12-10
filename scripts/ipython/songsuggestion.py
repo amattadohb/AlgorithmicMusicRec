@@ -37,7 +37,7 @@ class SongSuggestion:
 					self.library.append(toAdd)
 
 
-	def suggest(self, name, author): 
+	def suggest(self, name, author, feat1, feat2): 
 		song_heap = []
 		seed_title = name
 		seed_artist = author
@@ -45,13 +45,11 @@ class SongSuggestion:
 		#get song object of seed song
 		seed = pickle.load(open(os.path.join('music', 'pickle', seed_artist + '_' + seed_title + '.p') , "rb" ))
 
-		print len(self.library)
-
 		for song in self.library:
 			#don't include the seed song or other songs by the same artist
 			# if song.getArtist() != seed_artist:
-			dist1 = self.getDist(seed, song, 'sc')
-			dist2 = self.getDist(seed, song, 'sr')
+			dist1 = self.getDist(seed, song, feat1)
+			dist2 = self.getDist(seed, song, feat2)
 			dist = (dist1 + dist2 / 2.0)
 
 			heappush(song_heap, (dist, song))
