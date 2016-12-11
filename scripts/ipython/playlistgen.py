@@ -2,6 +2,7 @@ import numpy as np
 import os 
 import pickle
 from songsuggestion import *
+from random import shuffle
 
 class Song:
 
@@ -38,7 +39,7 @@ class PlaylistGen:
 
 	def suggest(self, name, author, feat1, feat2, feat3, feat4):
 		firstlayer = SongSuggestion(self.dtype, self.plength*self.layer0factor)
-		layer0 = firstlayer.suggest(name, author, feat1, feat2)
+		layer0 = firstlayer.suggest(name, author, feat1, feat2, False)
 
 		#add songs from layer0 to library
 		for x in layer0:
@@ -49,6 +50,7 @@ class PlaylistGen:
 		self.predict(name, author, feat3, feat4)
 
 		#print out playlist
+		shuffle(self.playlist)
 		print("Playlist generated for " + name + " by " + author)
 		for song in self.playlist:
 			print song.getTitle(), song.getArtist()
@@ -106,7 +108,7 @@ class PlaylistGen:
 
 		#shuffle song order in clusters
 		for k in xrange(self.k):
-			self.r[k].shuffle()
+			shuffle(self.r[k])
 
 		###########we don't use this yet tho #################
 		self.cluster_ranking(seed, feat1, feat2)
@@ -133,7 +135,7 @@ class PlaylistGen:
 		#add seed song to playlist if not added
 		if seed not in self.playlist:
 			del self.playlist[0]
-			playlist.append(seed)
+			self.playlist.append(seed)
 
 
 	def get_dat_mean_yo(self, feat1, feat2):
@@ -211,6 +213,6 @@ class PlaylistGen:
 						max_dist = dist
 				dist = max_dist
 
-			heappush(cluster_heap, (dist, k))
+			heappush(self.cluster_heap, (dist, k))
 
 

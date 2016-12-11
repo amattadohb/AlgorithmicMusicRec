@@ -1,0 +1,4123 @@
+Last login: Sun Dec 11 14:47:51 on ttys002
+Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/
+.DS_Store         Computer Vision/  Opti/             
+Automata/         Machine Learning/ 
+Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/Machine\ Learning/
+.DS_Store            HW4/                 template.log
+.git/                HW5/                 template.out
+AlgorithmicMusicRec/ HW6/                 template.pdf
+HW1/                 Midterm/             template.synctex.gz
+HW1 copy/            code/                template.tex
+HW2/                 project/             
+HW3/                 template.aux         
+Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/Machine\ Learning/AlgorithmicMusicRec/
+.DS_Store  README     papers/    scripts/   
+.git/      music/     proposal/  src/       
+Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/Machine\ Learning/AlgorithmicMusicRec/scripts/
+.DS_Store               ffprobe                 python_speech_features/
+convert_to_mp3/         ffserver                rp_extract/
+ffmpeg                  ipython/                
+Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/Machine\ Learning/AlgorithmicMusicRec/scripts/ipython/
+.DS_Store                     song.py
+helpers/                      song.pyc
+ipython_extract_features.py   songsuggestion.py
+ipython_extract_features.pyc  songsuggestion.pyc
+music/                        test_feat.py
+playlistgen.py                test_imports.py
+playlistgen.pyc               test_imports.pyc
+playlistgeneration.py         test_playlist.py
+playlistgeneration.pyc        test_song.py
+Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/Machine\ Learning/AlgorithmicMusicRec/scripts/ipython/
+Pauls-MacBook-Pro:ipython paulwatson$ python test_playlist.py 
+Playlist for	Dan Deacon  Meme Generator sr sc rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Mr. Brightside The Killers
+Betalove (RAC Mix) Ra Ra Riot
+I Follow Rivers (Alvita Rivers) Lykke Li
+sunday vik
+V. 3005 Childish Gambino
+Ghost Phish
+Old Pine (Remix) Ben Howard
+Simple Song The Shins
+My Back In the Day Song Know One
+Cudderisback Kid Cudi
+Just A Friend  Biz Markie
+D.O.A. (Death of Auto-Tune) Jay-Z
+Meme Generator Dan Deacon 
+Sparks Martin Rev
+Morning Splendor Pauline Anna Strom
+Playlist for	Dan Deacon  Meme Generator sr sc rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Old Pine (Remix) Ben Howard
+Climbing Walls Strange Talk
+Meme Generator Dan Deacon 
+Just A Friend  Biz Markie
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+Don't Play This Song Kid Cudi
+Cudderisback Kid Cudi
+Morning Splendor Pauline Anna Strom
+Fire  Childish Gambino
+Simple Song The Shins
+Sparks Martin Rev
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+sunday vik
+Playlist for	Dan Deacon  Meme Generator sr sc zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Cudderisback Kid Cudi
+Drug Song Dave Bixby
+Sparks Martin Rev
+Morning Splendor Pauline Anna Strom
+rollup vik
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+I Follow Rivers (Alvita Rivers) Lykke Li
+Ghost Phish
+D.O.A. (Death of Auto-Tune) Jay-Z
+Mr. Brightside The Killers
+Betalove (RAC Mix) Ra Ra Riot
+Don't Play This Song Kid Cudi
+My Back In the Day Song Know One
+Meme Generator Dan Deacon 
+Simple Song The Shins
+Playlist for	Dan Deacon  Meme Generator sr sc zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+My Back In the Day Song Know One
+Bohemian Rhapsody Queen
+Extraordinary Childish Gambino
+Simple Song The Shins
+Jump Around House Of Pain
+Mr. Brightside The Killers
+Don't Lie Vampire Weekend
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Ghost Phish
+Meme Generator Dan Deacon 
+Don't Stop (Color On the Walls) Foster the People
+Climbing Walls Strange Talk
+Sparks Martin Rev
+Playlist for	Dan Deacon  Meme Generator sr sc mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Touch (feat. Paul Williams) Daft Punk
+Don't Play This Song Kid Cudi
+V. 3005 Childish Gambino
+Old Pine (Remix) Ben Howard
+D.O.A. (Death of Auto-Tune) Jay-Z
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+Simple Song The Shins
+Meme Generator Dan Deacon 
+Cudderisback Kid Cudi
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Don't Stop (Color On the Walls) Foster the People
+Fire  Childish Gambino
+Don't Lie Vampire Weekend
+Morning Splendor Pauline Anna Strom
+Playlist for	Dan Deacon  Meme Generator sr sc mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+Don't Lie Vampire Weekend
+Betalove (RAC Mix) Ra Ra Riot
+Morning Splendor Pauline Anna Strom
+Sparks Martin Rev
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Just A Friend  Biz Markie
+Climbing Walls Strange Talk
+Dance Yrself Clean LCD Soundsystem
+My Back In the Day Song Know One
+Up Up & Away Kid Cudi
+Mr. Brightside The Killers
+Chloroform Phoenix
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Playlist for	Dan Deacon  Meme Generator sr rms sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Alive With the Glory of Love Say Anything
+Jump Around House Of Pain
+Million Dollar Bills Lorde
+Molly Boxed Wine
+Little Motel Modest Mouse
+Mrs. Robinson Simon & Garfunkel
+Just A Friend  Biz Markie
+Crossroads (Live at Winterland) Cream
+Sweet Disposition Temper Trap
+Waste Phish
+Cigarettes In the Theatre Two Door Cinema Club
+Rhymin' and Stealin' Beastie Boys
+Meme Generator Dan Deacon 
+Dance Yrself Clean LCD Soundsystem
+Playlist for	Dan Deacon  Meme Generator sr rms sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Rhymin' and Stealin' Beastie Boys
+Dearest Buddy Holly
+Don't Speak No Doubt
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Touch (feat. Paul Williams) Daft Punk
+Mrs. Robinson Simon & Garfunkel
+Cold Blooded Christmas Jon Lajoie
+El Condor Pasa (If I Could) Simon & Garfunkel
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Cigarettes In the Theatre Two Door Cinema Club
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Just A Friend  Biz Markie
+Meme Generator Dan Deacon 
+Sun's Coming Up Tame Impala
+Million Dollar Bills Lorde
+Playlist for	Dan Deacon  Meme Generator sr rms zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Betalove (RAC Mix) Ra Ra Riot
+Just A Friend  Biz Markie
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Private Eyes Daryl Hall & John Oates
+Lady Madonna The Beatles
+Cigarettes In the Theatre Two Door Cinema Club
+Molly Boxed Wine
+Little Motel Modest Mouse
+I Want to Know What Love Is Foreigner
+Dearest Buddy Holly
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Crossroads (Live at Winterland) Cream
+Meme Generator Dan Deacon 
+Mrs. Robinson Simon & Garfunkel
+Million Dollar Bills Lorde
+Playlist for	Dan Deacon  Meme Generator sr rms zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Just A Friend  Biz Markie
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Private Eyes Daryl Hall & John Oates
+I Love You Too, Death MGMT
+Jump Around House Of Pain
+All I Want Is You Barry Louis Polisar
+Molly Boxed Wine
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Dearest Buddy Holly
+Crossroads (Live at Winterland) Cream
+Mrs. Robinson Simon & Garfunkel
+Cigarettes In the Theatre Two Door Cinema Club
+Million Dollar Bills Lorde
+Meme Generator Dan Deacon 
+Good Evening (Dream Big) Outasight
+Playlist for	Dan Deacon  Meme Generator sr rms mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+Don't Speak No Doubt
+The Real (Infinity Guitars) Childish Gambino
+Mrs. Robinson Simon & Garfunkel
+Cold Blooded Christmas Jon Lajoie
+Sun's Coming Up Tame Impala
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Molly Boxed Wine
+Meme Generator Dan Deacon 
+Million Dollar Bills Lorde
+Late Night in Kauai ft Jaden Smith Childish Gambino
+My Little Town Simon & Garfunkel
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Just A Friend  Biz Markie
+Dearest Buddy Holly
+El Condor Pasa (If I Could) Simon & Garfunkel
+Playlist for	Dan Deacon  Meme Generator sr rms mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Mrs. Robinson Simon & Garfunkel
+Million Dollar Bills Lorde
+Cigarettes In the Theatre Two Door Cinema Club
+Money Pink Floyd
+Meme Generator Dan Deacon 
+I Want to Know What Love Is Foreigner
+Rhymin' and Stealin' Beastie Boys
+Meme Generator Dan Deacon 
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Waste Phish
+Crossroads (Live at Winterland) Cream
+Daylight Matt and Kim
+Molly Boxed Wine
+Bookends Simon & Garfunkel
+Just A Friend  Biz Markie
+Playlist for	Dan Deacon  Meme Generator sr zcr sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Betalove (RAC Mix) Ra Ra Riot
+All I Want LCD Soundsystem
+I Follow Rivers (Alvita Rivers) Lykke Li
+sunday vik
+V. 3005 Childish Gambino
+Meme Generator Dan Deacon 
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Richard Cory Simon & Garfunkel
+Girlfriend Icona Pop
+Burden of Tomorrow The Tallest Man on Earth
+Spirited Away Joe Hisaishi
+Hold It Now, Hit It Beastie Boys
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Reality In Motion Tame Impala
+Touch (feat. Paul Williams) Daft Punk
+Playlist for	Dan Deacon  Meme Generator sr zcr sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Jump Around House Of Pain
+Hold It Now, Hit It Beastie Boys
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+rollup vik
+Sparks Martin Rev
+Burden of Tomorrow The Tallest Man on Earth
+El Condor Pasa (If I Could) Simon & Garfunkel
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Slow and Low Beastie Boys
+Sweet Disposition Temper Trap
+Spirited Away Joe Hisaishi
+Meme Generator Dan Deacon 
+The Real (Infinity Guitars) Childish Gambino
+Touch (feat. Paul Williams) Daft Punk
+Don't Speak No Doubt
+Playlist for	Dan Deacon  Meme Generator sr zcr rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+Hold It Now, Hit It Beastie Boys
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Burden of Tomorrow The Tallest Man on Earth
+rollup vik
+Reality In Motion Tame Impala
+I Follow Rivers (Alvita Rivers) Lykke Li
+Betalove (RAC Mix) Ra Ra Riot
+Marijuana Kid Cudi
+Bitch Look At Me Now (Two Weeks) Childish Gambino
+sunday vik
+Spirited Away Joe Hisaishi
+Meme Generator Dan Deacon 
+Girlfriend Icona Pop
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+All I Want LCD Soundsystem
+Playlist for	Dan Deacon  Meme Generator sr zcr rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Burden of Tomorrow The Tallest Man on Earth
+Up Up & Away Kid Cudi
+Meme Generator Dan Deacon 
+Yes Childish Gambino
+Reality In Motion Tame Impala
+Diane Young Vampire Weekend
+sunday vik
+Fire  Childish Gambino
+All I Want LCD Soundsystem
+Betalove (RAC Mix) Ra Ra Riot
+Spirited Away Joe Hisaishi
+Awake My Soul Mumford & Sons
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Girlfriend Icona Pop
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Playlist for	Dan Deacon  Meme Generator sr zcr mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Slow and Low Beastie Boys
+Sparks Martin Rev
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+rollup vik
+Diane Young Vampire Weekend
+Spirited Away Joe Hisaishi
+Hold It Now, Hit It Beastie Boys
+El Condor Pasa (If I Could) Simon & Garfunkel
+Don't Speak No Doubt
+Meme Generator Dan Deacon 
+The Real (Infinity Guitars) Childish Gambino
+Burden of Tomorrow The Tallest Man on Earth
+Marijuana Kid Cudi
+Up Up & Away Kid Cudi
+Playlist for	Dan Deacon  Meme Generator sr zcr mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Girlfriend Icona Pop
+All I Want LCD Soundsystem
+Truckin' Grateful Dead
+Don't Paint It Blue Inward Eye
+Don't Play This Song Kid Cudi
+rollup vik
+Betalove (RAC Mix) Ra Ra Riot
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+I Follow Rivers (Alvita Rivers) Lykke Li
+Don't Speak No Doubt
+Spirited Away Joe Hisaishi
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Burden of Tomorrow The Tallest Man on Earth
+Reality In Motion Tame Impala
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator sr mfcc sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Don't Play This Song Kid Cudi
+Eye of the Tiger Survivor
+I Follow Rivers (Alvita Rivers) Lykke Li
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Slow and Low Beastie Boys
+Cudderisback Kid Cudi
+Mr. Brightside The Killers
+The Mango Song Phish
+Simple Song The Shins
+Don't Lie Vampire Weekend
+Old Pine (Remix) Ben Howard
+Chloroform Phoenix
+D.O.A. (Death of Auto-Tune) Jay-Z
+Playlist for	Dan Deacon  Meme Generator sr mfcc sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Ghost Phish
+Don't Lie Vampire Weekend
+sunday vik
+Mr. Brightside The Killers
+Climbing Walls Strange Talk
+My Back In the Day Song Know One
+Meme Generator Dan Deacon 
+Don't Stop (Color On the Walls) Foster the People
+I Follow Rivers (Alvita Rivers) Lykke Li
+Just A Friend  Biz Markie
+Sunrise Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+D.O.A. (Death of Auto-Tune) Jay-Z
+Slow and Low Beastie Boys
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Playlist for	Dan Deacon  Meme Generator sr mfcc rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+Cudderisback Kid Cudi
+Fire  Childish Gambino
+Dancing With Myself Billy Idol
+D.O.A. (Death of Auto-Tune) Jay-Z
+Ghost Phish
+Mr. Brightside The Killers
+The Mango Song Phish
+Somebody Told Me The Killers
+Old Pine (Remix) Ben Howard
+Bitch Look At Me Now (Two Weeks) Childish Gambino
+Meme Generator Dan Deacon 
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+Simple Song The Shins
+Don't Play This Song Kid Cudi
+Playlist for	Dan Deacon  Meme Generator sr mfcc rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+D.O.A. (Death of Auto-Tune) Jay-Z
+Somebody Told Me The Killers
+Mr. Brightside The Killers
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+Chloroform Phoenix
+Meme Generator Dan Deacon 
+sunday vik
+My Back In the Day Song Know One
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Slow and Low Beastie Boys
+Don't Stop (Color On the Walls) Foster the People
+Cudderisback Kid Cudi
+Ghost Phish
+Playlist for	Dan Deacon  Meme Generator sr mfcc zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Late Night in Kauai ft Jaden Smith Childish Gambino
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+My Back In the Day Song Know One
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+I Follow Rivers (Alvita Rivers) Lykke Li
+Meme Generator Dan Deacon 
+Sunrise Childish Gambino
+Sparks Martin Rev
+Meme Generator Dan Deacon 
+D.O.A. (Death of Auto-Tune) Jay-Z
+The Mango Song Phish
+Climbing Walls Strange Talk
+Simple Song The Shins
+Just A Friend  Biz Markie
+Good Evening (Dream Big) Outasight
+Playlist for	Dan Deacon  Meme Generator sr mfcc zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Ghost Phish
+Don't Play This Song Kid Cudi
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+My Back In the Day Song Know One
+Fire  Childish Gambino
+Morning Splendor Pauline Anna Strom
+Climbing Walls Strange Talk
+Cudderisback Kid Cudi
+Meme Generator Dan Deacon 
+Chloroform Phoenix
+Old Pine (Remix) Ben Howard
+D.O.A. (Death of Auto-Tune) Jay-Z
+Somebody Told Me The Killers
+Sparks Martin Rev
+Playlist for	Dan Deacon  Meme Generator sc sr rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Cudderisback Kid Cudi
+Don't Play This Song Kid Cudi
+Betalove (RAC Mix) Ra Ra Riot
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Mr. Brightside The Killers
+Meme Generator Dan Deacon 
+Sunrise Childish Gambino
+Simple Song The Shins
+Ghost Phish
+My Back In the Day Song Know One
+V. 3005 Childish Gambino
+D.O.A. (Death of Auto-Tune) Jay-Z
+Sparks Martin Rev
+Dancing With Myself Billy Idol
+Playlist for	Dan Deacon  Meme Generator sc sr rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Chloroform Phoenix
+Don't Play This Song Kid Cudi
+Sweet Disposition Temper Trap
+Fire  Childish Gambino
+Climbing Walls Strange Talk
+rollup vik
+Simple Song The Shins
+Meme Generator Dan Deacon 
+Cudderisback Kid Cudi
+Old Pine (Remix) Ben Howard
+V. 3005 Childish Gambino
+Up Up & Away Kid Cudi
+Drug Song Dave Bixby
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Mr. Brightside The Killers
+Playlist for	Dan Deacon  Meme Generator sc sr zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Ghost Phish
+D.O.A. (Death of Auto-Tune) Jay-Z
+Simple Song The Shins
+My Back In the Day Song Know One
+Drug Song Dave Bixby
+Climbing Walls Strange Talk
+Cudderisback Kid Cudi
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Fire  Childish Gambino
+Sparks Martin Rev
+Meme Generator Dan Deacon 
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+rollup vik
+sunday vik
+Don't Lie Vampire Weekend
+Playlist for	Dan Deacon  Meme Generator sc sr zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Don't Stop (Color On the Walls) Foster the People
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+V. 3005 Childish Gambino
+Climbing Walls Strange Talk
+Cudderisback Kid Cudi
+Meme Generator Dan Deacon 
+My Back In the Day Song Know One
+Simple Song The Shins
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Just A Friend  Biz Markie
+Fire  Childish Gambino
+Sweet Disposition Temper Trap
+Mr. Brightside The Killers
+Don't Lie Vampire Weekend
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+Playlist for	Dan Deacon  Meme Generator sc sr mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+Old Pine (Remix) Ben Howard
+Simple Song The Shins
+Don't Stop (Color On the Walls) Foster the People
+Balaclava Arctic Monkeys
+I Follow Rivers (Alvita Rivers) Lykke Li
+Dancing With Myself Billy Idol
+Up Up & Away Kid Cudi
+Climbing Walls Strange Talk
+Ghost Phish
+Cudderisback Kid Cudi
+rollup vik
+Don't Play This Song Kid Cudi
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator sc sr mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Good Evening (Dream Big) Outasight
+Sunrise Childish Gambino
+Just A Friend  Biz Markie
+My Back In the Day Song Know One
+Mr. Brightside The Killers
+Don't Lie Vampire Weekend
+Lisztomania Phoenix
+Sparks Martin Rev
+Climbing Walls Strange Talk
+Drug Song Dave Bixby
+rollup vik
+Don't Stop (Color On the Walls) Foster the People
+Meme Generator Dan Deacon 
+Simple Song The Shins
+Cudderisback Kid Cudi
+Playlist for	Dan Deacon  Meme Generator sc rms sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Just A Friend  Biz Markie
+Meme Generator Dan Deacon 
+Let Me Dope You Childish Gambino
+Molly Boxed Wine
+Les Childish Gambino
+Breathe (In the Air) Pink Floyd
+Rhymin' and Stealin' Beastie Boys
+I'm So Focused (feat. Truff Syrum) Childish Gambino
+Sea of Love (Remastered) Cat Power
+For the Fans (Warm Heart of Africa) Childish Gambino
+Backpackers Childish Gambino
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Can't Stop Falling Into Love Cheap Trick
+Dearest Buddy Holly
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+Playlist for	Dan Deacon  Meme Generator sc rms sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Les Childish Gambino
+All Yall Childish Gambino
+Be Above It Tame Impala
+Let It Happen Tame Impala
+Elephant Tame Impala
+Endors Toi Tame Impala
+Baby Doll  Childish Gambino
+Ladi Dadi (Tommy Trash Remix) Steve Aoki feat. Wynter Gordon
+Phat People (feat. Billy Scafuri) Childish Gambino
+Balaclava Arctic Monkeys
+Mind Mischief Tame Impala
+Meme Generator Dan Deacon 
+So Much Better Childish Gambino
+That Power Childish Gambino
+Expectation Tame Impala
+Playlist for	Dan Deacon  Meme Generator sc rms zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Sea of Love (Remastered) Cat Power
+Just A Friend  Biz Markie
+So Much Better Childish Gambino
+Meme Generator Dan Deacon 
+Come Back Home Two Door Cinema Club
+I'm So Focused (feat. Truff Syrum) Childish Gambino
+Cry (Just A Little) Bingo Players
+Les Childish Gambino
+Pullover Thoka VS. Hypertrophy
+Rhymin' and Stealin' Beastie Boys
+Feign Amnesia They Might Be Giants
+Cigarettes In the Theatre Two Door Cinema Club
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+That Power Childish Gambino
+Dearest Buddy Holly
+Playlist for	Dan Deacon  Meme Generator sc rms zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+All Yall Childish Gambino
+Baby Doll  Childish Gambino
+Phat People (feat. Billy Scafuri) Childish Gambino
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Backpackers Childish Gambino
+For the Fans (Warm Heart of Africa) Childish Gambino
+Money Baby Childish Gambino
+Can't Stop Falling Into Love Cheap Trick
+Just A Friend  Biz Markie
+On Melancholy Hill (Feed Me Remix) Gorillaz
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Let Me Dope You Childish Gambino
+Bitch Look At Me Now (Two Weeks) Childish Gambino
+Molly Boxed Wine
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator sc rms mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Baby Doll  Childish Gambino
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Jessica (Single Version) The Allman Brothers Band
+Pullover Thoka VS. Hypertrophy
+Changing of the Seaons Two Door Cinema Club
+Backpackers Childish Gambino
+All Yall Childish Gambino
+Naive (Jean Tonique Remix) The Kooks 
+So Many Nights The Cat Empire
+Almost There Childish Gambino
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Smile Like You Mean It (Madeon Remix) The Killers
+Come Back Home Two Door Cinema Club
+Lady Madonna The Beatles
+Playlist for	Dan Deacon  Meme Generator sc rms mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Backpackers Childish Gambino
+Let Me Dope You Childish Gambino
+Contact High Architecture in Helsinki
+Baby Doll  Childish Gambino
+Molly Boxed Wine
+Bitch Look At Me Now (Two Weeks) Childish Gambino
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Outside Childish Gambino
+Phat People (feat. Billy Scafuri) Childish Gambino
+All Yall Childish Gambino
+Vampire Antsy Pants
+Just A Friend  Biz Markie
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Meme Generator Dan Deacon 
+Little Numbers Boy
+Playlist for	Dan Deacon  Meme Generator sc zcr sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Yes Childish Gambino
+Fire  Childish Gambino
+sunday vik
+Somebody Told Me The Killers
+Can't Tell Me Nothing Kanye West
+Marijuana Kid Cudi
+Betalove (RAC Mix) Ra Ra Riot
+Don't Speak No Doubt
+Meme Generator Dan Deacon 
+Candyman Grateful Dead
+Truckin' Grateful Dead
+Fuck It All Childish Gambino
+V. 3005 Childish Gambino
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Burden of Tomorrow The Tallest Man on Earth
+Playlist for	Dan Deacon  Meme Generator sc zcr sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Truckin' Grateful Dead
+Burden of Tomorrow The Tallest Man on Earth
+Beyond Daft Punk
+Lady Dada's Nightmare MGMT
+The Real (Infinity Guitars) Childish Gambino
+Don't Speak No Doubt
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Another One Bites the Dust Queen
+Can't Tell Me Nothing Kanye West
+Somebody Told Me The Killers
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Jump Around House Of Pain
+Meme Generator Dan Deacon 
+Careful What You Pack They Might Be Giants
+All I Want LCD Soundsystem
+Playlist for	Dan Deacon  Meme Generator sc zcr rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Truckin' Grateful Dead
+Can't Tell Me Nothing Kanye West
+sunday vik
+Marijuana Kid Cudi
+Guilt Trip Kanye West
+Awake My Soul Mumford & Sons
+Don't Paint It Blue Inward Eye
+Meme Generator Dan Deacon 
+rollup vik
+V. 3005 Childish Gambino
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Betalove (RAC Mix) Ra Ra Riot
+Somebody Told Me The Killers
+Fire  Childish Gambino
+Burden of Tomorrow The Tallest Man on Earth
+Playlist for	Dan Deacon  Meme Generator sc zcr rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+All I Want LCD Soundsystem
+sunday vik
+Spirited Away Joe Hisaishi
+Fire  Childish Gambino
+Yes Childish Gambino
+Burden of Tomorrow The Tallest Man on Earth
+Reality In Motion Tame Impala
+Beyond Daft Punk
+Awake My Soul Mumford & Sons
+Truckin' Grateful Dead
+Diane Young Vampire Weekend
+Girlfriend Icona Pop
+Don't Play This Song Kid Cudi
+Meme Generator Dan Deacon 
+Betalove (RAC Mix) Ra Ra Riot
+Playlist for	Dan Deacon  Meme Generator sc zcr mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+I'm Stickng With You The Velvet Underground
+Fire  Childish Gambino
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Truckin' Grateful Dead
+Hold It Now, Hit It Beastie Boys
+Beyond Daft Punk
+Meme Generator Dan Deacon 
+Marijuana Kid Cudi
+Lady Dada's Nightmare MGMT
+All I Want LCD Soundsystem
+Betalove (RAC Mix) Ra Ra Riot
+Don't Speak No Doubt
+The Real (Infinity Guitars) Childish Gambino
+Careful What You Pack They Might Be Giants
+Mad World Michael Andrews & Gary Jules
+Playlist for	Dan Deacon  Meme Generator sc zcr mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+All I Want LCD Soundsystem
+Reality In Motion Tame Impala
+Don't Play This Song Kid Cudi
+sunday vik
+Burden of Tomorrow The Tallest Man on Earth
+Meme Generator Dan Deacon 
+Yes Childish Gambino
+Truckin' Grateful Dead
+Girlfriend Icona Pop
+Betalove (RAC Mix) Ra Ra Riot
+Don't Paint It Blue Inward Eye
+Beyond Daft Punk
+Spirited Away Joe Hisaishi
+Hold My Liquor Kanye West
+Fire  Childish Gambino
+Playlist for	Dan Deacon  Meme Generator sc mfcc sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+U.R.A. Fever The Kills
+Don't Lie Vampire Weekend
+U Don't Have to Call  (prod. Ludwig) Childish Gambino
+Meme Generator Dan Deacon 
+Kokopelli Mild High Club
+Make Her Say Kid Cudi Feat. Kayne West & Common
+Step Vampire Weekend
+The Line Phish
+Hudson Vampire Weekend
+Erase Me Kid Cudi
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Wavin' Flag World Cup Heroes
+Insomnia Electric President
+Elephant Tame Impala
+The Mango Song Phish
+Playlist for	Dan Deacon  Meme Generator sc mfcc sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Supersonic Rocket Ship The Kinks
+Erase Me Kid Cudi
+Wavin' Flag World Cup Heroes
+Elephant Tame Impala
+Outside Childish Gambino
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+Meme Generator Dan Deacon 
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+I. Pink Toes (feat. Jhene Aiko) Childish Gambino
+Meme Generator Dan Deacon 
+Kokopelli Mild High Club
+The Mango Song Phish
+Not Going Back Childish Gambino
+Step Vampire Weekend
+Playlist for	Dan Deacon  Meme Generator sc mfcc rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Northern Downpour Panic at the Disco
+Wavin' Flag World Cup Heroes
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+U Don't Have to Call  (prod. Ludwig) Childish Gambino
+U.R.A. Fever The Kills
+Steam Phish
+Erase Me Kid Cudi
+Kokopelli Mild High Club
+The Mango Song Phish
+Riptide Vance Joy
+Don't Lie Vampire Weekend
+Hudson Vampire Weekend
+I Want to Know What Love Is Foreigner
+Step Vampire Weekend
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator sc mfcc rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+The Mango Song Phish
+The Line Phish
+Meme Generator Dan Deacon 
+Insomnia Electric President
+Erase Me Kid Cudi
+Wavin' Flag World Cup Heroes
+Outside Childish Gambino
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Not Going Back Childish Gambino
+Riptide Vance Joy
+Hudson Vampire Weekend
+Steam Phish
+Step Vampire Weekend
+Alive (Nightmare) Kid Cudi Feat. Ratatat
+Computer Assisted Design They Might Be Giants
+Playlist for	Dan Deacon  Meme Generator sc mfcc zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Kokopelli Mild High Club
+Not Going Back Childish Gambino
+Outside Childish Gambino
+Erase Me Kid Cudi
+Make Her Say Kid Cudi Feat. Kayne West & Common
+Don't Lie Vampire Weekend
+Scott Mescudi vs. the World Kid Cudi
+Lisztomania Phoenix
+Wavin' Flag World Cup Heroes
+Riptide Vance Joy
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+I Want to Know What Love Is Foreigner
+Meme Generator Dan Deacon 
+The Mango Song Phish
+Playlist for	Dan Deacon  Meme Generator sc mfcc zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Alive (Nightmare) Kid Cudi Feat. Ratatat
+Step Vampire Weekend
+Outside Childish Gambino
+Steam Phish
+Hudson Vampire Weekend
+Computer Assisted Design They Might Be Giants
+Meme Generator Dan Deacon 
+Erase Me Kid Cudi
+Wavin' Flag World Cup Heroes
+The Line Phish
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+The Mango Song Phish
+U Don't Have to Call  (prod. Ludwig) Childish Gambino
+Kokopelli Mild High Club
+Playlist for	Dan Deacon  Meme Generator rms sr sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Million Dollar Bills Lorde
+Sun's Coming Up Tame Impala
+Cigarettes In the Theatre Two Door Cinema Club
+Meme Generator Dan Deacon 
+Jump Around House Of Pain
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Good Evening (Dream Big) Outasight
+Daylight Matt and Kim
+Meme Generator Dan Deacon 
+I Want to Know What Love Is Foreigner
+Seven Nation Army The White Stripes
+Just A Friend  Biz Markie
+I Love You Too, Death MGMT
+Paper Planes M.I.A.
+Crossroads (Live at Winterland) Cream
+Playlist for	Dan Deacon  Meme Generator rms sr sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Cold Blooded Christmas Jon Lajoie
+The Real (Infinity Guitars) Childish Gambino
+El Condor Pasa (If I Could) Simon & Garfunkel
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Sun's Coming Up Tame Impala
+Bookends Simon & Garfunkel
+Just A Friend  Biz Markie
+Friends Flight of the Conchords
+Meme Generator Dan Deacon 
+Molly Boxed Wine
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Dearest Buddy Holly
+Mrs. Robinson Simon & Garfunkel
+Don't Speak No Doubt
+Million Dollar Bills Lorde
+Playlist for	Dan Deacon  Meme Generator rms sr zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Bitch Look At Me Now (Two Weeks) Childish Gambino
+Just A Friend  Biz Markie
+Cold Blooded Christmas Jon Lajoie
+Molly Boxed Wine
+Million Dollar Bills Lorde
+Waste Phish
+Paper Planes M.I.A.
+Crossroads (Live at Winterland) Cream
+Good Evening (Dream Big) Outasight
+My Girl The Temptations
+Dance Yrself Clean LCD Soundsystem
+Cigarettes In the Theatre Two Door Cinema Club
+Meme Generator Dan Deacon 
+Meme Generator Dan Deacon 
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Playlist for	Dan Deacon  Meme Generator rms sr zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Crossroads (Live at Winterland) Cream
+Lisztomania Phoenix
+Just A Friend  Biz Markie
+Cold Blooded Christmas Jon Lajoie
+Paper Planes M.I.A.
+Waste Phish
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+My Girl The Temptations
+Cigarettes In the Theatre Two Door Cinema Club
+Seven Nation Army The White Stripes
+Rhymin' and Stealin' Beastie Boys
+I Want to Know What Love Is Foreigner
+Million Dollar Bills Lorde
+Don't Speak No Doubt
+Playlist for	Dan Deacon  Meme Generator rms sr mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+Rhymin' and Stealin' Beastie Boys
+El Condor Pasa (If I Could) Simon & Garfunkel
+Meme Generator Dan Deacon 
+Mrs. Robinson Simon & Garfunkel
+Cigarettes In the Theatre Two Door Cinema Club
+Million Dollar Bills Lorde
+Bookends Simon & Garfunkel
+Cold Blooded Christmas Jon Lajoie
+Dearest Buddy Holly
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Just A Friend  Biz Markie
+Sun's Coming Up Tame Impala
+Late Night in Kauai ft Jaden Smith Childish Gambino
+My Little Town Simon & Garfunkel
+Don't Speak No Doubt
+Playlist for	Dan Deacon  Meme Generator rms sr mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Friends Flight of the Conchords
+Crossroads (Live at Winterland) Cream
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+I Want to Know What Love Is Foreigner
+Sun's Coming Up Tame Impala
+Meme Generator Dan Deacon 
+Million Dollar Bills Lorde
+Just A Friend  Biz Markie
+Mrs. Robinson Simon & Garfunkel
+Eye of the Tiger Survivor
+Seven Nation Army The White Stripes
+Bookends Simon & Garfunkel
+Jump Around House Of Pain
+Paper Planes M.I.A.
+Playlist for	Dan Deacon  Meme Generator rms sc sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+All Yall Childish Gambino
+Molly Boxed Wine
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+Meme Generator Dan Deacon 
+Les Childish Gambino
+Don't Worry, Be Happy Bobby McFerrin
+Let Me Dope You Childish Gambino
+So Much Better Childish Gambino
+Pullover Thoka VS. Hypertrophy
+Dearest Buddy Holly
+Outside Childish Gambino
+Rhymin' and Stealin' Beastie Boys
+Just A Friend  Biz Markie
+Climbing the Walls They Might Be Giants
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Playlist for	Dan Deacon  Meme Generator rms sc sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Feign Amnesia They Might Be Giants
+Meme Generator Dan Deacon 
+Climbing the Walls They Might Be Giants
+All I Want Is You Barry Louis Polisar
+You (Ha Ha Ha) Charli xcx
+Something Good Can Work (The Twelves Remix) Two Door Cinema Club
+Cigarettes In the Theatre Two Door Cinema Club
+Hard to Explain The Strokes
+Why Won't They Talk To Me? Tame Impala
+Blue Sky The Allman Brothers Band
+Pullover Thoka VS. Hypertrophy
+Is This It The Strokes
+Jessica (Single Version) The Allman Brothers Band
+Human The Killers
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Playlist for	Dan Deacon  Meme Generator rms sc zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Backpackers Childish Gambino
+Almost There Childish Gambino
+Vampire Antsy Pants
+Just A Friend  Biz Markie
+Molly Boxed Wine
+Buzzcut Season Lorde
+So Much Better Childish Gambino
+Meme Generator Dan Deacon 
+I Can Hear Your Feet (Sunrise) Childish Gambino
+All Yall Childish Gambino
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+Rhymin' and Stealin' Beastie Boys
+Les Childish Gambino
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Dearest Buddy Holly
+Playlist for	Dan Deacon  Meme Generator rms sc zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Let Me Dope You Childish Gambino
+Phat People (feat. Billy Scafuri) Childish Gambino
+Jessica (Single Version) The Allman Brothers Band
+Just A Friend  Biz Markie
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+Shine On The Kooks
+Heartbeat Childish Gambino
+I'm So Focused (feat. Truff Syrum) Childish Gambino
+Last Nite The Strokes
+Is This It The Strokes
+Smile Like You Mean It (Madeon Remix) The Killers
+So Many Nights The Cat Empire
+Rhymin' and Stealin' Beastie Boys
+Meme Generator Dan Deacon 
+Cry (Just A Little) Bingo Players
+Playlist for	Dan Deacon  Meme Generator rms sc mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Just A Friend  Biz Markie
+Meme Generator Dan Deacon 
+So Much Better Childish Gambino
+Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
+Outside Childish Gambino
+Baby Doll  Childish Gambino
+Piano Man Billy Joel
+Breathe (In the Air) Pink Floyd
+Don't Worry, Be Happy Bobby McFerrin
+That Power Childish Gambino
+Cry (Just A Little) Bingo Players
+Lisztomania Phoenix
+Little Numbers Boy
+All Yall Childish Gambino
+Playlist for	Dan Deacon  Meme Generator rms sc mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+For the Fans (Warm Heart of Africa) Childish Gambino
+Aerodynamic (Daft Punk Remix) Daft Punk
+Get Lucky Daft Punk
+Doin' It Right (feat. Panda Bear) Daft Punk
+Backpackers Childish Gambino
+Heartbeat Childish Gambino
+Let Me Dope You Childish Gambino
+Les Childish Gambino
+Phat People (feat. Billy Scafuri) Childish Gambino
+Starlight (feat. DC Pierson & Amber Petty) Childish Gambino
+Motherboard Daft Punk
+Meme Generator Dan Deacon 
+I Can Hear Your Feet (Sunrise) Childish Gambino
+That Power Childish Gambino
+One More Time Daft Punk
+Playlist for	Dan Deacon  Meme Generator rms zcr sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Barely Legal The Strokes
+Meme Generator Dan Deacon 
+Sweet Disposition Temper Trap
+Miss You Foster the People
+Do You Want It All? Two Door Cinema Club
+Lady Dada's Nightmare MGMT
+Bohemian Rhapsody Queen
+Brian Eno MGMT
+The Real (Infinity Guitars) Childish Gambino
+Black Skinhead Kanye West
+Careful What You Pack They Might Be Giants
+Mad World Michael Andrews & Gary Jules
+Mind Mischief Tame Impala
+Life On the Nickel Foster the People
+Don’t Worry, We'll Be Watching You Gotye
+Playlist for	Dan Deacon  Meme Generator rms zcr sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Careful What You Pack They Might Be Giants
+Bennie and the Jets Elton John
+Lady Dada's Nightmare MGMT
+Miss You Foster the People
+Don’t Worry, We'll Be Watching You Gotye
+Broken Jaw Foster the People
+Mind Mischief Tame Impala
+Mad World Michael Andrews & Gary Jules
+Lisztomania Phoenix
+Friends Flight of the Conchords
+Meme Generator Dan Deacon 
+The Real (Infinity Guitars) Childish Gambino
+Brian Eno MGMT
+Gratisfaction The Strokes
+Don't Speak No Doubt
+Playlist for	Dan Deacon  Meme Generator rms zcr sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Brian Eno MGMT
+Keep On Lying Tame Impala
+Meme Generator Dan Deacon 
+Guilt Trip Kanye West
+Shine on You Crazy Diamond, Pts. 1-5 Pink Floyd
+Bohemian Rhapsody Queen
+Bitch Look At Me Now (Two Weeks) Childish Gambino
+Mind Mischief Tame Impala
+Gratisfaction The Strokes
+Bennie and the Jets Elton John
+The Real (Infinity Guitars) Childish Gambino
+Mad World Michael Andrews & Gary Jules
+Miss You Foster the People
+Careful What You Pack They Might Be Giants
+Don’t Worry, We'll Be Watching You Gotye
+Playlist for	Dan Deacon  Meme Generator rms zcr sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Shine on You Crazy Diamond, Pts. 1-5 Pink Floyd
+Don't Speak No Doubt
+Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
+Come Together The Beatles
+Meme Generator Dan Deacon 
+El Condor Pasa (If I Could) Simon & Garfunkel
+Mad World Michael Andrews & Gary Jules
+Jump Around House Of Pain
+Bennie and the Jets Elton John
+Lady Dada's Nightmare MGMT
+Do You Want It All? Two Door Cinema Club
+Careful What You Pack They Might Be Giants
+I'm Stickng With You The Velvet Underground
+Friends Flight of the Conchords
+Playlist for	Dan Deacon  Meme Generator rms zcr mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Don’t Worry, We'll Be Watching You Gotye
+Careful What You Pack They Might Be Giants
+Meme Generator Dan Deacon 
+Friends Flight of the Conchords
+Miss You Foster the People
+Balaclava Arctic Monkeys
+Life On the Nickel Foster the People
+Mind Mischief Tame Impala
+Don't Speak No Doubt
+Brian Eno MGMT
+Bennie and the Jets Elton John
+Shine on You Crazy Diamond, Pts. 1-5 Pink Floyd
+The Real (Infinity Guitars) Childish Gambino
+Mad World Michael Andrews & Gary Jules
+Have a Cigar Pink Floyd
+Playlist for	Dan Deacon  Meme Generator rms zcr mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+Lady Dada's Nightmare MGMT
+Hurricane Bob Dylan
+Don’t Worry, We'll Be Watching You Gotye
+Meme Generator Dan Deacon 
+I'm Stickng With You The Velvet Underground
+Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
+Do You Want It All? Two Door Cinema Club
+Jump Around House Of Pain
+Don't Speak No Doubt
+Shine on You Crazy Diamond, Pts. 1-5 Pink Floyd
+El Condor Pasa (If I Could) Simon & Garfunkel
+Mad World Michael Andrews & Gary Jules
+Friends Flight of the Conchords
+Come Together The Beatles
+Careful What You Pack They Might Be Giants
+Playlist for	Dan Deacon  Meme Generator rms mfcc sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Metanoia MGMT
+All Yall Childish Gambino
+Meme Generator Dan Deacon 
+Expectation Tame Impala
+Meme Generator Dan Deacon 
+I Want to Know What Love Is Foreigner
+Always Look On the Bright Side of Life Monty Python
+Lisztomania Phoenix
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+Outside Childish Gambino
+Friend of the Devil Grateful Dead
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Ride the River J.J. Cale & Eric Clapton
+Miss You Foster the People
+Elephant Tame Impala
+Playlist for	Dan Deacon  Meme Generator rms mfcc sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Elephant Tame Impala
+Always Look On the Bright Side of Life Monty Python
+Hurt Feelings Flight of the Conchords
+Robots Flight of the Conchords
+Friend of the Devil Grateful Dead
+All Yall Childish Gambino
+Mr. E's Beautiful Blues Eels
+New Person, Same Old Mistakes Tame Impala
+Outside Childish Gambino
+Little Numbers Boy
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Meme Generator Dan Deacon 
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Metanoia MGMT
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator rms mfcc sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Miss You Foster the People
+Meme Generator Dan Deacon 
+Metanoia MGMT
+Power Kanye West feat. Dwele
+Little Numbers Boy
+Red Alert  Childish Gambino
+Lisztomania Phoenix
+17___7-3-15b_The Usual TyM
+All Yall Childish Gambino
+Outside Childish Gambino
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+I Want to Know What Love Is Foreigner
+Expectation Tame Impala
+Little Motel Modest Mouse
+Elephant Tame Impala
+Playlist for	Dan Deacon  Meme Generator rms mfcc sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Cool Song No. 2 MGMT
+I'm In Miami Bitch LMFAO
+Outside Childish Gambino
+Sober Childish Gambino
+New Person, Same Old Mistakes Tame Impala
+Ride the River J.J. Cale & Eric Clapton
+Warrant Foster the People
+Friend of the Devil Grateful Dead
+Lisztomania Phoenix
+Pop Thieves (Make it Feel Good) Childish Gambino
+Meme Generator Dan Deacon 
+17___7-3-15b_The Usual TyM
+Expectation Tame Impala
+Meme Generator Dan Deacon 
+Robots Flight of the Conchords
+Playlist for	Dan Deacon  Meme Generator rms mfcc zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Robots Flight of the Conchords
+I Want to Know What Love Is Foreigner
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+All Yall Childish Gambino
+Lisztomania Phoenix
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Little Numbers Boy
+Meme Generator Dan Deacon 
+New Person, Same Old Mistakes Tame Impala
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Friend of the Devil Grateful Dead
+Sober Childish Gambino
+Only A Shadow MGMT
+Metanoia MGMT
+Expectation Tame Impala
+Playlist for	Dan Deacon  Meme Generator rms mfcc zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Body Language Queen
+Meme Generator Dan Deacon 
+Always Look On the Bright Side of Life Monty Python
+Expectation Tame Impala
+Cool Song No. 2 MGMT
+Robots Flight of the Conchords
+Friend of the Devil Grateful Dead
+New Person, Same Old Mistakes Tame Impala
+Meme Generator Dan Deacon 
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Little Motel Modest Mouse
+Power Kanye West feat. Dwele
+Little Numbers Boy
+Sober Childish Gambino
+Team Lorde
+Playlist for	Dan Deacon  Meme Generator zcr sr sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+We're Both In Love With a Sexy Lady Flight of the Conchords
+sunday vik
+Spirited Away Joe Hisaishi
+Betalove (RAC Mix) Ra Ra Riot
+Candyman Grateful Dead
+Meme Generator Dan Deacon 
+Fire  Childish Gambino
+All I Want LCD Soundsystem
+The Real (Infinity Guitars) Childish Gambino
+Fuck It All Childish Gambino
+Truckin' Grateful Dead
+Girlfriend Icona Pop
+Assasins ft. DC and Nick Packard Childish Gambino
+Reality In Motion Tame Impala
+rollup vik
+Playlist for	Dan Deacon  Meme Generator zcr sr sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+The Real (Infinity Guitars) Childish Gambino
+Money Pink Floyd
+Lisztomania Phoenix
+All My Friends LCD Soundsystem
+Mad World Michael Andrews & Gary Jules
+Somebody Told Me The Killers
+rollup vik
+El Condor Pasa (If I Could) Simon & Garfunkel
+Friends Flight of the Conchords
+Don't Speak No Doubt
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Truckin' Grateful Dead
+Lady Dada's Nightmare MGMT
+Burden of Tomorrow The Tallest Man on Earth
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator zcr sr rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+sunday vik
+Betalove (RAC Mix) Ra Ra Riot
+Reality In Motion Tame Impala
+All I Want LCD Soundsystem
+Spirited Away Joe Hisaishi
+Diane Young Vampire Weekend
+Awake My Soul Mumford & Sons
+Burden of Tomorrow The Tallest Man on Earth
+Fire  Childish Gambino
+V. 3005 Childish Gambino
+Girlfriend Icona Pop
+Balaclava Arctic Monkeys
+Assasins ft. DC and Nick Packard Childish Gambino
+Truckin' Grateful Dead
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator zcr sr rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Reality In Motion Tame Impala
+Betalove (RAC Mix) Ra Ra Riot
+V. 3005 Childish Gambino
+Hold It Now, Hit It Beastie Boys
+sunday vik
+Balaclava Arctic Monkeys
+Truckin' Grateful Dead
+Girlfriend Icona Pop
+Can't Tell Me Nothing Kanye West
+Spirited Away Joe Hisaishi
+Meme Generator Dan Deacon 
+Fire  Childish Gambino
+Burden of Tomorrow The Tallest Man on Earth
+All I Want LCD Soundsystem
+Assasins ft. DC and Nick Packard Childish Gambino
+Playlist for	Dan Deacon  Meme Generator zcr sr mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+Don't Speak No Doubt
+Mad World Michael Andrews & Gary Jules
+Meme Generator Dan Deacon 
+El Condor Pasa (If I Could) Simon & Garfunkel
+Burden of Tomorrow The Tallest Man on Earth
+Hold My Liquor Kanye West
+Balaclava Arctic Monkeys
+Lady Dada's Nightmare MGMT
+The Real (Infinity Guitars) Childish Gambino
+Money Pink Floyd
+All My Friends LCD Soundsystem
+Reality In Motion Tame Impala
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Don't Play This Song Kid Cudi
+rollup vik
+Playlist for	Dan Deacon  Meme Generator zcr sr mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Fuck It All Childish Gambino
+Fire  Childish Gambino
+Yes Childish Gambino
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Assasins ft. DC and Nick Packard Childish Gambino
+sunday vik
+Betalove (RAC Mix) Ra Ra Riot
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Reality In Motion Tame Impala
+Meme Generator Dan Deacon 
+All I Want LCD Soundsystem
+Truckin' Grateful Dead
+Candyman Grateful Dead
+Girlfriend Icona Pop
+Spirited Away Joe Hisaishi
+Playlist for	Dan Deacon  Meme Generator zcr sc sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+V. 3005 Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+Awake My Soul Mumford & Sons
+Fire  Childish Gambino
+Don't Play This Song Kid Cudi
+Marijuana Kid Cudi
+Diane Young Vampire Weekend
+Truckin' Grateful Dead
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Don't Speak No Doubt
+rollup vik
+Can't Tell Me Nothing Kanye West
+Burden of Tomorrow The Tallest Man on Earth
+Meme Generator Dan Deacon 
+Hold It Now, Hit It Beastie Boys
+Playlist for	Dan Deacon  Meme Generator zcr sc sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Diane Young Vampire Weekend
+Careful What You Pack They Might Be Giants
+Candyman Grateful Dead
+Beyond Daft Punk
+rollup vik
+Spirited Away Joe Hisaishi
+Truckin' Grateful Dead
+Bohemian Rhapsody Queen
+Don't Speak No Doubt
+Meme Generator Dan Deacon 
+Can't Tell Me Nothing Kanye West
+Another One Bites the Dust Queen
+The Real (Infinity Guitars) Childish Gambino
+We're Both In Love With a Sexy Lady Flight of the Conchords
+All I Want LCD Soundsystem
+Playlist for	Dan Deacon  Meme Generator zcr sc rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Can't Tell Me Nothing Kanye West
+Don't Play This Song Kid Cudi
+Betalove (RAC Mix) Ra Ra Riot
+V. 3005 Childish Gambino
+rollup vik
+Diane Young Vampire Weekend
+Awake My Soul Mumford & Sons
+Hold It Now, Hit It Beastie Boys
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Meme Generator Dan Deacon 
+Truckin' Grateful Dead
+Marijuana Kid Cudi
+Don't Speak No Doubt
+Fire  Childish Gambino
+Burden of Tomorrow The Tallest Man on Earth
+Playlist for	Dan Deacon  Meme Generator zcr sc rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Betalove (RAC Mix) Ra Ra Riot
+Awake My Soul Mumford & Sons
+Somebody Told Me The Killers
+Meme Generator Dan Deacon 
+Fire  Childish Gambino
+Don't Play This Song Kid Cudi
+Spirited Away Joe Hisaishi
+Reality In Motion Tame Impala
+sunday vik
+All I Want LCD Soundsystem
+Beyond Daft Punk
+Girlfriend Icona Pop
+V. 3005 Childish Gambino
+Marijuana Kid Cudi
+Burden of Tomorrow The Tallest Man on Earth
+Playlist for	Dan Deacon  Meme Generator zcr sc mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Late Night in Kauai ft Jaden Smith Childish Gambino
+All I Want LCD Soundsystem
+Another One Bites the Dust Queen
+Yes Childish Gambino
+Meme Generator Dan Deacon 
+Can't Tell Me Nothing Kanye West
+Don't Speak No Doubt
+Fire  Childish Gambino
+Money Pink Floyd
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Guilt Trip Kanye West
+Careful What You Pack They Might Be Giants
+Beyond Daft Punk
+The Real (Infinity Guitars) Childish Gambino
+Truckin' Grateful Dead
+Playlist for	Dan Deacon  Meme Generator zcr sc mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+sunday vik
+Betalove (RAC Mix) Ra Ra Riot
+Don't Play This Song Kid Cudi
+Meme Generator Dan Deacon 
+Burden of Tomorrow The Tallest Man on Earth
+Hold My Liquor Kanye West
+Yes Childish Gambino
+Girlfriend Icona Pop
+Beyond Daft Punk
+All I Want LCD Soundsystem
+Spirited Away Joe Hisaishi
+Truckin' Grateful Dead
+Reality In Motion Tame Impala
+Fire  Childish Gambino
+Don't Paint It Blue Inward Eye
+Playlist for	Dan Deacon  Meme Generator zcr rms sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Mind Mischief Tame Impala
+Broken Jaw Foster the People
+Friends Flight of the Conchords
+Lady Dada's Nightmare MGMT
+Miss You Foster the People
+Have a Cigar Pink Floyd
+The Real (Infinity Guitars) Childish Gambino
+Mad World Michael Andrews & Gary Jules
+Brian Eno MGMT
+Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
+Black Skinhead Kanye West
+Don’t Worry, We'll Be Watching You Gotye
+Meme Generator Dan Deacon 
+Careful What You Pack They Might Be Giants
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator zcr rms sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Don't Speak No Doubt
+Bennie and the Jets Elton John
+Mad World Michael Andrews & Gary Jules
+Have a Cigar Pink Floyd
+Brian Eno MGMT
+Meme Generator Dan Deacon 
+I'm Stickng With You The Velvet Underground
+Don’t Worry, We'll Be Watching You Gotye
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Miss You Foster the People
+All My Friends LCD Soundsystem
+The Real (Infinity Guitars) Childish Gambino
+Mind Mischief Tame Impala
+Careful What You Pack They Might Be Giants
+Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
+Playlist for	Dan Deacon  Meme Generator zcr rms sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Miss You Foster the People
+Don’t Worry, We'll Be Watching You Gotye
+Do You Want It All? Two Door Cinema Club
+Meme Generator Dan Deacon 
+Have a Cigar Pink Floyd
+Black Skinhead Kanye West
+Hurricane Bob Dylan
+Mind Mischief Tame Impala
+The Real (Infinity Guitars) Childish Gambino
+Jump Around House Of Pain
+Lisztomania Phoenix
+Life On the Nickel Foster the People
+Brian Eno MGMT
+Mad World Michael Andrews & Gary Jules
+Careful What You Pack They Might Be Giants
+Playlist for	Dan Deacon  Meme Generator zcr rms sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Do You Want It All? Two Door Cinema Club
+Careful What You Pack They Might Be Giants
+The Recipe Kendrick Lamar feat Dr. Dre
+Homeward Bound [Live] Simon & Garfunkel
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Don't Speak No Doubt
+I'm Stickng With You The Velvet Underground
+Hurricane Bob Dylan
+Come Together The Beatles
+Friends Flight of the Conchords
+Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
+Lady Dada's Nightmare MGMT
+El Condor Pasa (If I Could) Simon & Garfunkel
+Mad World Michael Andrews & Gary Jules
+Playlist for	Dan Deacon  Meme Generator zcr rms mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Mind Mischief Tame Impala
+Guilt Trip Kanye West
+Keep On Lying Tame Impala
+Gratisfaction The Strokes
+Don’t Worry, We'll Be Watching You Gotye
+Miss You Foster the People
+Come Together The Beatles
+Meme Generator Dan Deacon 
+Mad World Michael Andrews & Gary Jules
+The Real (Infinity Guitars) Childish Gambino
+Balaclava Arctic Monkeys
+Careful What You Pack They Might Be Giants
+Bennie and the Jets Elton John
+Brian Eno MGMT
+Playlist for	Dan Deacon  Meme Generator zcr rms mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+Mad World Michael Andrews & Gary Jules
+Don't Speak No Doubt
+Do You Want It All? Two Door Cinema Club
+The Real (Infinity Guitars) Childish Gambino
+Careful What You Pack They Might Be Giants
+Lady Dada's Nightmare MGMT
+Shine on You Crazy Diamond, Pts. 1-5 Pink Floyd
+Hurricane Bob Dylan
+Meme Generator Dan Deacon 
+El Condor Pasa (If I Could) Simon & Garfunkel
+Come Together The Beatles
+Late Night in Kauai ft Jaden Smith Childish Gambino
+My Little Town Simon & Garfunkel
+Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
+I'm Stickng With You The Velvet Underground
+Playlist for	Dan Deacon  Meme Generator zcr mfcc sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Marijuana Kid Cudi
+Betalove (RAC Mix) Ra Ra Riot
+Beyond Daft Punk
+Meme Generator Dan Deacon 
+All Night Icona Pop
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Hold My Liquor Kanye West
+All I Want LCD Soundsystem
+rollup vik
+Another One Bites the Dust Queen
+Mad World Michael Andrews & Gary Jules
+Careful What You Pack They Might Be Giants
+Candyman Grateful Dead
+Guilt Trip Kanye West
+Truckin' Grateful Dead
+Playlist for	Dan Deacon  Meme Generator zcr mfcc sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Reality In Motion Tame Impala
+Burden of Tomorrow The Tallest Man on Earth
+Awake My Soul Mumford & Sons
+All Night Icona Pop
+Meme Generator Dan Deacon 
+Hold It Now, Hit It Beastie Boys
+Truckin' Grateful Dead
+All I Want LCD Soundsystem
+V. 3005 Childish Gambino
+Don't Speak No Doubt
+Can't Tell Me Nothing Kanye West
+Betalove (RAC Mix) Ra Ra Riot
+Fire  Childish Gambino
+Marijuana Kid Cudi
+Diane Young Vampire Weekend
+Playlist for	Dan Deacon  Meme Generator zcr mfcc sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Can't Tell Me Nothing Kanye West
+Spirited Away Joe Hisaishi
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Careful What You Pack They Might Be Giants
+Truckin' Grateful Dead
+Beyond Daft Punk
+Somebody Told Me The Killers
+Girlfriend Icona Pop
+Meme Generator Dan Deacon 
+Candyman Grateful Dead
+All I Want LCD Soundsystem
+Guilt Trip Kanye West
+Another One Bites the Dust Queen
+All Night Icona Pop
+Playlist for	Dan Deacon  Meme Generator zcr mfcc sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Betalove (RAC Mix) Ra Ra Riot
+Truckin' Grateful Dead
+Bitch Look At Me Now (Two Weeks) Childish Gambino
+Marijuana Kid Cudi
+Don't Play This Song Kid Cudi
+Candyman Grateful Dead
+All Night Icona Pop
+Fire  Childish Gambino
+All I Want LCD Soundsystem
+Beyond Daft Punk
+Reality In Motion Tame Impala
+Girlfriend Icona Pop
+Meme Generator Dan Deacon 
+Spirited Away Joe Hisaishi
+rollup vik
+Playlist for	Dan Deacon  Meme Generator zcr mfcc rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Hold My Liquor Kanye West
+Meme Generator Dan Deacon 
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Don't Speak No Doubt
+Betalove (RAC Mix) Ra Ra Riot
+Truckin' Grateful Dead
+Don't Paint It Blue Inward Eye
+Reality In Motion Tame Impala
+All I Want LCD Soundsystem
+Marijuana Kid Cudi
+Burden of Tomorrow The Tallest Man on Earth
+Fire  Childish Gambino
+Can't Tell Me Nothing Kanye West
+Yes Childish Gambino
+Diane Young Vampire Weekend
+Playlist for	Dan Deacon  Meme Generator zcr mfcc rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+Spirited Away Joe Hisaishi
+sunday vik
+Reality In Motion Tame Impala
+Marijuana Kid Cudi
+Burden of Tomorrow The Tallest Man on Earth
+Lisztomania Phoenix
+All I Want LCD Soundsystem
+rollup vik
+Truckin' Grateful Dead
+Somebody Told Me The Killers
+Candyman Grateful Dead
+Fire  Childish Gambino
+Girlfriend Icona Pop
+Meme Generator Dan Deacon 
+Betalove (RAC Mix) Ra Ra Riot
+Playlist for	Dan Deacon  Meme Generator mfcc sr sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Climbing Walls Strange Talk
+Bitch Look At Me Now (Two Weeks) Childish Gambino
+Somebody Told Me The Killers
+Don't Play This Song Kid Cudi
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Ghost Phish
+D.O.A. (Death of Auto-Tune) Jay-Z
+The Mango Song Phish
+Fire  Childish Gambino
+Old Pine (Remix) Ben Howard
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+Cudderisback Kid Cudi
+Simple Song The Shins
+Up Up & Away Kid Cudi
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator mfcc sr sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+My Back In the Day Song Know One
+Don't Lie Vampire Weekend
+Extraordinary Childish Gambino
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+The Mango Song Phish
+Don't Stop (Color On the Walls) Foster the People
+V. 3005 Childish Gambino
+Don't Play This Song Kid Cudi
+Meme Generator Dan Deacon 
+Up Up & Away Kid Cudi
+Sunrise Childish Gambino
+Ghost Phish
+Mr. Brightside The Killers
+Playlist for	Dan Deacon  Meme Generator mfcc sr rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+Diane Young Vampire Weekend
+Fire  Childish Gambino
+Simple Song The Shins
+The Mango Song Phish
+AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+Climbing Walls Strange Talk
+Yes Childish Gambino
+Meme Generator Dan Deacon 
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+Don't Play This Song Kid Cudi
+Cudderisback Kid Cudi
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Mr. Brightside The Killers
+Ghost Phish
+Old Pine (Remix) Ben Howard
+Playlist for	Dan Deacon  Meme Generator mfcc sr rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Slow and Low Beastie Boys
+I Follow Rivers (Alvita Rivers) Lykke Li
+Fire  Childish Gambino
+Mr. Brightside The Killers
+Chloroform Phoenix
+Ghost Phish
+My Back In the Day Song Know One
+Cudderisback Kid Cudi
+Don't Play This Song Kid Cudi
+Morning Splendor Pauline Anna Strom
+Don't Lie Vampire Weekend
+Yes Childish Gambino
+Somebody Told Me The Killers
+Meme Generator Dan Deacon 
+Don't Stop (Color On the Walls) Foster the People
+Playlist for	Dan Deacon  Meme Generator mfcc sr zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+Morning Splendor Pauline Anna Strom
+Just A Friend  Biz Markie
+I Follow Rivers (Alvita Rivers) Lykke Li
+My Back In the Day Song Know One
+Meme Generator Dan Deacon 
+Climbing Walls Strange Talk
+sunday vik
+Don't Play This Song Kid Cudi
+Touch (feat. Paul Williams) Daft Punk
+D.O.A. (Death of Auto-Tune) Jay-Z
+Dance Yrself Clean LCD Soundsystem
+Don't Lie Vampire Weekend
+The Mango Song Phish
+Eye of the Tiger Survivor
+Playlist for	Dan Deacon  Meme Generator mfcc sr zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Ghost Phish
+Diane Young Vampire Weekend
+Cudderisback Kid Cudi
+Chloroform Phoenix
+sunday vik
+I Follow Rivers (Alvita Rivers) Lykke Li
+Meme Generator Dan Deacon 
+Dancing With Myself Billy Idol
+Don't Stop (Color On the Walls) Foster the People
+My Back In the Day Song Know One
+V. 3005 Childish Gambino
+Fire  Childish Gambino
+Climbing Walls Strange Talk
+Just A Friend  Biz Markie
+Slow and Low Beastie Boys
+Playlist for	Dan Deacon  Meme Generator mfcc sc sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Don't Lie Vampire Weekend
+Send It Up Kanye West
+Hudson Vampire Weekend
+Computer Assisted Design They Might Be Giants
+U Don't Have to Call  (prod. Ludwig) Childish Gambino
+Kokopelli Mild High Club
+Wavin' Flag World Cup Heroes
+I. Pink Toes (feat. Jhene Aiko) Childish Gambino
+The Mango Song Phish
+Erase Me Kid Cudi
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+I Want to Know What Love Is Foreigner
+Poke ft. Steve G Lover III Childish Gambino
+Meme Generator Dan Deacon 
+Northern Downpour Panic at the Disco
+Playlist for	Dan Deacon  Meme Generator mfcc sc sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Poke ft. Steve G Lover III Childish Gambino
+Alive (Nightmare) Kid Cudi Feat. Ratatat
+Wavin' Flag World Cup Heroes
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+I Want to Know What Love Is Foreigner
+Supersonic Rocket Ship The Kinks
+Kokopelli Mild High Club
+Outside Childish Gambino
+Step Vampire Weekend
+Cool Song No. 2 MGMT
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Meme Generator Dan Deacon 
+Lisztomania Phoenix
+Not Going Back Childish Gambino
+The Mango Song Phish
+Playlist for	Dan Deacon  Meme Generator mfcc sc rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Northern Downpour Panic at the Disco
+The Mango Song Phish
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Don't Lie Vampire Weekend
+U Don't Have to Call  (prod. Ludwig) Childish Gambino
+Hudson Vampire Weekend
+Kokopelli Mild High Club
+I Want to Know What Love Is Foreigner
+Send It Up Kanye West
+Wavin' Flag World Cup Heroes
+Computer Assisted Design They Might Be Giants
+U.R.A. Fever The Kills
+Steam Phish
+Meme Generator Dan Deacon 
+Erase Me Kid Cudi
+Playlist for	Dan Deacon  Meme Generator mfcc sc rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+U Don't Have to Call  (prod. Ludwig) Childish Gambino
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Step Vampire Weekend
+I. Pink Toes (feat. Jhene Aiko) Childish Gambino
+Meme Generator Dan Deacon 
+Erase Me Kid Cudi
+U.R.A. Fever The Kills
+The Mango Song Phish
+The Line Phish
+Cool Song No. 2 MGMT
+Kokopelli Mild High Club
+Hudson Vampire Weekend
+Computer Assisted Design They Might Be Giants
+Wavin' Flag World Cup Heroes
+Alive (Nightmare) Kid Cudi Feat. Ratatat
+Playlist for	Dan Deacon  Meme Generator mfcc sc zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Baby Doll  Childish Gambino
+Don't Lie Vampire Weekend
+Meme Generator Dan Deacon 
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Kokopelli Mild High Club
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+Outside Childish Gambino
+Cool Song No. 2 MGMT
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Riptide Vance Joy
+Wavin' Flag World Cup Heroes
+The Mango Song Phish
+Meme Generator Dan Deacon 
+Not Going Back Childish Gambino
+Elephant Tame Impala
+Playlist for	Dan Deacon  Meme Generator mfcc sc zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Send It Up Kanye West
+The Line Phish
+Hudson Vampire Weekend
+U Don't Have to Call  (prod. Ludwig) Childish Gambino
+Outside Childish Gambino
+Step Vampire Weekend
+Not Going Back Childish Gambino
+Alive (Nightmare) Kid Cudi Feat. Ratatat
+Computer Assisted Design They Might Be Giants
+Make Her Say Kid Cudi Feat. Kayne West & Common
+Erase Me Kid Cudi
+Wavin' Flag World Cup Heroes
+The Mango Song Phish
+Virus Deltron 3030
+Playlist for	Dan Deacon  Meme Generator mfcc rms sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+I Want to Know What Love Is Foreigner
+All Yall Childish Gambino
+Only A Shadow MGMT
+Meme Generator Dan Deacon 
+Expectation Tame Impala
+Elephant Tame Impala
+Meme Generator Dan Deacon 
+New Person, Same Old Mistakes Tame Impala
+Metanoia MGMT
+Miss You Foster the People
+Sober Childish Gambino
+Little Motel Modest Mouse
+Hurt Feelings Flight of the Conchords
+Friend of the Devil Grateful Dead
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Playlist for	Dan Deacon  Meme Generator mfcc rms sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Elephant Tame Impala
+Mr. E's Beautiful Blues Eels
+Meme Generator Dan Deacon 
+All Yall Childish Gambino
+Little Numbers Boy
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Hurt Feelings Flight of the Conchords
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Meme Generator Dan Deacon 
+New Person, Same Old Mistakes Tame Impala
+Metanoia MGMT
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Robots Flight of the Conchords
+Always Look On the Bright Side of Life Monty Python
+Friend of the Devil Grateful Dead
+Playlist for	Dan Deacon  Meme Generator mfcc rms sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+17___7-3-15b_The Usual TyM
+Body Language Queen
+Metanoia MGMT
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Elephant Tame Impala
+Warrant Foster the People
+I Want to Know What Love Is Foreigner
+Miss You Foster the People
+Hurt Feelings Flight of the Conchords
+Expectation Tame Impala
+Meme Generator Dan Deacon 
+Friend of the Devil Grateful Dead
+Meme Generator Dan Deacon 
+All Yall Childish Gambino
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Playlist for	Dan Deacon  Meme Generator mfcc rms sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+New Person, Same Old Mistakes Tame Impala
+Meme Generator Dan Deacon 
+Life On the Nickel Foster the People
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+Robots Flight of the Conchords
+Friend of the Devil Grateful Dead
+Pop Thieves (Make it Feel Good) Childish Gambino
+Meme Generator Dan Deacon 
+Team Lorde
+8___6-22-14_Stoned at the MOMA TyM
+Mr. E's Beautiful Blues Eels
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Sober Childish Gambino
+Cool Song No. 2 MGMT
+Outside Childish Gambino
+Playlist for	Dan Deacon  Meme Generator mfcc rms zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Mr. E's Beautiful Blues Eels
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Little Numbers Boy
+New Person, Same Old Mistakes Tame Impala
+Meme Generator Dan Deacon 
+All Yall Childish Gambino
+Metanoia MGMT
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+I Want to Know What Love Is Foreigner
+Sober Childish Gambino
+Meme Generator Dan Deacon 
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Hurt Feelings Flight of the Conchords
+Cool Song No. 2 MGMT
+Friend of the Devil Grateful Dead
+Playlist for	Dan Deacon  Meme Generator mfcc rms zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Robots Flight of the Conchords
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Meme Generator Dan Deacon 
+New Person, Same Old Mistakes Tame Impala
+Red Alert  Childish Gambino
+Always Look On the Bright Side of Life Monty Python
+Sober Childish Gambino
+Baby Doll  Childish Gambino
+Warrant Foster the People
+Meme Generator Dan Deacon 
+Ride the River J.J. Cale & Eric Clapton
+Friend of the Devil Grateful Dead
+Expectation Tame Impala
+Little Numbers Boy
+Cool Song No. 2 MGMT
+Playlist for	Dan Deacon  Meme Generator mfcc zcr sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Beyond Daft Punk
+Candyman Grateful Dead
+Truckin' Grateful Dead
+All Night Icona Pop
+Fire  Childish Gambino
+All I Want LCD Soundsystem
+Lisztomania Phoenix
+Meme Generator Dan Deacon 
+Careful What You Pack They Might Be Giants
+Mad World Michael Andrews & Gary Jules
+Don't Speak No Doubt
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Sweet Disposition Temper Trap
+Forest Whitaker Bad Books
+Another One Bites the Dust Queen
+Playlist for	Dan Deacon  Meme Generator mfcc zcr sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Can't Tell Me Nothing Kanye West
+Fire  Childish Gambino
+rollup vik
+Meme Generator Dan Deacon 
+Don't Paint It Blue Inward Eye
+Candyman Grateful Dead
+Hold My Liquor Kanye West
+Truckin' Grateful Dead
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Guilt Trip Kanye West
+Betalove (RAC Mix) Ra Ra Riot
+Girlfriend Icona Pop
+Diane Young Vampire Weekend
+Reality In Motion Tame Impala
+Marijuana Kid Cudi
+Playlist for	Dan Deacon  Meme Generator mfcc zcr sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Careful What You Pack They Might Be Giants
+Mad World Michael Andrews & Gary Jules
+Lisztomania Phoenix
+All Night Icona Pop
+Beyond Daft Punk
+Truckin' Grateful Dead
+All I Want LCD Soundsystem
+Candyman Grateful Dead
+Fuck It All Childish Gambino
+Don't Speak No Doubt
+Meme Generator Dan Deacon 
+Can't Tell Me Nothing Kanye West
+Girlfriend Icona Pop
+Another One Bites the Dust Queen
+Forest Whitaker Bad Books
+Playlist for	Dan Deacon  Meme Generator mfcc zcr sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Reality In Motion Tame Impala
+All I Want LCD Soundsystem
+Assasins ft. DC and Nick Packard Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+Hold My Liquor Kanye West
+Burden of Tomorrow The Tallest Man on Earth
+Truckin' Grateful Dead
+Battery Kinzie Fleet Foxes
+Fire  Childish Gambino
+Marijuana Kid Cudi
+Diane Young Vampire Weekend
+Forest Whitaker Bad Books
+Mad World Michael Andrews & Gary Jules
+Girlfriend Icona Pop
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator mfcc zcr rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Marijuana Kid Cudi
+Fire  Childish Gambino
+Don't Paint It Blue Inward Eye
+Reality In Motion Tame Impala
+Truckin' Grateful Dead
+Meme Generator Dan Deacon 
+rollup vik
+Don't Speak No Doubt
+Candyman Grateful Dead
+Betalove (RAC Mix) Ra Ra Riot
+All Night Icona Pop
+Somebody Told Me The Killers
+Can't Tell Me Nothing Kanye West
+Girlfriend Icona Pop
+Awake My Soul Mumford & Sons
+Playlist for	Dan Deacon  Meme Generator mfcc zcr rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+Betalove (RAC Mix) Ra Ra Riot
+Forest Whitaker Bad Books
+Can't Tell Me Nothing Kanye West
+Friends Flight of the Conchords
+Fire  Childish Gambino
+Marijuana Kid Cudi
+V. 3005 Childish Gambino
+Assasins ft. DC and Nick Packard Childish Gambino
+Meme Generator Dan Deacon 
+All I Want LCD Soundsystem
+We're Both In Love With a Sexy Lady Flight of the Conchords
+Diane Young Vampire Weekend
+Truckin' Grateful Dead
+Girlfriend Icona Pop
+Reality In Motion Tame Impala
+Playlist for	Dan Deacon  Meme Generator sr sc rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Low Lights Kanye West
+San Francisco (Little Daylight Remix) The Mowgli's
+Do Ya Like Childish Gambino
+?Whodunit? Mild High Club
+I'm A Winner ft. Amber Petty Childish Gambino
+Tree Hugger Kimya Dawon & Antsy Pants
+Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
+Insomnia Electric President
+Have a Cigar Pink Floyd
+Harder, Better, Faster, Stronger Daft Punk
+Meme Generator Dan Deacon 
+All We Ever Wanted Was Everything MGMT
+Brown Sugar The Rolling Stones
+Easy Way Out Gotye
+Playlist for	Dan Deacon  Meme Generator sr sc rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+All We Ever Wanted Was Everything MGMT
+Head Out Mild High Club
+Wolves Kanye West
+Low Lights Kanye West
+Meme Generator Dan Deacon 
+Easy Way Out Gotye
+?Whodunit? Mild High Club
+Tubthumping Chumbawamba
+Revolving Dora Fountains Of Wayne
+Do Ya Like Childish Gambino
+Insomnia Electric President
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Brown Sugar The Rolling Stones
+I'm A Winner ft. Amber Petty Childish Gambino
+Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
+Playlist for	Dan Deacon  Meme Generator sr sc zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Brown Sugar The Rolling Stones
+Cells They Might Be Giants
+Revolving Dora Fountains Of Wayne
+Easy Way Out Gotye
+Meme Generator Dan Deacon 
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Insomnia Electric President
+All We Ever Wanted Was Everything MGMT
+Destrokk MGMT
+I'm A Winner ft. Amber Petty Childish Gambino
+Tubthumping Chumbawamba
+Low Lights Kanye West
+Do Ya Like Childish Gambino
+Tree Hugger Kimya Dawon & Antsy Pants
+Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
+Playlist for	Dan Deacon  Meme Generator sr sc zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Plenty of Girls In the Sea MGMT
+Call It What You Want Foster the People
+All We Ever Wanted Was Everything MGMT
+Head Out Mild High Club
+Meme Generator Dan Deacon 
+San Francisco (Little Daylight Remix) The Mowgli's
+My World Kid Cudi Feat. Billy Cravens
+Can't Stop Falling Into Love Cheap Trick
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Meme Generator Dan Deacon 
+Let Me Dope You Childish Gambino
+Hiphopopotamus Vs. Rhymenoceros (feat. Rhymenoceros and the Hiphopopotamus) Flight of the Conchords
+Naive (Jean Tonique Remix) The Kooks 
+Have a Cigar Pink Floyd
+Harder, Better, Faster, Stronger Daft Punk
+Playlist for	Dan Deacon  Meme Generator sr sc mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Cells They Might Be Giants
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Revolving Dora Fountains Of Wayne
+Wolves Kanye West
+Virus Deltron 3030
+Insomnia Electric President
+Meme Generator Dan Deacon 
+Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
+Do Ya Like Childish Gambino
+Brown Sugar The Rolling Stones
+Easy Way Out Gotye
+All We Ever Wanted Was Everything MGMT
+Low Lights Kanye West
+I'm A Winner ft. Amber Petty Childish Gambino
+Tubthumping Chumbawamba
+Playlist for	Dan Deacon  Meme Generator sr sc mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+My World Kid Cudi Feat. Billy Cravens
+Meme Generator Dan Deacon 
+Hiphopopotamus Vs. Rhymenoceros (feat. Rhymenoceros and the Hiphopopotamus) Flight of the Conchords
+Tubthumping Chumbawamba
+Have a Cigar Pink Floyd
+Head Out Mild High Club
+Call It What You Want Foster the People
+Fire Fly Childish Gambino
+All We Ever Wanted Was Everything MGMT
+Let Me Dope You Childish Gambino
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Standing in the Way of Control Gossip
+Do Ya Like Childish Gambino
+Naive (Jean Tonique Remix) The Kooks 
+Playlist for	Dan Deacon  Meme Generator sr rms sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Standing in the Way of Control Gossip
+Something Good Can Work (The Twelves Remix) Two Door Cinema Club
+Yolanda Hayes Fountains Of Wayne
+Heartbeat Childish Gambino
+Plenty of Girls In the Sea MGMT
+Can't Stop Falling Into Love Cheap Trick
+Seatbacks And Traytables Fountains Of Wayne
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Meme Generator Dan Deacon 
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Call It What You Want Foster the People
+Hurricane Bob Dylan
+Almost There Childish Gambino
+Meme Generator Dan Deacon 
+Sleepyhead (Remix) Passion Pit
+Playlist for	Dan Deacon  Meme Generator sr rms sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Keep On Lying Tame Impala
+Sugar Magnolia Grateful Dead
+13___5-12-15_Boo Boo Mobile TyM
+The Dreamer The Tallest Man on Earth
+Standing in the Way of Control Gossip
+Hard to Explain The Strokes
+Sober Childish Gambino
+Don't Bring Me Down Electric Light Orchestra
+Helena Beat Foster the People
+Meme Generator Dan Deacon 
+Almost There Childish Gambino
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Hurricane Bob Dylan
+Playlist for	Dan Deacon  Meme Generator sr rms zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Plenty of Girls In the Sea MGMT
+Standing in the Way of Control Gossip
+Almost There Childish Gambino
+Call It What You Want Foster the People
+Have a Cigar Pink Floyd
+Sober Childish Gambino
+The Dreamer The Tallest Man on Earth
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Meme Generator Dan Deacon 
+Yellow Cat (Slash) Red Cat Say Anything
+Meme Generator Dan Deacon 
+Sleepyhead (Remix) Passion Pit
+Hurricane Bob Dylan
+Yolanda Hayes Fountains Of Wayne
+Playlist for	Dan Deacon  Meme Generator sr rms zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Meme Generator Dan Deacon 
+Harder, Better, Faster, Stronger Daft Punk
+Yolanda Hayes Fountains Of Wayne
+The Dreamer The Tallest Man on Earth
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Call It What You Want Foster the People
+Sleepyhead (Remix) Passion Pit
+Hurricane Bob Dylan
+Something Good Can Work (The Twelves Remix) Two Door Cinema Club
+Plenty of Girls In the Sea MGMT
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Almost There Childish Gambino
+I Am a God Kanye West
+Can't Stop Falling Into Love Cheap Trick
+Playlist for	Dan Deacon  Meme Generator sr rms mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+13___5-12-15_Boo Boo Mobile TyM
+Meme Generator Dan Deacon 
+Standing in the Way of Control Gossip
+All Those Friendly People Funeral Suits
+Keep On Lying Tame Impala
+In My Dreams (Cudder Anthem) Kid Cudi
+Meme Generator Dan Deacon 
+Naive (Jean Tonique Remix) The Kooks 
+I'm So Focused (feat. Truff Syrum) Childish Gambino
+The Dreamer The Tallest Man on Earth
+King of Spain The Tallest Man on Earth
+Let Me Dope You Childish Gambino
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Do You Want It All? Two Door Cinema Club
+Playlist for	Dan Deacon  Meme Generator sr rms mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Harder, Better, Faster, Stronger Daft Punk
+13___5-12-15_Boo Boo Mobile TyM
+Every Man Has a Molly Say Anything
+Yellow Cat (Slash) Red Cat Say Anything
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Yolanda Hayes Fountains Of Wayne
+Plenty of Girls In the Sea MGMT
+Meme Generator Dan Deacon 
+Sleepyhead (Remix) Passion Pit
+Hurricane Bob Dylan
+All Those Friendly People Funeral Suits
+Almost There Childish Gambino
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Meme Generator Dan Deacon 
+On Sight Kanye West
+Playlist for	Dan Deacon  Meme Generator sr zcr sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+Both Hands (Black Rainbow) Childish Gambino
+Mojo so Dope Kid Cudi
+Meme Generator Dan Deacon 
+Revolving Dora Fountains Of Wayne
+Meme Generator Dan Deacon 
+I'm A Winner ft. Amber Petty Childish Gambino
+FML Kanye West
+?Whodunit? Mild High Club
+Insomnia Electric President
+My Girls (My Girls)  Childish Gambino
+Brown Sugar The Rolling Stones
+Cells They Might Be Giants
+The Hotel Majestic Fountains Of Wayne
+All We Ever Wanted Was Everything MGMT
+Playlist for	Dan Deacon  Meme Generator sr zcr sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Ya Hey Vampire Weekend
+My Girls (My Girls)  Childish Gambino
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Touch the Sky (Featuring Lupe Fiasco) Kanye West
+Glory Childish Gambino
+Do You Want It All? Two Door Cinema Club
+Tubthumping Chumbawamba
+Meme Generator Dan Deacon 
+Worship You Vampire Weekend
+Meme Generator Dan Deacon 
+All We Ever Wanted Was Everything MGMT
+Cells They Might Be Giants
+Kiki's Delivery Service Joe Hisaishi
+Sample In A Jar Phish
+Playlist for	Dan Deacon  Meme Generator sr zcr rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+FML Kanye West
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Mojo so Dope Kid Cudi
+Both Hands (Black Rainbow) Childish Gambino
+?Whodunit? Mild High Club
+The Hotel Majestic Fountains Of Wayne
+Meme Generator Dan Deacon 
+My Girls (My Girls)  Childish Gambino
+I'm A Winner ft. Amber Petty Childish Gambino
+Insomnia Electric President
+Cells They Might Be Giants
+All We Ever Wanted Was Everything MGMT
+Ya Hey Vampire Weekend
+Brown Sugar The Rolling Stones
+Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+Playlist for	Dan Deacon  Meme Generator sr zcr rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+All We Ever Wanted Was Everything MGMT
+Cells They Might Be Giants
+Insomnia Electric President
+Tubthumping Chumbawamba
+Mojo so Dope Kid Cudi
+My Girls (My Girls)  Childish Gambino
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+FML Kanye West
+Meme Generator Dan Deacon 
+I'm A Winner ft. Amber Petty Childish Gambino
+The Hotel Majestic Fountains Of Wayne
+?Whodunit? Mild High Club
+Revolving Dora Fountains Of Wayne
+Brown Sugar The Rolling Stones
+Both Hands (Black Rainbow) Childish Gambino
+Playlist for	Dan Deacon  Meme Generator sr zcr mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Kiki's Delivery Service Joe Hisaishi
+My Girls (My Girls)  Childish Gambino
+Both Hands (Black Rainbow) Childish Gambino
+Worship You Vampire Weekend
+Insomnia Electric President
+Solo Dolo (Nightmare) Kid Cudi
+Meme Generator Dan Deacon 
+Meme Generator Dan Deacon 
+Glory Childish Gambino
+Do You Want It All? Two Door Cinema Club
+All We Ever Wanted Was Everything MGMT
+Tubthumping Chumbawamba
+San Francisco (Little Daylight Remix) The Mowgli's
+All Those Friendly People Funeral Suits
+Playlist for	Dan Deacon  Meme Generator sr zcr mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+The Hotel Majestic Fountains Of Wayne
+FML Kanye West
+My Girls (My Girls)  Childish Gambino
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Cells They Might Be Giants
+Insomnia Electric President
+?Whodunit? Mild High Club
+Love Always Remains MGMT
+Mojo so Dope Kid Cudi
+Both Hands (Black Rainbow) Childish Gambino
+All We Ever Wanted Was Everything MGMT
+Meme Generator Dan Deacon 
+Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+I'm A Winner ft. Amber Petty Childish Gambino
+Brown Sugar The Rolling Stones
+Playlist for	Dan Deacon  Meme Generator sr mfcc sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+Low Lights Kanye West
+Insomnia Electric President
+Meme Generator Dan Deacon 
+Both Hands (Black Rainbow) Childish Gambino
+Easy Way Out Gotye
+?Whodunit? Mild High Club
+FML Kanye West
+All We Ever Wanted Was Everything MGMT
+Fucks Given  (prod. by Nick Banga) Childish Gambino
+Head Out Mild High Club
+Sample In A Jar Phish
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Drugs Ratatat
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Playlist for	Dan Deacon  Meme Generator sr mfcc sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Drugs Ratatat
+Tree Hugger Kimya Dawon & Antsy Pants
+Midnight City M83
+Skiptracing Mild High Club
+Meme Generator Dan Deacon 
+Solo Dolo (Nightmare) Kid Cudi
+Call It What You Want Foster the People
+Money The Drums
+Insomnia Electric President
+Let Me Dope You Childish Gambino
+Meme Generator Dan Deacon 
+Head Out Mild High Club
+Fucks Given  (prod. by Nick Banga) Childish Gambino
+Candyman (Remastered LP Version) Grateful Dead
+Rawnald Gregory Erickson The Second STRFKR
+Playlist for	Dan Deacon  Meme Generator sr mfcc rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Can't Stop Falling Into Love Cheap Trick
+Skiptracing Mild High Club
+Fucks Given  (prod. by Nick Banga) Childish Gambino
+Virus Deltron 3030
+Easy Way Out Gotye
+All We Ever Wanted Was Everything MGMT
+Drugs Ratatat
+Both Hands (Black Rainbow) Childish Gambino
+Low Lights Kanye West
+Revolving Dora Fountains Of Wayne
+FML Kanye West
+My World Kid Cudi Feat. Billy Cravens
+Meme Generator Dan Deacon 
+?Whodunit? Mild High Club
+Playlist for	Dan Deacon  Meme Generator sr mfcc rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Skiptracing Mild High Club
+Candyman (Remastered LP Version) Grateful Dead
+Destrokk MGMT
+Drugs Ratatat
+Do Ya Like Childish Gambino
+All We Ever Wanted Was Everything MGMT
+FML Kanye West
+Meme Generator Dan Deacon 
+Low Lights Kanye West
+?Whodunit? Mild High Club
+Insomnia Electric President
+Fire Fly Childish Gambino
+Both Hands (Black Rainbow) Childish Gambino
+Gotta Have It Kanye West & JAY Z
+Easy Way Out Gotye
+Playlist for	Dan Deacon  Meme Generator sr mfcc zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Tree Hugger Kimya Dawon & Antsy Pants
+Solo Dolo (Nightmare) Kid Cudi
+Gotta Have It Kanye West & JAY Z
+Hiphopopotamus Vs. Rhymenoceros (feat. Rhymenoceros and the Hiphopopotamus) Flight of the Conchords
+Send It Up Kanye West
+Fucks Given  (prod. by Nick Banga) Childish Gambino
+Call It What You Want Foster the People
+Head Out Mild High Club
+Let Me Dope You Childish Gambino
+Fire Fly Childish Gambino
+Meme Generator Dan Deacon 
+Skiptracing Mild High Club
+Meme Generator Dan Deacon 
+Easy Way Out Gotye
+Can't Stop Falling Into Love Cheap Trick
+Playlist for	Dan Deacon  Meme Generator sr mfcc zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Insomnia Electric President
+Do Ya Like Childish Gambino
+Meme Generator Dan Deacon 
+?Whodunit? Mild High Club
+Both Hands (Black Rainbow) Childish Gambino
+Drugs Ratatat
+Destrokk MGMT
+Low Lights Kanye West
+Head Out Mild High Club
+Skiptracing Mild High Club
+Ya Hey Vampire Weekend
+All We Ever Wanted Was Everything MGMT
+Candyman (Remastered LP Version) Grateful Dead
+Easy Way Out Gotye
+FML Kanye West
+Playlist for	Dan Deacon  Meme Generator sc sr rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Brown Sugar The Rolling Stones
+Cells They Might Be Giants
+Easy Way Out Gotye
+Virus Deltron 3030
+Meme Generator Dan Deacon 
+All We Ever Wanted Was Everything MGMT
+Revolving Dora Fountains Of Wayne
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Tree Hugger Kimya Dawon & Antsy Pants
+Low Lights Kanye West
+Destrokk MGMT
+Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
+Insomnia Electric President
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+I'm A Winner ft. Amber Petty Childish Gambino
+Playlist for	Dan Deacon  Meme Generator sc sr rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Tubthumping Chumbawamba
+Wolves Kanye West
+Meme Generator Dan Deacon 
+Head Out Mild High Club
+Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
+?Whodunit? Mild High Club
+Low Lights Kanye West
+Easy Way Out Gotye
+Brown Sugar The Rolling Stones
+Do Ya Like Childish Gambino
+Insomnia Electric President
+I'm A Winner ft. Amber Petty Childish Gambino
+All We Ever Wanted Was Everything MGMT
+Revolving Dora Fountains Of Wayne
+Playlist for	Dan Deacon  Meme Generator sc sr zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Destrokk MGMT
+San Francisco (Little Daylight Remix) The Mowgli's
+Tree Hugger Kimya Dawon & Antsy Pants
+I'm A Winner ft. Amber Petty Childish Gambino
+Revolving Dora Fountains Of Wayne
+Brown Sugar The Rolling Stones
+Meme Generator Dan Deacon 
+Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
+Meme Generator Dan Deacon 
+All We Ever Wanted Was Everything MGMT
+Low Lights Kanye West
+Insomnia Electric President
+Cells They Might Be Giants
+Do Ya Like Childish Gambino
+Easy Way Out Gotye
+Playlist for	Dan Deacon  Meme Generator sc sr zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+All We Ever Wanted Was Everything MGMT
+?Whodunit? Mild High Club
+Worship You Vampire Weekend
+Tree Hugger Kimya Dawon & Antsy Pants
+Hiphopopotamus Vs. Rhymenoceros (feat. Rhymenoceros and the Hiphopopotamus) Flight of the Conchords
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Easy Way Out Gotye
+Call It What You Want Foster the People
+Head Out Mild High Club
+Gotta Have It Kanye West & JAY Z
+Meme Generator Dan Deacon 
+Midnight City M83
+Plenty of Girls In the Sea MGMT
+Meme Generator Dan Deacon 
+Can't Stop Falling Into Love Cheap Trick
+Playlist for	Dan Deacon  Meme Generator sc sr mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+All We Ever Wanted Was Everything MGMT
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Tubthumping Chumbawamba
+?Whodunit? Mild High Club
+Brown Sugar The Rolling Stones
+Do Ya Like Childish Gambino
+Revolving Dora Fountains Of Wayne
+I'm A Winner ft. Amber Petty Childish Gambino
+Low Lights Kanye West
+Easy Way Out Gotye
+Wolves Kanye West
+Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
+Virus Deltron 3030
+Insomnia Electric President
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator sc sr mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Standing in the Way of Control Gossip
+Head Out Mild High Club
+Meme Generator Dan Deacon 
+Call It What You Want Foster the People
+All We Ever Wanted Was Everything MGMT
+Hiphopopotamus Vs. Rhymenoceros (feat. Rhymenoceros and the Hiphopopotamus) Flight of the Conchords
+Midnight City M83
+Brown Sugar The Rolling Stones
+Meme Generator Dan Deacon 
+Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+Have a Cigar Pink Floyd
+San Francisco (Little Daylight Remix) The Mowgli's
+Every Man Has a Molly Say Anything
+Fire Fly Childish Gambino
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Playlist for	Dan Deacon  Meme Generator sc rms sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Feels Like the First Time Foreigner
+Robots Flight of the Conchords
+Meme Generator Dan Deacon 
+Outside Childish Gambino
+Let Me Dope You Childish Gambino
+Houdini Foster the People
+That Power Childish Gambino
+Miss You Foster the People
+Michael And Heather At The Baggage Claim Fountains Of Wayne
+Strapped For Cash Fountains Of Wayne
+Les Childish Gambino
+Seatbacks And Traytables Fountains Of Wayne
+Traffic And Weather Fountains Of Wayne
+Just A Friend  Biz Markie
+Vampire Antsy Pants
+Playlist for	Dan Deacon  Meme Generator sc rms sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Seatbacks And Traytables Fountains Of Wayne
+Planet Of Weed Fountains Of Wayne
+All Those Friendly People Funeral Suits
+Doin' It Right (feat. Panda Bear) Daft Punk
+Richie and Ruben Fountains of Wayne
+Les Childish Gambino
+Late Night in Kauai ft Jaden Smith Childish Gambino
+Rhymin' and Stealin' Beastie Boys
+Traffic And Weather Fountains Of Wayne
+That Power Childish Gambino
+Meme Generator Dan Deacon 
+Someone To Love Fountains Of Wayne
+Strapped For Cash Fountains Of Wayne
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Motherboard Daft Punk
+Playlist for	Dan Deacon  Meme Generator sc rms zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Contact High Architecture in Helsinki
+Just A Friend  Biz Markie
+New Routine Fountains Of Wayne
+Les Childish Gambino
+That Power Childish Gambino
+Houdini Foster the People
+Meme Generator Dan Deacon 
+Miss You Foster the People
+Strapped For Cash Fountains Of Wayne
+Feels Like the First Time Foreigner
+Robots Flight of the Conchords
+I Want to Know What Love Is Foreigner
+I've Got A Rock 'N' Roll Heart Eric Clapton
+Yolanda Hayes Fountains Of Wayne
+Outside Childish Gambino
+Playlist for	Dan Deacon  Meme Generator sc rms zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+All Those Friendly People Funeral Suits
+Waste Foster the People
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Crossroads (Live at Winterland) Cream
+Someone To Love Fountains Of Wayne
+Money Baby Childish Gambino
+Meme Generator Dan Deacon 
+The Real (Infinity Guitars) Childish Gambino
+Outside Childish Gambino
+Aerodynamic (Daft Punk Remix) Daft Punk
+Heartbeat Childish Gambino
+Let Me Dope You Childish Gambino
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Doin' It Right (feat. Panda Bear) Daft Punk
+Piano Man Billy Joel
+Playlist for	Dan Deacon  Meme Generator sc rms mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Les Childish Gambino
+Miss You Foster the People
+Just A Friend  Biz Markie
+Contact High Architecture in Helsinki
+Meme Generator Dan Deacon 
+Robots Flight of the Conchords
+Phat People (feat. Billy Scafuri) Childish Gambino
+Houdini Foster the People
+Rhymin' and Stealin' Beastie Boys
+Warrant Foster the People
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+That Power Childish Gambino
+Life On the Nickel Foster the People
+Friends Flight of the Conchords
+I Want to Know What Love Is Foreigner
+Playlist for	Dan Deacon  Meme Generator sc rms mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Aerodynamic (Daft Punk Remix) Daft Punk
+Let Me Dope You Childish Gambino
+Someone To Love Fountains Of Wayne
+The Real (Infinity Guitars) Childish Gambino
+Sober Childish Gambino
+Waste Foster the People
+Heartbeat Childish Gambino
+Piano Man Billy Joel
+Outside Childish Gambino
+Doin' It Right (feat. Panda Bear) Daft Punk
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Crossroads (Live at Winterland) Cream
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Money Baby Childish Gambino
+Playlist for	Dan Deacon  Meme Generator sc zcr sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Betalove (RAC Mix) Ra Ra Riot
+Attics of My Life Grateful Dead
+Andy Last Dinosaurs
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+Alive (Nightmare) Kid Cudi Feat. Ratatat
+Brown Sugar The Rolling Stones
+Stop And Smell The Roses Television Personalities
+Posse in Effect Beastie Boys
+One More Time Daft Punk
+Cry Like a Ghost Passion Pit
+Chasing My Tail Mild High Club
+Hannah Hunt Vampire Weekend
+Buzzcut Season Lorde
+Breathe (In the Air) Pink Floyd
+Playlist for	Dan Deacon  Meme Generator sc zcr sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Cry (Just A Little) Bingo Players
+Posse in Effect Beastie Boys
+Chasing My Tail Mild High Club
+Andy Last Dinosaurs
+Breathe (In the Air) Pink Floyd
+Balaclava Arctic Monkeys
+I Am A Rock Simon & Garfunkel
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+One More Time Daft Punk
+Buzzcut Season Lorde
+Florida STRFKR
+You're So Right The Strokes
+Meme Generator Dan Deacon 
+Bohemian Rhapsody Queen
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator sc zcr rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Buzzcut Season Lorde
+One More Time Daft Punk
+Brown Sugar The Rolling Stones
+Andy Last Dinosaurs
+Stop And Smell The Roses Television Personalities
+Betalove (RAC Mix) Ra Ra Riot
+Breathe (In the Air) Pink Floyd
+Chasing My Tail Mild High Club
+Skiptracing (Reprise) Mild High Club
+Attics of My Life Grateful Dead
+Fineshrine Purity Ring
+Posse in Effect Beastie Boys
+Manners Icona Pop
+Meme Generator Dan Deacon 
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+Playlist for	Dan Deacon  Meme Generator sc zcr rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Sunrise Childish Gambino
+Posse in Effect Beastie Boys
+Skiptracing (Reprise) Mild High Club
+Love Always Remains MGMT
+Flash Delirium MGMT
+Fineshrine Purity Ring
+You Gotta Move The Rolling Stones
+Betalove (RAC Mix) Ra Ra Riot
+The Great Gig in the Sky Pink Floyd
+Dancing With Myself Billy Idol
+Stop And Smell The Roses Television Personalities
+Glory Childish Gambino
+Meme Generator Dan Deacon 
+Giorgio by Moroder Daft Punk
+Brown Sugar The Rolling Stones
+Playlist for	Dan Deacon  Meme Generator sc zcr mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+One More Time Daft Punk
+Balaclava Arctic Monkeys
+Chasing My Tail Mild High Club
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+You're So Right The Strokes
+Meme Generator Dan Deacon 
+Bohemian Rhapsody Queen
+Breathe (In the Air) Pink Floyd
+Meme Generator Dan Deacon 
+Buzzcut Season Lorde
+Andy Last Dinosaurs
+Florida STRFKR
+Cry (Just A Little) Bingo Players
+I Am A Rock Simon & Garfunkel
+Posse in Effect Beastie Boys
+Playlist for	Dan Deacon  Meme Generator sc zcr mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Betalove (RAC Mix) Ra Ra Riot
+You Gotta Move The Rolling Stones
+Florida STRFKR
+Meme Generator Dan Deacon 
+Sunrise Childish Gambino
+Giorgio by Moroder Daft Punk
+Glory Childish Gambino
+Stop And Smell The Roses Television Personalities
+Dancing With Myself Billy Idol
+Skiptracing (Reprise) Mild High Club
+Posse in Effect Beastie Boys
+Fineshrine Purity Ring
+Love Always Remains MGMT
+The Great Gig in the Sky Pink Floyd
+Brown Sugar The Rolling Stones
+Playlist for	Dan Deacon  Meme Generator sc mfcc sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Billy Breathes Phish
+I Want to Know What Love Is Foreigner
+Elephant Tame Impala
+Supersonic Rocket Ship The Kinks
+Not Going Back Childish Gambino
+Friend of the Devil Grateful Dead
+Cudderisback Kid Cudi
+'Cause I'm A Man Tame Impala
+Meme Generator Dan Deacon 
+Hudson Vampire Weekend
+Evening Sun The Strokes
+Yes I'm Changing Tame Impala
+Suzy Greenberg Phish
+The Line Phish
+Ways to Go GROUPLOVE
+Playlist for	Dan Deacon  Meme Generator sc mfcc sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Not Going Back Childish Gambino
+Elephant Tame Impala
+Alter Ego Tame Impala
+Supersonic Rocket Ship The Kinks
+Steam Phish
+Meme Generator Dan Deacon 
+'Cause I'm A Man Tame Impala
+Evening Sun The Strokes
+I Want to Know What Love Is Foreigner
+Step Vampire Weekend
+Friend of the Devil Grateful Dead
+The Most Beautiful Girl (In the Room) Flight of the Conchords
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Don't Lie Vampire Weekend
+Cool Song No. 2 MGMT
+Playlist for	Dan Deacon  Meme Generator sc mfcc rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Step Vampire Weekend
+Billy Breathes Phish
+Not Going Back Childish Gambino
+I Want to Know What Love Is Foreigner
+Cudderisback Kid Cudi
+Friend of the Devil Grateful Dead
+Evening Sun The Strokes
+Elephant Tame Impala
+Supersonic Rocket Ship The Kinks
+Hudson Vampire Weekend
+'Cause I'm A Man Tame Impala
+The Mango Song Phish
+Meme Generator Dan Deacon 
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+The Line Phish
+Playlist for	Dan Deacon  Meme Generator sc mfcc rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+The Mango Song Phish
+'Cause I'm A Man Tame Impala
+Cudderisback Kid Cudi
+Evening Sun The Strokes
+Billy Breathes Phish
+Meme Generator Dan Deacon 
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Supersonic Rocket Ship The Kinks
+Suzy Greenberg Phish
+Alter Ego Tame Impala
+Cool Song No. 2 MGMT
+Friend of the Devil Grateful Dead
+The Most Beautiful Girl (In the Room) Flight of the Conchords
+Don't Lie Vampire Weekend
+Hudson Vampire Weekend
+Playlist for	Dan Deacon  Meme Generator sc mfcc zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Supersonic Rocket Ship The Kinks
+Don't Lie Vampire Weekend
+Meme Generator Dan Deacon 
+Step Vampire Weekend
+Cool Song No. 2 MGMT
+Steam Phish
+Alter Ego Tame Impala
+The Most Beautiful Girl (In the Room) Flight of the Conchords
+Evening Sun The Strokes
+Elephant Tame Impala
+Not Going Back Childish Gambino
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+'Cause I'm A Man Tame Impala
+I Want to Know What Love Is Foreigner
+Friend of the Devil Grateful Dead
+Playlist for	Dan Deacon  Meme Generator sc mfcc zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Hudson Vampire Weekend
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Cudderisback Kid Cudi
+Friend of the Devil Grateful Dead
+Meme Generator Dan Deacon 
+Billy Breathes Phish
+Don't Lie Vampire Weekend
+Suzy Greenberg Phish
+Cool Song No. 2 MGMT
+Supersonic Rocket Ship The Kinks
+The Most Beautiful Girl (In the Room) Flight of the Conchords
+Evening Sun The Strokes
+The Mango Song Phish
+'Cause I'm A Man Tame Impala
+Alter Ego Tame Impala
+Playlist for	Dan Deacon  Meme Generator rms sr sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Plenty of Girls In the Sea MGMT
+Power Kanye West feat. Dwele
+Meme Generator Dan Deacon 
+Almost There Childish Gambino
+Yolanda Hayes Fountains Of Wayne
+She Just Won't Believe Me Tame Impala
+Human The Killers
+On Sight Kanye West
+Meme Generator Dan Deacon 
+Hurricane Bob Dylan
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Tree Hugger Kimya Dawon & Antsy Pants
+Yellow Cat (Slash) Red Cat Say Anything
+Sleepyhead (Remix) Passion Pit
+Playlist for	Dan Deacon  Meme Generator rms sr sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Harder, Better, Faster, Stronger Daft Punk
+Standing in the Way of Control Gossip
+Every Man Has a Molly Say Anything
+Can't Stop Falling Into Love Cheap Trick
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+She Just Won't Believe Me Tame Impala
+Naive (Jean Tonique Remix) The Kooks 
+I Am a God Kanye West
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Meme Generator Dan Deacon 
+In My Dreams (Cudder Anthem) Kid Cudi
+Sugar Magnolia Grateful Dead
+Call It What You Want Foster the People
+Meme Generator Dan Deacon 
+The Dreamer The Tallest Man on Earth
+Playlist for	Dan Deacon  Meme Generator rms sr zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Tree Hugger Kimya Dawon & Antsy Pants
+Harder, Better, Faster, Stronger Daft Punk
+Yellow Cat (Slash) Red Cat Say Anything
+Yolanda Hayes Fountains Of Wayne
+Almost There Childish Gambino
+Meme Generator Dan Deacon 
+Plenty of Girls In the Sea MGMT
+Meme Generator Dan Deacon 
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Sleepyhead (Remix) Passion Pit
+Baby Driver Simon & Garfunkel
+Call It What You Want Foster the People
+Hurricane Bob Dylan
+Desire Be Desire Go Tame Impala
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Playlist for	Dan Deacon  Meme Generator rms sr zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Yolanda Hayes Fountains Of Wayne
+13___5-12-15_Boo Boo Mobile TyM
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Plenty of Girls In the Sea MGMT
+Call It What You Want Foster the People
+(?) Childish Gambino
+Meme Generator Dan Deacon 
+Heartbeat Childish Gambino
+She Just Won't Believe Me Tame Impala
+Sleepyhead (Remix) Passion Pit
+Meme Generator Dan Deacon 
+Hurricane Bob Dylan
+Almost There Childish Gambino
+Playlist for	Dan Deacon  Meme Generator rms sr mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+Standing in the Way of Control Gossip
+The Dreamer The Tallest Man on Earth
+In My Dreams (Cudder Anthem) Kid Cudi
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Heartbeat Childish Gambino
+Hard to Explain The Strokes
+Naive (Jean Tonique Remix) The Kooks 
+Have a Cigar Pink Floyd
+Sober Childish Gambino
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Plenty of Girls In the Sea MGMT
+Call It What You Want Foster the People
+Meme Generator Dan Deacon 
+Let Me Dope You Childish Gambino
+Almost There Childish Gambino
+Playlist for	Dan Deacon  Meme Generator rms sr mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Plenty of Girls In the Sea MGMT
+Hard to Explain The Strokes
+Call It What You Want Foster the People
+Yolanda Hayes Fountains Of Wayne
+Naive (Jean Tonique Remix) The Kooks 
+Almost There Childish Gambino
+Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+Keep On Lying Tame Impala
+Yellow Cat (Slash) Red Cat Say Anything
+Hurricane Bob Dylan
+13___5-12-15_Boo Boo Mobile TyM
+Sleepyhead (Remix) Passion Pit
+The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator rms sc sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Strapped For Cash Fountains Of Wayne
+Little Numbers Boy
+I Want to Know What Love Is Foreigner
+Houdini Foster the People
+Just A Friend  Biz Markie
+Molly Boxed Wine
+Vampire Antsy Pants
+All Yall Childish Gambino
+Don't Worry, Be Happy Bobby McFerrin
+Miss You Foster the People
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Robots Flight of the Conchords
+Feels Like the First Time Foreigner
+Someone To Love Fountains Of Wayne
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator rms sc sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Les Childish Gambino
+Miss You Foster the People
+I Want to Know What Love Is Foreigner
+Can't See Through It Disco Inferno
+Strapped For Cash Fountains Of Wayne
+Houdini Foster the People
+Life On the Nickel Foster the People
+Vampire Antsy Pants
+Friends Flight of the Conchords
+Helena Beat Foster the People
+Robots Flight of the Conchords
+Meme Generator Dan Deacon 
+All Those Friendly People Funeral Suits
+Traffic And Weather Fountains Of Wayne
+Planet Of Weed Fountains Of Wayne
+Playlist for	Dan Deacon  Meme Generator rms sc zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Molly Boxed Wine
+Baby Doll  Childish Gambino
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Rhymin' and Stealin' Beastie Boys
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+Robots Flight of the Conchords
+Traffic And Weather Fountains Of Wayne
+All Yall Childish Gambino
+I Want to Know What Love Is Foreigner
+Someone To Love Fountains Of Wayne
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Strapped For Cash Fountains Of Wayne
+Meme Generator Dan Deacon 
+Just A Friend  Biz Markie
+Little Numbers Boy
+Playlist for	Dan Deacon  Meme Generator rms sc zcr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Layla Derek & the Dominos
+Someone To Love Fountains Of Wayne
+Balaclava Arctic Monkeys
+Michael And Heather At The Baggage Claim Fountains Of Wayne
+Houdini Foster the People
+Meme Generator Dan Deacon 
+Call It What You Want Foster the People
+Robots Flight of the Conchords
+Waste Foster the People
+Just A Friend  Biz Markie
+Can't See Through It Disco Inferno
+Feels Like the First Time Foreigner
+I Want to Know What Love Is Foreigner
+Contact High Architecture in Helsinki
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Playlist for	Dan Deacon  Meme Generator rms sc mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Dearest Buddy Holly
+All Yall Childish Gambino
+I Want to Know What Love Is Foreigner
+Strapped For Cash Fountains Of Wayne
+Bennie and the Jets Elton John
+Baby Doll  Childish Gambino
+Traffic And Weather Fountains Of Wayne
+Vampire Antsy Pants
+Balaclava Arctic Monkeys
+All I Want Is You Barry Louis Polisar
+Little Numbers Boy
+All Those Friendly People Funeral Suits
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator rms sc mfcc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Hurricane Bob Dylan
+Michael And Heather At The Baggage Claim Fountains Of Wayne
+Money Baby Childish Gambino
+Robots Flight of the Conchords
+Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+Houdini Foster the People
+Contact High Architecture in Helsinki
+Just A Friend  Biz Markie
+Piano Man Billy Joel
+Someone To Love Fountains Of Wayne
+Let Me Dope You Childish Gambino
+Waste Foster the People
+Meme Generator Dan Deacon 
+Feels Like the First Time Foreigner
+Call It What You Want Foster the People
+Playlist for	Dan Deacon  Meme Generator rms zcr sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Breathe (In the Air) Pink Floyd
+Past Life Tame Impala
+Cry (Just A Little) Bingo Players
+Bohemian Rhapsody Queen
+All Yall Childish Gambino
+Andy Last Dinosaurs
+One More Time Daft Punk
+Balaclava Arctic Monkeys
+Meme Generator Dan Deacon 
+You're So Right The Strokes
+Amor Fati Washed Out
+Rich Girl Gwen Stefani Feat. Eve
+Buzzcut Season Lorde
+Meme Generator Dan Deacon 
+Why Won't They Talk To Me? Tame Impala
+Playlist for	Dan Deacon  Meme Generator rms zcr sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Why Won't They Talk To Me? Tame Impala
+Meme Generator Dan Deacon 
+Rich Girl Gwen Stefani Feat. Eve
+Meme Generator Dan Deacon 
+You're So Right The Strokes
+Past Life Tame Impala
+Amor Fati Washed Out
+Cry (Just A Little) Bingo Players
+Buzzcut Season Lorde
+Balaclava Arctic Monkeys
+Bohemian Rhapsody Queen
+All Yall Childish Gambino
+Breathe (In the Air) Pink Floyd
+Andy Last Dinosaurs
+One More Time Daft Punk
+Playlist for	Dan Deacon  Meme Generator rms zcr sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+You're So Right The Strokes
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Past Life Tame Impala
+All Yall Childish Gambino
+Meme Generator Dan Deacon 
+Buzzcut Season Lorde
+Why Won't They Talk To Me? Tame Impala
+Andy Last Dinosaurs
+Amor Fati Washed Out
+One More Time Daft Punk
+Rich Girl Gwen Stefani Feat. Eve
+Cry (Just A Little) Bingo Players
+Balaclava Arctic Monkeys
+Bohemian Rhapsody Queen
+Breathe (In the Air) Pink Floyd
+Playlist for	Dan Deacon  Meme Generator rms zcr sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Starlight (feat. DC Pierson & Amber Petty) Childish Gambino
+This Better Be Good Fountains Of Wayne
+Extreme Ways Moby
+Breathe (In the Air) Pink Floyd
+Clint Eastwood Gorillaz
+I Am A Rock Simon & Garfunkel
+Bookends Simon & Garfunkel
+Technologic Daft Punk
+I'm Stickng With You The Velvet Underground
+Meme Generator Dan Deacon 
+Blue Sky The Allman Brothers Band
+Buzzcut Season Lorde
+All Yall Childish Gambino
+Within Daft Punk
+Homeward Bound [Live] Simon & Garfunkel
+Playlist for	Dan Deacon  Meme Generator rms zcr mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Why Won't They Talk To Me? Tame Impala
+All Yall Childish Gambino
+Meme Generator Dan Deacon 
+Amor Fati Washed Out
+Meme Generator Dan Deacon 
+Rich Girl Gwen Stefani Feat. Eve
+Bohemian Rhapsody Queen
+One More Time Daft Punk
+You're So Right The Strokes
+Cry (Just A Little) Bingo Players
+Past Life Tame Impala
+Buzzcut Season Lorde
+Andy Last Dinosaurs
+Balaclava Arctic Monkeys
+Breathe (In the Air) Pink Floyd
+Playlist for	Dan Deacon  Meme Generator rms zcr mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+Within Daft Punk
+Technologic Daft Punk
+Bookends Simon & Garfunkel
+Cry (Just A Little) Bingo Players
+Meme Generator Dan Deacon 
+Extreme Ways Moby
+The Good Times are Killing Me Modest Mouse
+Buzzcut Season Lorde
+Breathe (In the Air) Pink Floyd
+I Am A Rock Simon & Garfunkel
+Soma The Strokes
+Past Life Tame Impala
+Shine on You Crazy Diamond, Pts. 1-5 Pink Floyd
+Manners Icona Pop
+I'm Stickng With You The Velvet Underground
+Playlist for	Dan Deacon  Meme Generator rms mfcc sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+New Person, Same Old Mistakes Tame Impala
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Let It Happen Tame Impala
+Metanoia MGMT
+Elephant Tame Impala
+I Want to Know What Love Is Foreigner
+Little Numbers Boy
+Overdose Little Daylight
+Eye of the Tiger Survivor
+Careful What You Pack They Might Be Giants
+Baby Doll  Childish Gambino
+Meme Generator Dan Deacon 
+Friend of the Devil Grateful Dead
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator rms mfcc sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Metanoia MGMT
+Friend of the Devil Grateful Dead
+Meme Generator Dan Deacon 
+Overdose Little Daylight
+Baby Doll  Childish Gambino
+Amie Pure Prairie League
+Elephant Tame Impala
+New Person, Same Old Mistakes Tame Impala
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Little Numbers Boy
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Crossroads (Live at Winterland) Cream
+Cool Song No. 2 MGMT
+Careful What You Pack They Might Be Giants
+Outside Childish Gambino
+Playlist for	Dan Deacon  Meme Generator rms mfcc sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Let It Happen Tame Impala
+Friend of the Devil Grateful Dead
+Baby Doll  Childish Gambino
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+New Person, Same Old Mistakes Tame Impala
+Meme Generator Dan Deacon 
+Little Numbers Boy
+Elephant Tame Impala
+Boyz-N-The Hood Dynamite Hack
+Overdose Little Daylight
+Eye of the Tiger Survivor
+I Want to Know What Love Is Foreigner
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Careful What You Pack They Might Be Giants
+Metanoia MGMT
+Playlist for	Dan Deacon  Meme Generator rms mfcc sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Friend of the Devil Grateful Dead
+17___7-3-15b_The Usual TyM
+I Can Hear Your Feet (Sunrise) Childish Gambino
+New Person, Same Old Mistakes Tame Impala
+Instant Crush (feat. Julian Casablancas) Daft Punk
+Contact High Architecture in Helsinki
+Ways to Go GROUPLOVE
+Crossroads (Live at Winterland) Cream
+Cool Song No. 2 MGMT
+Outside Childish Gambino
+Overdose Little Daylight
+Ride the River J.J. Cale & Eric Clapton
+Amie Pure Prairie League
+Meme Generator Dan Deacon 
+Help I'm Alive Metric
+Playlist for	Dan Deacon  Meme Generator rms mfcc zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Outside Childish Gambino
+Careful What You Pack They Might Be Giants
+Elephant Tame Impala
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Cool Song No. 2 MGMT
+Amie Pure Prairie League
+Crossroads (Live at Winterland) Cream
+Baby Doll  Childish Gambino
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Overdose Little Daylight
+Little Numbers Boy
+Metanoia MGMT
+Friend of the Devil Grateful Dead
+Meme Generator Dan Deacon 
+New Person, Same Old Mistakes Tame Impala
+Playlist for	Dan Deacon  Meme Generator rms mfcc zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Cool Song No. 2 MGMT
+Helplessness Blues Fleet Foxes
+Amie Pure Prairie League
+17___7-3-15b_The Usual TyM
+Life On the Nickel Foster the People
+Friend of the Devil Grateful Dead
+New Person, Same Old Mistakes Tame Impala
+Siberian Breaks MGMT
+Meme Generator Dan Deacon 
+Eye of the Tiger Survivor
+Crossroads (Live at Winterland) Cream
+Contact High Architecture in Helsinki
+Outside Childish Gambino
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Playlist for	Dan Deacon  Meme Generator zcr sr sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Brown Sugar The Rolling Stones
+The Hotel Majestic Fountains Of Wayne
+Glory Childish Gambino
+Stop And Smell The Roses Television Personalities
+Both Hands (Black Rainbow) Childish Gambino
+Cells They Might Be Giants
+Virus Deltron 3030
+Meme Generator Dan Deacon 
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+I'm A Winner ft. Amber Petty Childish Gambino
+Ni**as in Paris Kanye West & JAY Z
+Florida STRFKR
+Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+Children of the Damned Iron Maiden
+What I Got Sublime
+Playlist for	Dan Deacon  Meme Generator zcr sr sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Sample In A Jar Phish
+Glory Childish Gambino
+The New Style Beastie Boys
+Giorgio by Moroder Daft Punk
+Seatbacks And Traytables Fountains Of Wayne
+Do You Want It All? Two Door Cinema Club
+Clint Eastwood Gorillaz
+Bertha Grateful Dead
+Nangs Tame Impala
+Brown Sugar The Rolling Stones
+Meme Generator Dan Deacon 
+All Those Friendly People Funeral Suits
+Disciples Tame Impala
+Kiki's Delivery Service Joe Hisaishi
+Hannah Hunt Vampire Weekend
+Playlist for	Dan Deacon  Meme Generator zcr sr rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+The Hotel Majestic Fountains Of Wayne
+Cells They Might Be Giants
+Virus Deltron 3030
+Stop And Smell The Roses Television Personalities
+I'm A Winner ft. Amber Petty Childish Gambino
+Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+What I Got Sublime
+Glory Childish Gambino
+Both Hands (Black Rainbow) Childish Gambino
+Meme Generator Dan Deacon 
+All Those Friendly People Funeral Suits
+Betalove (RAC Mix) Ra Ra Riot
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Brown Sugar The Rolling Stones
+Playlist for	Dan Deacon  Meme Generator zcr sr rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+I'm A Winner ft. Amber Petty Childish Gambino
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Virus Deltron 3030
+Brown Sugar The Rolling Stones
+Cells They Might Be Giants
+The Hotel Majestic Fountains Of Wayne
+Betalove (RAC Mix) Ra Ra Riot
+Get It (Tightrope) Childish Gambino
+What I Got Sublime
+Stop And Smell The Roses Television Personalities
+Glory Childish Gambino
+All Those Friendly People Funeral Suits
+Both Hands (Black Rainbow) Childish Gambino
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator zcr sr mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Disciples Tame Impala
+Meme Generator Dan Deacon 
+Meme Generator Dan Deacon 
+All Those Friendly People Funeral Suits
+Glory Childish Gambino
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+Do You Want It All? Two Door Cinema Club
+Hannah Hunt Vampire Weekend
+Nangs Tame Impala
+Kiki's Delivery Service Joe Hisaishi
+Balaclava Arctic Monkeys
+The New Style Beastie Boys
+Cells They Might Be Giants
+Brown Sugar The Rolling Stones
+Playlist for	Dan Deacon  Meme Generator zcr sr mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+What I Got Sublime
+Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+The Hotel Majestic Fountains Of Wayne
+Stop And Smell The Roses Television Personalities
+Cells They Might Be Giants
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+I'm A Winner ft. Amber Petty Childish Gambino
+Brown Sugar The Rolling Stones
+Glory Childish Gambino
+Both Hands (Black Rainbow) Childish Gambino
+Ni**as in Paris Kanye West & JAY Z
+Get It (Tightrope) Childish Gambino
+Ya Hey Vampire Weekend
+Virus Deltron 3030
+Playlist for	Dan Deacon  Meme Generator zcr sc sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Stop And Smell The Roses Television Personalities
+Attics of My Life Grateful Dead
+Betalove (RAC Mix) Ra Ra Riot
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+One More Time Daft Punk
+Meme Generator Dan Deacon 
+Brown Sugar The Rolling Stones
+Andy Last Dinosaurs
+Your Life Is a Lie MGMT
+Casey Jones Grateful Dead
+Ya Hey Vampire Weekend
+Buzzcut Season Lorde
+Chasing My Tail Mild High Club
+Posse in Effect Beastie Boys
+Breathe (In the Air) Pink Floyd
+Playlist for	Dan Deacon  Meme Generator zcr sc sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Breathe (In the Air) Pink Floyd
+Meme Generator Dan Deacon 
+Andy Last Dinosaurs
+Florida STRFKR
+Bohemian Rhapsody Queen
+Posse in Effect Beastie Boys
+Meme Generator Dan Deacon 
+Cry (Just A Little) Bingo Players
+You're So Right The Strokes
+Glory Childish Gambino
+I Am A Rock Simon & Garfunkel
+Chasing My Tail Mild High Club
+One More Time Daft Punk
+Buzzcut Season Lorde
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+Playlist for	Dan Deacon  Meme Generator zcr sc rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Chasing My Tail Mild High Club
+Carini Phish
+Buzzcut Season Lorde
+One More Time Daft Punk
+Attics of My Life Grateful Dead
+Skiptracing (Reprise) Mild High Club
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+Andy Last Dinosaurs
+Breathe (In the Air) Pink Floyd
+Brown Sugar The Rolling Stones
+Posse in Effect Beastie Boys
+Meme Generator Dan Deacon 
+Stop And Smell The Roses Television Personalities
+Touch the Sky (Featuring Lupe Fiasco) Kanye West
+Betalove (RAC Mix) Ra Ra Riot
+Playlist for	Dan Deacon  Meme Generator zcr sc rms mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Sunrise Childish Gambino
+The Good Ones The Kills
+Brown Sugar The Rolling Stones
+The Great Gig in the Sky Pink Floyd
+Flash Delirium MGMT
+Dancing With Myself Billy Idol
+Stop And Smell The Roses Television Personalities
+You Gotta Move The Rolling Stones
+Skiptracing (Reprise) Mild High Club
+Fineshrine Purity Ring
+Meme Generator Dan Deacon 
+Glory Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+Posse in Effect Beastie Boys
+Love Always Remains MGMT
+Playlist for	Dan Deacon  Meme Generator zcr sc mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Andy Last Dinosaurs
+Posse in Effect Beastie Boys
+Buzzcut Season Lorde
+Meme Generator Dan Deacon 
+Florida STRFKR
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+Chasing My Tail Mild High Club
+I Am A Rock Simon & Garfunkel
+You're So Right The Strokes
+One More Time Daft Punk
+Bohemian Rhapsody Queen
+Meme Generator Dan Deacon 
+Breathe (In the Air) Pink Floyd
+Cry (Just A Little) Bingo Players
+Balaclava Arctic Monkeys
+Playlist for	Dan Deacon  Meme Generator zcr sc mfcc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Fineshrine Purity Ring
+Sunrise Childish Gambino
+Dancing With Myself Billy Idol
+Glory Childish Gambino
+The Great Gig in the Sky Pink Floyd
+The Good Ones The Kills
+Meme Generator Dan Deacon 
+You Gotta Move The Rolling Stones
+Betalove (RAC Mix) Ra Ra Riot
+Stop And Smell The Roses Television Personalities
+Brown Sugar The Rolling Stones
+Love Always Remains MGMT
+Ya Hey Vampire Weekend
+Skiptracing (Reprise) Mild High Club
+Posse in Effect Beastie Boys
+Playlist for	Dan Deacon  Meme Generator zcr rms sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Andy Last Dinosaurs
+Rich Girl Gwen Stefani Feat. Eve
+Balaclava Arctic Monkeys
+Past Life Tame Impala
+One More Time Daft Punk
+Breathe (In the Air) Pink Floyd
+Meme Generator Dan Deacon 
+Amor Fati Washed Out
+Cry (Just A Little) Bingo Players
+Bohemian Rhapsody Queen
+Why Won't They Talk To Me? Tame Impala
+Meme Generator Dan Deacon 
+You're So Right The Strokes
+Buzzcut Season Lorde
+All Yall Childish Gambino
+Playlist for	Dan Deacon  Meme Generator zcr rms sr mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Rich Girl Gwen Stefani Feat. Eve
+Amor Fati Washed Out
+One More Time Daft Punk
+Past Life Tame Impala
+Bohemian Rhapsody Queen
+Meme Generator Dan Deacon 
+Breathe (In the Air) Pink Floyd
+Balaclava Arctic Monkeys
+Buzzcut Season Lorde
+Cry (Just A Little) Bingo Players
+Why Won't They Talk To Me? Tame Impala
+You're So Right The Strokes
+Andy Last Dinosaurs
+All Yall Childish Gambino
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator zcr rms sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Buzzcut Season Lorde
+Balaclava Arctic Monkeys
+You're So Right The Strokes
+Bohemian Rhapsody Queen
+Why Won't They Talk To Me? Tame Impala
+Meme Generator Dan Deacon 
+Breathe (In the Air) Pink Floyd
+Past Life Tame Impala
+One More Time Daft Punk
+Amor Fati Washed Out
+All Yall Childish Gambino
+Cry (Just A Little) Bingo Players
+Andy Last Dinosaurs
+Meme Generator Dan Deacon 
+Rich Girl Gwen Stefani Feat. Eve
+Playlist for	Dan Deacon  Meme Generator zcr rms sc mfcc
+Playlist generated for Meme Generator by Dan Deacon 
+Amor Fati Washed Out
+Meme Generator Dan Deacon 
+Do You Want It All? Two Door Cinema Club
+Clint Eastwood Gorillaz
+Homeward Bound [Live] Simon & Garfunkel
+Breathe (In the Air) Pink Floyd
+Past Life Tame Impala
+Rich Girl Gwen Stefani Feat. Eve
+Buzzcut Season Lorde
+I Want to Know What Love Is Foreigner
+Extreme Ways Moby
+Within Daft Punk
+I Am A Rock Simon & Garfunkel
+Bookends Simon & Garfunkel
+The Good Times are Killing Me Modest Mouse
+Playlist for	Dan Deacon  Meme Generator zcr rms mfcc sr
+Playlist generated for Meme Generator by Dan Deacon 
+All Yall Childish Gambino
+Why Won't They Talk To Me? Tame Impala
+Bohemian Rhapsody Queen
+One More Time Daft Punk
+Buzzcut Season Lorde
+You're So Right The Strokes
+Past Life Tame Impala
+Amor Fati Washed Out
+Andy Last Dinosaurs
+Rich Girl Gwen Stefani Feat. Eve
+Meme Generator Dan Deacon 
+Cry (Just A Little) Bingo Players
+Meme Generator Dan Deacon 
+Breathe (In the Air) Pink Floyd
+Balaclava Arctic Monkeys
+Playlist for	Dan Deacon  Meme Generator zcr rms mfcc sc
+Playlist generated for Meme Generator by Dan Deacon 
+Meme Generator Dan Deacon 
+Within Daft Punk
+Seatbacks And Traytables Fountains Of Wayne
+Bookends Simon & Garfunkel
+Clint Eastwood Gorillaz
+Blue Sky The Allman Brothers Band
+I Am A Rock Simon & Garfunkel
+Breathe (In the Air) Pink Floyd
+Meme Generator Dan Deacon 
+The Good Times are Killing Me Modest Mouse
+Buzzcut Season Lorde
+I'm Stickng With You The Velvet Underground
+Extreme Ways Moby
+One (Your Name) [Radio Edit] {feat. Pharrell} Swedish House Mafia
+Starlight (feat. DC Pierson & Amber Petty) Childish Gambino
+Playlist for	Dan Deacon  Meme Generator zcr mfcc sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+You're So Right The Strokes
+Cudderisback Kid Cudi
+Casey Jones Grateful Dead
+Andy Last Dinosaurs
+Breathe (In the Air) Pink Floyd
+Meme Generator Dan Deacon 
+Attics of My Life Grateful Dead
+Flash Delirium MGMT
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Buzzcut Season Lorde
+Chasing My Tail Mild High Club
+Florida STRFKR
+Giorgio by Moroder Daft Punk
+Bohemian Rhapsody Queen
+Betalove (RAC Mix) Ra Ra Riot
+Playlist for	Dan Deacon  Meme Generator zcr mfcc sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Suzy Greenberg Phish
+Flashing Lights Kanye West
+Ni**as in Paris Kanye West & JAY Z
+Attics of My Life Grateful Dead
+Betalove (RAC Mix) Ra Ra Riot
+Andy Last Dinosaurs
+Buzzcut Season Lorde
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Cudderisback Kid Cudi
+Chasing My Tail Mild High Club
+Breathe (In the Air) Pink Floyd
+What I Got Sublime
+Brown Sugar The Rolling Stones
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator zcr mfcc sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Casey Jones Grateful Dead
+Attics of My Life Grateful Dead
+Breathe (In the Air) Pink Floyd
+Buzzcut Season Lorde
+Betalove (RAC Mix) Ra Ra Riot
+Flash Delirium MGMT
+Andy Last Dinosaurs
+Chasing My Tail Mild High Club
+You're So Right The Strokes
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Giorgio by Moroder Daft Punk
+Cudderisback Kid Cudi
+Florida STRFKR
+Bohemian Rhapsody Queen
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator zcr mfcc sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Brown Sugar The Rolling Stones
+Meme Generator Dan Deacon 
+What I Got Sublime
+Ni**as in Paris Kanye West & JAY Z
+Betalove (RAC Mix) Ra Ra Riot
+Flashing Lights Kanye West
+Retro  Childish Gambino
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+Meme Generator Dan Deacon 
+Glory Childish Gambino
+Cudderisback Kid Cudi
+Suzy Greenberg Phish
+Sunrise Childish Gambino
+Giorgio by Moroder Daft Punk
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Playlist for	Dan Deacon  Meme Generator zcr mfcc rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Buzzcut Season Lorde
+Brown Sugar The Rolling Stones
+Ni**as in Paris Kanye West & JAY Z
+Suzy Greenberg Phish
+Alive (Nightmare) Kid Cudi Feat. Ratatat
+Andy Last Dinosaurs
+Bertha Grateful Dead
+Chasing My Tail Mild High Club
+Cudderisback Kid Cudi
+Breathe (In the Air) Pink Floyd
+What I Got Sublime
+Attics of My Life Grateful Dead
+Betalove (RAC Mix) Ra Ra Riot
+Meme Generator Dan Deacon 
+III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+Playlist for	Dan Deacon  Meme Generator zcr mfcc rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+Glory Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+Retro  Childish Gambino
+Cudderisback Kid Cudi
+Giorgio by Moroder Daft Punk
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Tongues Joywave feat. Kopps
+What I Got Sublime
+Brown Sugar The Rolling Stones
+Ni**as in Paris Kanye West & JAY Z
+Flashing Lights Kanye West
+Meme Generator Dan Deacon 
+Suzy Greenberg Phish
+Sunrise Childish Gambino
+Flash Delirium MGMT
+Playlist for	Dan Deacon  Meme Generator mfcc sr sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Easy Way Out Gotye
+Low Lights Kanye West
+Drugs Ratatat
+Julius Phish
+All We Ever Wanted Was Everything MGMT
+Meme Generator Dan Deacon 
+FML Kanye West
+The Rocker Childish Gambino
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Skiptracing Mild High Club
+Candyman (Remastered LP Version) Grateful Dead
+Do Ya Like Childish Gambino
+Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+Hudson Vampire Weekend
+At All KAYTRANADA
+Playlist for	Dan Deacon  Meme Generator mfcc sr sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Rawnald Gregory Erickson The Second STRFKR
+Insomnia Electric President
+Yes I'm Changing Tame Impala
+Nellie Kane Phish
+Skiptracing Mild High Club
+Riptide (FlicFlac Edit) Vance Joy
+The Rocker Childish Gambino
+Ripple Grateful Dead
+Virus Deltron 3030
+Fucks Given  (prod. by Nick Banga) Childish Gambino
+Meme Generator Dan Deacon 
+Head Out Mild High Club
+Send It Up Kanye West
+Meme Generator Dan Deacon 
+At All KAYTRANADA
+Playlist for	Dan Deacon  Meme Generator mfcc sr rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+Easy Way Out Gotye
+Fire Fly Childish Gambino
+Destrokk MGMT
+Insomnia Electric President
+Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+Julius Phish
+At All KAYTRANADA
+Hudson Vampire Weekend
+Low Lights Kanye West
+The Line Phish
+Meme Generator Dan Deacon 
+FML Kanye West
+The Rocker Childish Gambino
+Do Ya Like Childish Gambino
+Northern Downpour Panic at the Disco
+Playlist for	Dan Deacon  Meme Generator mfcc sr rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Finger Back Vampire Weekend
+The Line Phish
+Hudson Vampire Weekend
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Solo Dolo (Nightmare) Kid Cudi
+Julius Phish
+Easy Way Out Gotye
+The Rocker Childish Gambino
+Meme Generator Dan Deacon 
+Fucks Given  (prod. by Nick Banga) Childish Gambino
+FML Kanye West
+Skiptracing Mild High Club
+At All KAYTRANADA
+Insomnia Electric President
+Low Lights Kanye West
+Playlist for	Dan Deacon  Meme Generator mfcc sr zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Nellie Kane Phish
+Finger Back Vampire Weekend
+Skiptracing Mild High Club
+Meme Generator Dan Deacon 
+Easy Way Out Gotye
+Fucks Given  (prod. by Nick Banga) Childish Gambino
+At All KAYTRANADA
+My World Kid Cudi Feat. Billy Cravens
+Riptide (FlicFlac Edit) Vance Joy
+Fire Fly Childish Gambino
+Drugs Ratatat
+Meme Generator Dan Deacon 
+Yes I'm Changing Tame Impala
+Hiphopopotamus Vs. Rhymenoceros (feat. Rhymenoceros and the Hiphopopotamus) Flight of the Conchords
+Head Out Mild High Club
+Playlist for	Dan Deacon  Meme Generator mfcc sr zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Julius Phish
+Meme Generator Dan Deacon 
+At All KAYTRANADA
+Meme Generator Dan Deacon 
+Low Lights Kanye West
+FML Kanye West
+Easy Way Out Gotye
+Hudson Vampire Weekend
+Insomnia Electric President
+Skiptracing Mild High Club
+Northern Downpour Panic at the Disco
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+The Rocker Childish Gambino
+Money The Drums
+The Line Phish
+Playlist for	Dan Deacon  Meme Generator mfcc sc sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Friend of the Devil Grateful Dead
+Supersonic Rocket Ship The Kinks
+Meme Generator Dan Deacon 
+Suzy Greenberg Phish
+Yes I'm Changing Tame Impala
+Steam Phish
+The Line Phish
+Billy Breathes Phish
+'Cause I'm A Man Tame Impala
+Elephant Tame Impala
+Hudson Vampire Weekend
+Not Going Back Childish Gambino
+Harry Hood Phish
+I Want to Know What Love Is Foreigner
+Cudderisback Kid Cudi
+Playlist for	Dan Deacon  Meme Generator mfcc sc sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+'Cause I'm A Man Tame Impala
+Cool Song No. 2 MGMT
+I Want to Know What Love Is Foreigner
+Steam Phish
+Alter Ego Tame Impala
+Step Vampire Weekend
+Supersonic Rocket Ship The Kinks
+Evening Sun The Strokes
+Don't Lie Vampire Weekend
+The Most Beautiful Girl (In the Room) Flight of the Conchords
+Not Going Back Childish Gambino
+Meme Generator Dan Deacon 
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Friend of the Devil Grateful Dead
+Elephant Tame Impala
+Playlist for	Dan Deacon  Meme Generator mfcc sc rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Computer Assisted Design They Might Be Giants
+Cudderisback Kid Cudi
+I Want to Know What Love Is Foreigner
+Meme Generator Dan Deacon 
+The Line Phish
+Friend of the Devil Grateful Dead
+Suzy Greenberg Phish
+Elephant Tame Impala
+Meme Generator Dan Deacon 
+Evening Sun The Strokes
+'Cause I'm A Man Tame Impala
+Not Going Back Childish Gambino
+Hudson Vampire Weekend
+Billy Breathes Phish
+Supersonic Rocket Ship The Kinks
+Playlist for	Dan Deacon  Meme Generator mfcc sc rms zcr
+Playlist generated for Meme Generator by Dan Deacon 
+The Mango Song Phish
+Cudderisback Kid Cudi
+The Most Beautiful Girl (In the Room) Flight of the Conchords
+Meme Generator Dan Deacon 
+Cool Song No. 2 MGMT
+Don't Lie Vampire Weekend
+Alter Ego Tame Impala
+Suzy Greenberg Phish
+Billy Breathes Phish
+'Cause I'm A Man Tame Impala
+Evening Sun The Strokes
+Hudson Vampire Weekend
+Friend of the Devil Grateful Dead
+Supersonic Rocket Ship The Kinks
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Playlist for	Dan Deacon  Meme Generator mfcc sc zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Don't Lie Vampire Weekend
+Evening Sun The Strokes
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Step Vampire Weekend
+Friend of the Devil Grateful Dead
+Not Going Back Childish Gambino
+Supersonic Rocket Ship The Kinks
+Alter Ego Tame Impala
+Steam Phish
+The Most Beautiful Girl (In the Room) Flight of the Conchords
+Cool Song No. 2 MGMT
+I Want to Know What Love Is Foreigner
+'Cause I'm A Man Tame Impala
+Meme Generator Dan Deacon 
+Elephant Tame Impala
+Playlist for	Dan Deacon  Meme Generator mfcc sc zcr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Evening Sun The Strokes
+Cool Song No. 2 MGMT
+Suzy Greenberg Phish
+'Cause I'm A Man Tame Impala
+Alter Ego Tame Impala
+The Most Beautiful Girl (In the Room) Flight of the Conchords
+Cudderisback Kid Cudi
+Billy Breathes Phish
+Supersonic Rocket Ship The Kinks
+The Mango Song Phish
+Don't Lie Vampire Weekend
+Friend of the Devil Grateful Dead
+Meme Generator Dan Deacon 
+Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+Hudson Vampire Weekend
+Playlist for	Dan Deacon  Meme Generator mfcc rms sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Let It Happen Tame Impala
+Friend of the Devil Grateful Dead
+Crossroads (Live at Winterland) Cream
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+New Person, Same Old Mistakes Tame Impala
+I Want to Know What Love Is Foreigner
+Careful What You Pack They Might Be Giants
+Overdose Little Daylight
+Meme Generator Dan Deacon 
+Little Numbers Boy
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Eye of the Tiger Survivor
+Elephant Tame Impala
+Metanoia MGMT
+Baby Doll  Childish Gambino
+Playlist for	Dan Deacon  Meme Generator mfcc rms sr zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Elephant Tame Impala
+Little Numbers Boy
+Careful What You Pack They Might Be Giants
+Baby Doll  Childish Gambino
+New Person, Same Old Mistakes Tame Impala
+Friend of the Devil Grateful Dead
+Outside Childish Gambino
+Meme Generator Dan Deacon 
+Overdose Little Daylight
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Crossroads (Live at Winterland) Cream
+Cool Song No. 2 MGMT
+Metanoia MGMT
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Amie Pure Prairie League
+Playlist for	Dan Deacon  Meme Generator mfcc rms sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+New Person, Same Old Mistakes Tame Impala
+Elephant Tame Impala
+Little Numbers Boy
+Metanoia MGMT
+Overdose Little Daylight
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Meme Generator Dan Deacon 
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Careful What You Pack They Might Be Giants
+Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+Eye of the Tiger Survivor
+Let It Happen Tame Impala
+I Want to Know What Love Is Foreigner
+Baby Doll  Childish Gambino
+Friend of the Devil Grateful Dead
+Playlist for	Dan Deacon  Meme Generator mfcc rms sc zcr
+Playlist generated for Meme Generator by Dan Deacon 
+Cool Song No. 2 MGMT
+Amie Pure Prairie League
+Lisztomania Phoenix
+Outside Childish Gambino
+Help I'm Alive Metric
+Siberian Breaks MGMT
+Helplessness Blues Fleet Foxes
+Friend of the Devil Grateful Dead
+Meme Generator Dan Deacon 
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Eye of the Tiger Survivor
+New Person, Same Old Mistakes Tame Impala
+17___7-3-15b_The Usual TyM
+Little Numbers Boy
+Crossroads (Live at Winterland) Cream
+Playlist for	Dan Deacon  Meme Generator mfcc rms zcr sr
+Playlist generated for Meme Generator by Dan Deacon 
+Baby Doll  Childish Gambino
+Meme Generator Dan Deacon 
+Elephant Tame Impala
+Amie Pure Prairie League
+Outside Childish Gambino
+Little Numbers Boy
+I Want to Know What Love Is Foreigner
+Careful What You Pack They Might Be Giants
+Cool Song No. 2 MGMT
+Friend of the Devil Grateful Dead
+Overdose Little Daylight
+I Can Hear Your Feet (Sunrise) Childish Gambino
+New Person, Same Old Mistakes Tame Impala
+Metanoia MGMT
+49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+Playlist for	Dan Deacon  Meme Generator mfcc rms zcr sc
+Playlist generated for Meme Generator by Dan Deacon 
+Crossroads (Live at Winterland) Cream
+New Person, Same Old Mistakes Tame Impala
+Cool Song No. 2 MGMT
+Friend of the Devil Grateful Dead
+Scott Mescudi vs. the World Kid Cudi
+I Can Hear Your Feet (Sunrise) Childish Gambino
+Baby Doll  Childish Gambino
+Careful What You Pack They Might Be Giants
+Help I'm Alive Metric
+Helplessness Blues Fleet Foxes
+Amie Pure Prairie League
+Ride the River J.J. Cale & Eric Clapton
+Outside Childish Gambino
+Meme Generator Dan Deacon 
+17___7-3-15b_The Usual TyM
+Playlist for	Dan Deacon  Meme Generator mfcc zcr sr sc
+Playlist generated for Meme Generator by Dan Deacon 
+You're So Right The Strokes
+Only A Shadow MGMT
+Bohemian Rhapsody Queen
+Harry Hood Phish
+Flash Delirium MGMT
+Sunrise Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+Meme Generator Dan Deacon 
+Florida STRFKR
+I Want to Know What Love Is Foreigner
+Andy Last Dinosaurs
+Cudderisback Kid Cudi
+Virus Deltron 3030
+Buzzcut Season Lorde
+Meme Generator Dan Deacon 
+Playlist for	Dan Deacon  Meme Generator mfcc zcr sr rms
+Playlist generated for Meme Generator by Dan Deacon 
+Andy Last Dinosaurs
+Buzzcut Season Lorde
+Ni**as in Paris Kanye West & JAY Z
+Wolfman's Brother Phish
+Flashing Lights Kanye West
+Betalove (RAC Mix) Ra Ra Riot
+Meme Generator Dan Deacon 
+The Less I Know The Better Tame Impala
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Box of Rain (Remastered Version) Grateful Dead
+Virus Deltron 3030
+I Want to Know What Love Is Foreigner
+What I Got Sublime
+Cudderisback Kid Cudi
+Suzy Greenberg Phish
+Playlist for	Dan Deacon  Meme Generator mfcc zcr sc sr
+Playlist generated for Meme Generator by Dan Deacon 
+Bohemian Rhapsody Queen
+Andy Last Dinosaurs
+Betalove (RAC Mix) Ra Ra Riot
+I Want to Know What Love Is Foreigner
+You're So Right The Strokes
+Sunrise Childish Gambino
+Cudderisback Kid Cudi
+Meme Generator Dan Deacon 
+Virus Deltron 3030
+Buzzcut Season Lorde
+Only A Shadow MGMT
+Harry Hood Phish
+Meme Generator Dan Deacon 
+Flash Delirium MGMT
+Florida STRFKR
+Playlist for	Dan Deacon  Meme Generator mfcc zcr sc rms
+Playlist generated for Meme Generator by Dan Deacon 
+Cudderisback Kid Cudi
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+Box of Rain (Remastered Version) Grateful Dead
+Meme Generator Dan Deacon 
+Life On the Nickel Foster the People
+Flashing Lights Kanye West
+Suzy Greenberg Phish
+Ghost Phish
+The Less I Know The Better Tame Impala
+Down with Disease Phish
+Ni**as in Paris Kanye West & JAY Z
+Buzzcut Season Lorde
+Virus Deltron 3030
+What I Got Sublime
+Playlist for	Dan Deacon  Meme Generator mfcc zcr rms sr
+Playlist generated for Meme Generator by Dan Deacon 
+Flashing Lights Kanye West
+Ni**as in Paris Kanye West & JAY Z
+Betalove (RAC Mix) Ra Ra Riot
+The Less I Know The Better Tame Impala
+Box of Rain (Remastered Version) Grateful Dead
+Meme Generator Dan Deacon 
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+I Want to Know What Love Is Foreigner
+Suzy Greenberg Phish
+Buzzcut Season Lorde
+Cudderisback Kid Cudi
+What I Got Sublime
+Andy Last Dinosaurs
+Clint Eastwood Gorillaz
+Monster Kanye West, Jay-Z, Rick Ross, Nicki Minaj & Bon Iver
+Playlist for	Dan Deacon  Meme Generator mfcc zcr rms sc
+Playlist generated for Meme Generator by Dan Deacon 
+What I Got Sublime
+Suzy Greenberg Phish
+Virus Deltron 3030
+Flashing Lights Kanye West
+Ni**as in Paris Kanye West & JAY Z
+Weight Of Living, Part I Bastille
+Warrant Foster the People
+Cudderisback Kid Cudi
+My Shine Childish Gambino
+Betalove (RAC Mix) Ra Ra Riot
+I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+The Less I Know The Better Tame Impala
+Meme Generator Dan Deacon 
+Sunrise Childish Gambino
+Box of Rain (Remastered Version) Grateful Dead
+Playlist generated for Meme Generator by Dan Deacon 
+Just A Friend  Biz Markie
+Little Motel Modest Mouse
+Cold Blooded Christmas Jon Lajoie
+Million Dollar Bills Lorde
+Molly Boxed Wine
+Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+Cigarettes In the Theatre Two Door Cinema Club
+Richard Cory Simon & Garfunkel
+My Girl The Temptations
+Meme Generator Dan Deacon 
+Pauls-MacBook-Pro:ipython paulwatson$ 

@@ -37,17 +37,25 @@ def extract_feat(filepath, output_filepath = 'pickle'):
                 # Get track name and artist
                 name, artist = getTrackDetails(os.path.join(filepath, 'mp3', filename[:-4] + '.mp3'))
 
-                #if os.path.isfile( os.path.join('music', 'pickle', artist + '_' + name + '.p') ):
-                #   continue
+                # Only want songs with valid names and artists
+                if name is None or artist is None or '/' in name:
+                    continue
+
+                if os.path.isfile(os.path.join('music', 'pickle', artist + '_' + name + '.p')):
+                    continue
 
                 samplerate, wavedata = wavfile.read(os.path.join(subpath, filename))
 
+                if wavedata is None:
+                    continue
+
                 features = {}
 
-                if wavedata.shape[1] > 1: #Stereo
+                if len(wavedata.shape) > 1:
+                    if wavedata.shape[1] > 1: #Stereo
 
-                    # use combine the channels by calculating their geometric mean
-                    wavedata = np.mean(wavedata , axis=1)
+                        # use combine the channels by calculating their geometric mean
+                        wavedata = np.mean(wavedata , axis=1)
 
                 # Calculate zero crossing rate
                 block_length = 2048

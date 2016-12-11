@@ -37,7 +37,7 @@ class SongSuggestion:
 					self.library.append(toAdd)
 
 
-	def suggest(self, name, author, feat1, feat2): 
+	def suggest(self, name, author, feat1, feat2, prin=True): 
 		song_heap = []
 		seed_title = name
 		seed_artist = author
@@ -55,10 +55,11 @@ class SongSuggestion:
 			heappush(song_heap, (dist, song))
 
 		suggestions = nsmallest(self.num_songs, song_heap)
-		print("Suggested songs for " + seed_title + " by " + seed_artist)
-		# print len(song_heap)
-		for s in suggestions:
-			print s[1].getTitle(), s[1].getArtist(), s[0]
+		if prin:
+			print("Suggested songs for " + seed_title + " by " + seed_artist)
+			# print len(song_heap)
+			for s in suggestions:
+				print s[1].getTitle(), s[1].getArtist(), s[0]
 		return suggestions
 
 
