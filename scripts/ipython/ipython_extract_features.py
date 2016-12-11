@@ -56,9 +56,6 @@ def extract_feat(filepath, output_filepath = 'pickle'):
                 zcr = zcr - np.mean(zcr)
                 if np.std(zcr) != 0:
                     zcr = zcr / np.std(zcr)
-                #print 'zcr'
-                #print zcr
-                #print len(zcr)
                 features['zcr'] = zcr
 
                 # Calculate spectral centroid
@@ -69,9 +66,6 @@ def extract_feat(filepath, output_filepath = 'pickle'):
                 sc = sc - np.mean(sc)
                 if np.std(sc) != 0:
                     sc = sc / np.std(sc)
-                #print 'sc'
-                #print sc
-                #print len(sc)
                 features['sc'] = sc
 
                 # Calculate spectral rolloff
@@ -81,10 +75,17 @@ def extract_feat(filepath, output_filepath = 'pickle'):
                 sr = sr - np.mean(sr)
                 if np.std(sr) != 0:
                     sr = sr / np.std(sr)
-                #print 'sr'
-                #print sr
-                #print len(sr)
                 features['sr'] = sr
+
+                # Calculate Root Mean Square
+                rms = root_mean_square(wavedata)
+                # Normalize
+                rms = rms - np.mean(rms)
+                if np.std(rms) != 0:
+                    rms = rms / np.std(rms)
+                features['rms'] = rms
+
+                
 
                 '''
                 # Calculate MFCC
@@ -101,6 +102,16 @@ def extract_feat(filepath, output_filepath = 'pickle'):
                 track = Song(name, artist, features)
 
                 pickle.dump(track, open( os.path.join('music', 'pickle', artist + '_' + name + '.p') , "wb" ))
+
+
+def root_mean_square(vector, num_features = 200):
+    output = np.zeros(num_features)
+    window_size = len(vector) % num_features
+    for i in xrange(window_size - 1):
+        window = vector[i:i + window_size]
+        val = np.sqrt(np.mean(np.square(window)))
+        output.itemset(i, val)
+    return output
 
 
 def getTrackDetails(filepath):
