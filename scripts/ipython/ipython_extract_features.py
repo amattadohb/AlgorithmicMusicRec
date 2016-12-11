@@ -1,5 +1,5 @@
 # Paul
-# this code is adapted from http://www.ifs.tuwien.ac.at/~schindler/lectures/MIR_Feature_Extraction.html
+# some of this code is adapted from http://www.ifs.tuwien.ac.at/~schindler/lectures/MIR_Feature_Extraction.html
 
 from helpers.rp_extract_batch import *
 from helpers.utilities import *
@@ -11,6 +11,7 @@ from scipy.signal import lfilter, hamming
 from scipy.io import wavfile
 from subprocess import call
 from song import *
+import librosa
 import python_speech_features
 import eyed3
 import numpy as np
@@ -85,20 +86,15 @@ def extract_feat(filepath, output_filepath = 'pickle'):
                     rms = rms / np.std(rms)
                 features['rms'] = rms
 
-                
-
-                '''
                 # Calculate MFCC
-                # MFCCs = mfcc(wavedata)
-                MFCCs_o = python_speech_features.mfcc(wavedata, samplerate=44100)
-                MFCCs = median_pool_2d(MFCCs_o)
+                MFCCs_o = librosa.feature.mfcc(y=wavedata, sr=44100, n_mfcc=200)
                 # Normalize
-                MFCCs = (MFCCs - np.mean(MFCCs)) / np.std(MFCCs)
-                print 'MFCCs'
-                print MFCCs
-                print len(MFCCs)
+                MFCCs_o = MFCCs_o - np.mean(MFCCs_o)
+                if np.std(MFCCs_o) != 0:
+                    MFCCs_o = MFCCs_o / np.std(MFCCs_o)
+                MFCCs = median_pool_2d(MFCCs_o)
                 features['mfcc'] = MFCCs
-                '''
+
                 track = Song(name, artist, features)
 
                 pickle.dump(track, open( os.path.join('music', 'pickle', artist + '_' + name + '.p') , "wb" ))
@@ -128,12 +124,10 @@ def median_pool(vector, num_features = 200):
         output.itemset(i, val)
     return output
 
-def median_pool_2d(vector, num_features = 200):
-    output = np.zeros(num_features)
-    v = vector.flatten()
-    window_size = len(v) % num_features
-    for i in xrange(window_size - 1):
-        window = v[i:i + window_size]
+def median_pool_2d(vector):
+    output = np.zeros(len(vector))
+    for i in xrange(len(vector)):
+        window = vector[i]
         val = np.median(window)
         output.itemset(i, val)
     return output
@@ -178,7 +172,7 @@ def m4a_to_mp3_batch(path,outdir=None,audiofile_types=('.m4a')):
         except:
             print "Not decoded " + file
 
-
+'''
 def mfcc(input_data):
     # Pre-emphasis filter.
 
@@ -254,6 +248,7 @@ def mfcc(input_data):
 
     # Use the DCT to 'compress' the coefficients (spectrum -> cepstrum domain)
     return dct(mspec, type=2, norm='ortho', axis=-1)[:, :nceps]
+    '''
 
 
 def spectral_rolloff(wavedata, window_size, samplerate, k=0.85):
