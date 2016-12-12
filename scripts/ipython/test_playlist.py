@@ -31,13 +31,18 @@ for song in songs:
 
 features = ['sr', 'rms', 'zcr']
 distance = 'euc'
+ranges = [0, 3, 7]
 for feat3 in features:
 	for feat4 in features:
-		if feat4 == feat3:
-			continue
-		generator = PlaylistGen(distance, iterations, lambduh, playlist_length, playlist_length_factor)
-		generator.suggest('Call It What You Want', 'Foster the People', 'mfcc', 'sc', feat3, feat4)
-		print '\n\n\n'
+		for r in ranges:
+			if feat4 == feat3:
+				continue
+			if feat3 == 'rms' and feat4 == 'zcr' or feat4 == 'rms' and feat3 == 'zcr':
+				continue
+			print feat3, feat4, r
+			generator = PlaylistGen(distance, iterations, lambduh, playlist_length, playlist_length_factor)
+			generator.suggest('Monster', 'Kanye West, Jay-Z, Rick Ross, Nicki Minaj & Bon Iver', 'mfcc', 'sc', feat3, feat4, r)
+			print '\n\n\n'
 
 #generator = PlaylistGen('euc', 10, 0.0, 10, 3)
 #generator.suggest('Meme Generator', "Dan Deacon ", "rms", "sr", "zcr", "mfcc")

@@ -37,7 +37,7 @@ class PlaylistGen:
 		self.cluster_heap = []
 		self.playlist = []
 
-	def suggest(self, name, author, feat1, feat2, feat3, feat4):
+	def suggest(self, name, author, feat1, feat2, feat3, feat4, cluster_range):
 		firstlayer = SongSuggestion(self.dtype, self.plength*self.layer0factor)
 		layer0 = firstlayer.suggest(name, author, feat1, feat2, False)
 
@@ -47,7 +47,7 @@ class PlaylistGen:
 
 		#layer 1
 		self.train(feat3, feat4)
-		self.predict(name, author, feat3, feat4)
+		self.predict(name, author, feat3, feat4, cluster_range)
 
 		#print out playlist
 		shuffle(self.playlist)
@@ -99,7 +99,7 @@ class PlaylistGen:
 					self.u.append(mean / count)
 
 	#predicting for lambda means clustering for layer 1
-	def predict(self, name, author, feat1, feat2):
+	def predict(self, name, author, feat1, feat2, cluster_range=0):
 		seed_title = name
 		seed_artist = author
 		
@@ -116,26 +116,57 @@ class PlaylistGen:
 		counter = 0
 		song_index = 0
 		length = 0
+		if cluster_range == 0:
+			while(length < self.plength):
+				c_index = counter % self.k
+				cluster = self.r[c_index]
 
-		while(length < self.plength):
-			c_index = counter % self.k
-			cluster = self.r[c_index]
+				#add a song
+				if song_index < len(cluster):
+					self.playlist.append(cluster[song_index])
+					length += 1
 
-			#add a song
-			if song_index < len(cluster):
-				self.playlist.append(cluster[song_index])
-				length += 1
+				counter += 1
 
-			counter += 1
+				if counter % self.k == 0:
+					song_index += 1
+		else:
+			top_clusters = nsmallest(int(cluster_range), self.cluster_heap)
+			while self.get_num_songs(top_clusters) < self.plength:
+				cluster_range += 1
+				top_clusters = nsmallest(int(cluster_range), self.cluster_heap)
 
-			if counter % self.k == 0:
-				song_index += 1
+			while(length < self.plength):
+				c_index = counter % cluster_range
+				cluster = top_clusters[c_index][1]
+
+				#add a song
+				if song_index < len(cluster):
+					self.playlist.append(cluster[song_index])
+					length += 1
+
+				counter += 1
+
+				if counter % cluster_range == 0:
+					song_index += 1
+
+
 
 
 		#add seed song to playlist if not added
 		if seed not in self.playlist:
 			del self.playlist[0]
 			self.playlist.append(seed)
+
+		print "Cluster Range:", cluster_range
+
+
+
+	def get_num_songs(self, top_clusters):
+		count = 0
+		for cluster in top_clusters:
+			count += len(cluster[1])
+		return count
 
 
 	def get_dat_mean_yo(self, feat1, feat2):
@@ -213,6 +244,6 @@ class PlaylistGen:
 						max_dist = dist
 				dist = max_dist
 
-			heappush(self.cluster_heap, (dist, k))
+			heappush(self.cluster_heap, (dist, self.r[k]))
 
 
