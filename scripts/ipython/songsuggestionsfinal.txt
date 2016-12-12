@@ -1,0 +1,38 @@
+Mind Mischief Tame Impala mfcc sc euc
+Suggested songs for Mind Mischief by Tame Impala
+Mind Mischief Tame Impala 0.0
+Apocalypse Dreams Tame Impala 0.371451857791
+Feels Like We Only Go Backwards Tame Impala 0.398613783735
+Song For Dan Treacy MGMT 0.427858276103
+Bound 2 Kanye West 0.431813905792
+Children of the Damned Iron Maiden 0.434267139689
+Brown Sugar The Rolling Stones 0.438484982156
+Bitch The Rolling Stones 0.438641403337
+It's Working MGMT 0.441914883697
+Fight Test The Flaming Lips 0.442479390611
+Jenny Was A Friend Of Mine The Killers 0.443871379049
+Blind Paranoia Inward Eye 0.450176440037
+Brian Eno MGMT 0.464782268069
+You Only Live Once The Strokes 0.467476819131
+Run This Town (feat. Rihanna & Kanye West) Jay-Z 0.468186708762
+
+
+
+
+Mind Mischief Tame Impala mfcc rms max
+Suggested songs for Mind Mischief by Tame Impala
+Mind Mischief Tame Impala 0.0
+Climbing the Walls They Might Be Giants 0.161083804265
+Song For Dan Treacy MGMT 0.169853324205
+Brian Eno MGMT 0.172542206209
+I Love You Too, Death MGMT 0.185501370863
+Balaclava Arctic Monkeys 0.188895963911
+It's Working MGMT 0.194007136449
+Jenny Was A Friend Of Mine The Killers 0.19520200823
+Power Kanye West feat. Dwele 0.196254905181
+Feels Like the First Time Foreigner 0.196459387402
+Daylight Matt and Kim 0.19728188868
+Apocalypse Dreams Tame Impala 0.198856902336
+Bohemian Rhapsody Queen 0.215099639103
+Alive With the Glory of Love Say Anything 0.218366269514
+Bitch Look At Me Now (Two Weeks) Childish Gambino 0.218809436143

@@ -308,10 +308,11 @@ def spectral_centroid(wavedata, window_size, samplerate):
 
         sc_t = np.sum(power_spectrum * np.arange(1,freqbins+1)) / np.sum(power_spectrum)
         
+        sc.append(sc_t)
     
     sc = np.asarray(sc)
     sc = np.nan_to_num(sc)
-    
+
     return sc, np.asarray(timestamps)
 
 
