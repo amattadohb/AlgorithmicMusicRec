@@ -1,34 +1,7 @@
-Last login: Sun Dec 11 14:47:51 on ttys002
-Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/
-.DS_Store         Computer Vision/  Opti/             
-Automata/         Machine Learning/ 
-Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/Machine\ Learning/
-.DS_Store            HW4/                 template.log
-.git/                HW5/                 template.out
-AlgorithmicMusicRec/ HW6/                 template.pdf
-HW1/                 Midterm/             template.synctex.gz
-HW1 copy/            code/                template.tex
-HW2/                 project/             
-HW3/                 template.aux         
-Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/Machine\ Learning/AlgorithmicMusicRec/
-.DS_Store  README     papers/    scripts/   
-.git/      music/     proposal/  src/       
-Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/Machine\ Learning/AlgorithmicMusicRec/scripts/
-.DS_Store               ffprobe                 python_speech_features/
-convert_to_mp3/         ffserver                rp_extract/
-ffmpeg                  ipython/                
-Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/Machine\ Learning/AlgorithmicMusicRec/scripts/ipython/
-.DS_Store                     song.py
-helpers/                      song.pyc
-ipython_extract_features.py   songsuggestion.py
-ipython_extract_features.pyc  songsuggestion.pyc
-music/                        test_feat.py
-playlistgen.py                test_imports.py
-playlistgen.pyc               test_imports.pyc
-playlistgeneration.py         test_playlist.py
-playlistgeneration.pyc        test_song.py
-Pauls-MacBook-Pro:~ paulwatson$ cd Documents/Fall2016/Machine\ Learning/AlgorithmicMusicRec/scripts/ipython/
-Pauls-MacBook-Pro:ipython paulwatson$ python test_playlist.py 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Mr. Brightside The Killers
@@ -46,6 +19,10 @@ D.O.A. (Death of Auto-Tune) Jay-Z
 Meme Generator Dan Deacon 
 Sparks Martin Rev
 Morning Splendor Pauline Anna Strom
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Old Pine (Remix) Ben Howard
@@ -63,6 +40,10 @@ Simple Song The Shins
 Sparks Martin Rev
 Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
 sunday vik
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Cudderisback Kid Cudi
@@ -80,6 +61,10 @@ Don't Play This Song Kid Cudi
 My Back In the Day Song Know One
 Meme Generator Dan Deacon 
 Simple Song The Shins
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
@@ -97,6 +82,10 @@ Meme Generator Dan Deacon
 Don't Stop (Color On the Walls) Foster the People
 Climbing Walls Strange Talk
 Sparks Martin Rev
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Touch (feat. Paul Williams) Daft Punk
@@ -114,6 +103,10 @@ Don't Stop (Color On the Walls) Foster the People
 Fire  Childish Gambino
 Don't Lie Vampire Weekend
 Morning Splendor Pauline Anna Strom
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -131,6 +124,10 @@ Up Up & Away Kid Cudi
 Mr. Brightside The Killers
 Chloroform Phoenix
 Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
@@ -148,6 +145,10 @@ Cigarettes In the Theatre Two Door Cinema Club
 Rhymin' and Stealin' Beastie Boys
 Meme Generator Dan Deacon 
 Dance Yrself Clean LCD Soundsystem
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Rhymin' and Stealin' Beastie Boys
@@ -165,6 +166,10 @@ Just A Friend  Biz Markie
 Meme Generator Dan Deacon 
 Sun's Coming Up Tame Impala
 Million Dollar Bills Lorde
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Betalove (RAC Mix) Ra Ra Riot
@@ -182,6 +187,10 @@ Crossroads (Live at Winterland) Cream
 Meme Generator Dan Deacon 
 Mrs. Robinson Simon & Garfunkel
 Million Dollar Bills Lorde
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Just A Friend  Biz Markie
@@ -199,6 +208,10 @@ Cigarettes In the Theatre Two Door Cinema Club
 Million Dollar Bills Lorde
 Meme Generator Dan Deacon 
 Good Evening (Dream Big) Outasight
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 Don't Speak No Doubt
@@ -216,6 +229,10 @@ Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
 Just A Friend  Biz Markie
 Dearest Buddy Holly
 El Condor Pasa (If I Could) Simon & Garfunkel
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Mrs. Robinson Simon & Garfunkel
@@ -233,6 +250,10 @@ Daylight Matt and Kim
 Molly Boxed Wine
 Bookends Simon & Garfunkel
 Just A Friend  Biz Markie
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Betalove (RAC Mix) Ra Ra Riot
@@ -250,6 +271,10 @@ Hold It Now, Hit It Beastie Boys
 AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
 Reality In Motion Tame Impala
 Touch (feat. Paul Williams) Daft Punk
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Jump Around House Of Pain
@@ -267,6 +292,10 @@ Meme Generator Dan Deacon
 The Real (Infinity Guitars) Childish Gambino
 Touch (feat. Paul Williams) Daft Punk
 Don't Speak No Doubt
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 Hold It Now, Hit It Beastie Boys
@@ -284,6 +313,10 @@ Meme Generator Dan Deacon
 Girlfriend Icona Pop
 Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
 All I Want LCD Soundsystem
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Burden of Tomorrow The Tallest Man on Earth
@@ -301,6 +334,10 @@ Awake My Soul Mumford & Sons
 Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
 Girlfriend Icona Pop
 AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 Late Night in Kauai ft Jaden Smith Childish Gambino
@@ -318,6 +355,10 @@ The Real (Infinity Guitars) Childish Gambino
 Burden of Tomorrow The Tallest Man on Earth
 Marijuana Kid Cudi
 Up Up & Away Kid Cudi
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Girlfriend Icona Pop
@@ -335,6 +376,10 @@ AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
 Burden of Tomorrow The Tallest Man on Earth
 Reality In Motion Tame Impala
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -352,6 +397,10 @@ Don't Lie Vampire Weekend
 Old Pine (Remix) Ben Howard
 Chloroform Phoenix
 D.O.A. (Death of Auto-Tune) Jay-Z
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Ghost Phish
@@ -369,6 +418,10 @@ Betalove (RAC Mix) Ra Ra Riot
 D.O.A. (Death of Auto-Tune) Jay-Z
 Slow and Low Beastie Boys
 Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 Cudderisback Kid Cudi
@@ -386,6 +439,10 @@ AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
 Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
 Simple Song The Shins
 Don't Play This Song Kid Cudi
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
@@ -403,6 +460,10 @@ Slow and Low Beastie Boys
 Don't Stop (Color On the Walls) Foster the People
 Cudderisback Kid Cudi
 Ghost Phish
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Late Night in Kauai ft Jaden Smith Childish Gambino
@@ -420,6 +481,10 @@ Climbing Walls Strange Talk
 Simple Song The Shins
 Just A Friend  Biz Markie
 Good Evening (Dream Big) Outasight
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Ghost Phish
@@ -437,6 +502,10 @@ Old Pine (Remix) Ben Howard
 D.O.A. (Death of Auto-Tune) Jay-Z
 Somebody Told Me The Killers
 Sparks Martin Rev
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Cudderisback Kid Cudi
@@ -454,6 +523,10 @@ V. 3005 Childish Gambino
 D.O.A. (Death of Auto-Tune) Jay-Z
 Sparks Martin Rev
 Dancing With Myself Billy Idol
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Chloroform Phoenix
@@ -471,6 +544,10 @@ Up Up & Away Kid Cudi
 Drug Song Dave Bixby
 AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
 Mr. Brightside The Killers
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Ghost Phish
@@ -488,6 +565,10 @@ Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
 rollup vik
 sunday vik
 Don't Lie Vampire Weekend
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Don't Stop (Color On the Walls) Foster the People
@@ -505,6 +586,10 @@ Sweet Disposition Temper Trap
 Mr. Brightside The Killers
 Don't Lie Vampire Weekend
 Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 AssShots remix  Feat. R O Y A L T Y (prod. Big Soj) Childish Gambino
@@ -522,6 +607,10 @@ Cudderisback Kid Cudi
 rollup vik
 Don't Play This Song Kid Cudi
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Good Evening (Dream Big) Outasight
@@ -539,6 +628,10 @@ Don't Stop (Color On the Walls) Foster the People
 Meme Generator Dan Deacon 
 Simple Song The Shins
 Cudderisback Kid Cudi
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Just A Friend  Biz Markie
@@ -556,6 +649,10 @@ Backpackers Childish Gambino
 Can't Stop Falling Into Love Cheap Trick
 Dearest Buddy Holly
 Money Trees Black Hippy feat. Kendrick Lamar & Jay Rock
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Les Childish Gambino
@@ -573,6 +670,10 @@ Meme Generator Dan Deacon
 So Much Better Childish Gambino
 That Power Childish Gambino
 Expectation Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Sea of Love (Remastered) Cat Power
@@ -590,6 +691,10 @@ Cigarettes In the Theatre Two Door Cinema Club
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
 That Power Childish Gambino
 Dearest Buddy Holly
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 All Yall Childish Gambino
@@ -607,6 +712,10 @@ Let Me Dope You Childish Gambino
 Bitch Look At Me Now (Two Weeks) Childish Gambino
 Molly Boxed Wine
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -624,6 +733,10 @@ Almost There Childish Gambino
 Smile Like You Mean It (Madeon Remix) The Killers
 Come Back Home Two Door Cinema Club
 Lady Madonna The Beatles
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Backpackers Childish Gambino
@@ -641,6 +754,10 @@ Just A Friend  Biz Markie
 I Can Hear Your Feet (Sunrise) Childish Gambino
 Meme Generator Dan Deacon 
 Little Numbers Boy
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Yes Childish Gambino
@@ -658,6 +775,10 @@ Fuck It All Childish Gambino
 V. 3005 Childish Gambino
 We're Both In Love With a Sexy Lady Flight of the Conchords
 Burden of Tomorrow The Tallest Man on Earth
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Truckin' Grateful Dead
@@ -675,6 +796,10 @@ Jump Around House Of Pain
 Meme Generator Dan Deacon 
 Careful What You Pack They Might Be Giants
 All I Want LCD Soundsystem
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Truckin' Grateful Dead
@@ -692,6 +817,10 @@ Betalove (RAC Mix) Ra Ra Riot
 Somebody Told Me The Killers
 Fire  Childish Gambino
 Burden of Tomorrow The Tallest Man on Earth
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 All I Want LCD Soundsystem
@@ -709,6 +838,10 @@ Girlfriend Icona Pop
 Don't Play This Song Kid Cudi
 Meme Generator Dan Deacon 
 Betalove (RAC Mix) Ra Ra Riot
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 I'm Stickng With You The Velvet Underground
@@ -726,6 +859,10 @@ Don't Speak No Doubt
 The Real (Infinity Guitars) Childish Gambino
 Careful What You Pack They Might Be Giants
 Mad World Michael Andrews & Gary Jules
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 All I Want LCD Soundsystem
@@ -743,6 +880,10 @@ Beyond Daft Punk
 Spirited Away Joe Hisaishi
 Hold My Liquor Kanye West
 Fire  Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 U.R.A. Fever The Kills
@@ -760,6 +901,10 @@ Wavin' Flag World Cup Heroes
 Insomnia Electric President
 Elephant Tame Impala
 The Mango Song Phish
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Supersonic Rocket Ship The Kinks
@@ -777,6 +922,10 @@ Kokopelli Mild High Club
 The Mango Song Phish
 Not Going Back Childish Gambino
 Step Vampire Weekend
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Northern Downpour Panic at the Disco
@@ -794,6 +943,10 @@ Hudson Vampire Weekend
 I Want to Know What Love Is Foreigner
 Step Vampire Weekend
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 The Mango Song Phish
@@ -811,6 +964,10 @@ Steam Phish
 Step Vampire Weekend
 Alive (Nightmare) Kid Cudi Feat. Ratatat
 Computer Assisted Design They Might Be Giants
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Kokopelli Mild High Club
@@ -828,6 +985,10 @@ Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
 I Want to Know What Love Is Foreigner
 Meme Generator Dan Deacon 
 The Mango Song Phish
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Alive (Nightmare) Kid Cudi Feat. Ratatat
@@ -845,6 +1006,10 @@ I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
 The Mango Song Phish
 U Don't Have to Call  (prod. Ludwig) Childish Gambino
 Kokopelli Mild High Club
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Million Dollar Bills Lorde
@@ -862,6 +1027,10 @@ Just A Friend  Biz Markie
 I Love You Too, Death MGMT
 Paper Planes M.I.A.
 Crossroads (Live at Winterland) Cream
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Cold Blooded Christmas Jon Lajoie
@@ -879,6 +1048,10 @@ Dearest Buddy Holly
 Mrs. Robinson Simon & Garfunkel
 Don't Speak No Doubt
 Million Dollar Bills Lorde
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Bitch Look At Me Now (Two Weeks) Childish Gambino
@@ -896,6 +1069,10 @@ Cigarettes In the Theatre Two Door Cinema Club
 Meme Generator Dan Deacon 
 Meme Generator Dan Deacon 
 Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -913,6 +1090,10 @@ Rhymin' and Stealin' Beastie Boys
 I Want to Know What Love Is Foreigner
 Million Dollar Bills Lorde
 Don't Speak No Doubt
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 Rhymin' and Stealin' Beastie Boys
@@ -930,6 +1111,10 @@ Sun's Coming Up Tame Impala
 Late Night in Kauai ft Jaden Smith Childish Gambino
 My Little Town Simon & Garfunkel
 Don't Speak No Doubt
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
@@ -947,6 +1132,10 @@ Seven Nation Army The White Stripes
 Bookends Simon & Garfunkel
 Jump Around House Of Pain
 Paper Planes M.I.A.
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 All Yall Childish Gambino
@@ -964,6 +1153,10 @@ Rhymin' and Stealin' Beastie Boys
 Just A Friend  Biz Markie
 Climbing the Walls They Might Be Giants
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Feign Amnesia They Might Be Giants
@@ -981,6 +1174,10 @@ Is This It The Strokes
 Jessica (Single Version) The Allman Brothers Band
 Human The Killers
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Backpackers Childish Gambino
@@ -998,6 +1195,10 @@ Rhymin' and Stealin' Beastie Boys
 Les Childish Gambino
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
 Dearest Buddy Holly
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Let Me Dope You Childish Gambino
@@ -1015,6 +1216,10 @@ So Many Nights The Cat Empire
 Rhymin' and Stealin' Beastie Boys
 Meme Generator Dan Deacon 
 Cry (Just A Little) Bingo Players
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
@@ -1032,6 +1237,10 @@ Cry (Just A Little) Bingo Players
 Lisztomania Phoenix
 Little Numbers Boy
 All Yall Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 For the Fans (Warm Heart of Africa) Childish Gambino
@@ -1049,6 +1258,10 @@ Meme Generator Dan Deacon
 I Can Hear Your Feet (Sunrise) Childish Gambino
 That Power Childish Gambino
 One More Time Daft Punk
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Barely Legal The Strokes
@@ -1066,6 +1279,10 @@ Mad World Michael Andrews & Gary Jules
 Mind Mischief Tame Impala
 Life On the Nickel Foster the People
 Don’t Worry, We'll Be Watching You Gotye
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Careful What You Pack They Might Be Giants
@@ -1083,6 +1300,10 @@ The Real (Infinity Guitars) Childish Gambino
 Brian Eno MGMT
 Gratisfaction The Strokes
 Don't Speak No Doubt
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Brian Eno MGMT
@@ -1100,6 +1321,10 @@ Mad World Michael Andrews & Gary Jules
 Miss You Foster the People
 Careful What You Pack They Might Be Giants
 Don’t Worry, We'll Be Watching You Gotye
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Late Night in Kauai ft Jaden Smith Childish Gambino
@@ -1117,6 +1342,10 @@ Do You Want It All? Two Door Cinema Club
 Careful What You Pack They Might Be Giants
 I'm Stickng With You The Velvet Underground
 Friends Flight of the Conchords
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Don’t Worry, We'll Be Watching You Gotye
@@ -1134,6 +1363,10 @@ Shine on You Crazy Diamond, Pts. 1-5 Pink Floyd
 The Real (Infinity Guitars) Childish Gambino
 Mad World Michael Andrews & Gary Jules
 Have a Cigar Pink Floyd
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 Lady Dada's Nightmare MGMT
@@ -1151,6 +1384,10 @@ Mad World Michael Andrews & Gary Jules
 Friends Flight of the Conchords
 Come Together The Beatles
 Careful What You Pack They Might Be Giants
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Metanoia MGMT
@@ -1168,6 +1405,10 @@ Friend of the Devil Grateful Dead
 Ride the River J.J. Cale & Eric Clapton
 Miss You Foster the People
 Elephant Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Elephant Tame Impala
@@ -1185,6 +1426,10 @@ Meme Generator Dan Deacon
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
 Metanoia MGMT
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Miss You Foster the People
@@ -1202,6 +1447,10 @@ I Want to Know What Love Is Foreigner
 Expectation Tame Impala
 Little Motel Modest Mouse
 Elephant Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Cool Song No. 2 MGMT
@@ -1219,6 +1468,10 @@ Meme Generator Dan Deacon
 Expectation Tame Impala
 Meme Generator Dan Deacon 
 Robots Flight of the Conchords
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Robots Flight of the Conchords
@@ -1236,6 +1489,10 @@ Sober Childish Gambino
 Only A Shadow MGMT
 Metanoia MGMT
 Expectation Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Body Language Queen
@@ -1253,6 +1510,10 @@ Power Kanye West feat. Dwele
 Little Numbers Boy
 Sober Childish Gambino
 Team Lorde
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 We're Both In Love With a Sexy Lady Flight of the Conchords
@@ -1270,6 +1531,10 @@ Girlfriend Icona Pop
 Assasins ft. DC and Nick Packard Childish Gambino
 Reality In Motion Tame Impala
 rollup vik
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 The Real (Infinity Guitars) Childish Gambino
@@ -1287,6 +1552,10 @@ Truckin' Grateful Dead
 Lady Dada's Nightmare MGMT
 Burden of Tomorrow The Tallest Man on Earth
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 sunday vik
@@ -1304,6 +1573,10 @@ Balaclava Arctic Monkeys
 Assasins ft. DC and Nick Packard Childish Gambino
 Truckin' Grateful Dead
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Reality In Motion Tame Impala
@@ -1321,6 +1594,10 @@ Fire  Childish Gambino
 Burden of Tomorrow The Tallest Man on Earth
 All I Want LCD Soundsystem
 Assasins ft. DC and Nick Packard Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 Don't Speak No Doubt
@@ -1338,6 +1615,10 @@ Reality In Motion Tame Impala
 Late Night in Kauai ft Jaden Smith Childish Gambino
 Don't Play This Song Kid Cudi
 rollup vik
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Fuck It All Childish Gambino
@@ -1355,6 +1636,10 @@ Truckin' Grateful Dead
 Candyman Grateful Dead
 Girlfriend Icona Pop
 Spirited Away Joe Hisaishi
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 V. 3005 Childish Gambino
@@ -1372,6 +1657,10 @@ Can't Tell Me Nothing Kanye West
 Burden of Tomorrow The Tallest Man on Earth
 Meme Generator Dan Deacon 
 Hold It Now, Hit It Beastie Boys
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Diane Young Vampire Weekend
@@ -1389,6 +1678,10 @@ Another One Bites the Dust Queen
 The Real (Infinity Guitars) Childish Gambino
 We're Both In Love With a Sexy Lady Flight of the Conchords
 All I Want LCD Soundsystem
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Can't Tell Me Nothing Kanye West
@@ -1406,6 +1699,10 @@ Marijuana Kid Cudi
 Don't Speak No Doubt
 Fire  Childish Gambino
 Burden of Tomorrow The Tallest Man on Earth
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Betalove (RAC Mix) Ra Ra Riot
@@ -1423,6 +1720,10 @@ Girlfriend Icona Pop
 V. 3005 Childish Gambino
 Marijuana Kid Cudi
 Burden of Tomorrow The Tallest Man on Earth
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Late Night in Kauai ft Jaden Smith Childish Gambino
@@ -1440,6 +1741,10 @@ Careful What You Pack They Might Be Giants
 Beyond Daft Punk
 The Real (Infinity Guitars) Childish Gambino
 Truckin' Grateful Dead
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 sunday vik
@@ -1457,6 +1762,10 @@ Truckin' Grateful Dead
 Reality In Motion Tame Impala
 Fire  Childish Gambino
 Don't Paint It Blue Inward Eye
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Mind Mischief Tame Impala
@@ -1474,6 +1783,10 @@ Don’t Worry, We'll Be Watching You Gotye
 Meme Generator Dan Deacon 
 Careful What You Pack They Might Be Giants
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Don't Speak No Doubt
@@ -1491,6 +1804,10 @@ The Real (Infinity Guitars) Childish Gambino
 Mind Mischief Tame Impala
 Careful What You Pack They Might Be Giants
 Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Miss You Foster the People
@@ -1508,6 +1825,10 @@ Life On the Nickel Foster the People
 Brian Eno MGMT
 Mad World Michael Andrews & Gary Jules
 Careful What You Pack They Might Be Giants
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -1525,6 +1846,10 @@ Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
 Lady Dada's Nightmare MGMT
 El Condor Pasa (If I Could) Simon & Garfunkel
 Mad World Michael Andrews & Gary Jules
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -1542,6 +1867,10 @@ Balaclava Arctic Monkeys
 Careful What You Pack They Might Be Giants
 Bennie and the Jets Elton John
 Brian Eno MGMT
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 Mad World Michael Andrews & Gary Jules
@@ -1559,6 +1888,10 @@ Late Night in Kauai ft Jaden Smith Childish Gambino
 My Little Town Simon & Garfunkel
 Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
 I'm Stickng With You The Velvet Underground
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Marijuana Kid Cudi
@@ -1576,6 +1909,10 @@ Careful What You Pack They Might Be Giants
 Candyman Grateful Dead
 Guilt Trip Kanye West
 Truckin' Grateful Dead
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Reality In Motion Tame Impala
@@ -1593,6 +1930,10 @@ Betalove (RAC Mix) Ra Ra Riot
 Fire  Childish Gambino
 Marijuana Kid Cudi
 Diane Young Vampire Weekend
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 We're Both In Love With a Sexy Lady Flight of the Conchords
@@ -1610,6 +1951,10 @@ All I Want LCD Soundsystem
 Guilt Trip Kanye West
 Another One Bites the Dust Queen
 All Night Icona Pop
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Betalove (RAC Mix) Ra Ra Riot
@@ -1627,6 +1972,10 @@ Girlfriend Icona Pop
 Meme Generator Dan Deacon 
 Spirited Away Joe Hisaishi
 rollup vik
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Hold My Liquor Kanye West
@@ -1644,6 +1993,10 @@ Fire  Childish Gambino
 Can't Tell Me Nothing Kanye West
 Yes Childish Gambino
 Diane Young Vampire Weekend
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 Spirited Away Joe Hisaishi
@@ -1661,6 +2014,10 @@ Fire  Childish Gambino
 Girlfriend Icona Pop
 Meme Generator Dan Deacon 
 Betalove (RAC Mix) Ra Ra Riot
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Climbing Walls Strange Talk
@@ -1678,6 +2035,10 @@ Cudderisback Kid Cudi
 Simple Song The Shins
 Up Up & Away Kid Cudi
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
@@ -1695,6 +2056,10 @@ Up Up & Away Kid Cudi
 Sunrise Childish Gambino
 Ghost Phish
 Mr. Brightside The Killers
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 Diane Young Vampire Weekend
@@ -1712,6 +2077,10 @@ Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
 Mr. Brightside The Killers
 Ghost Phish
 Old Pine (Remix) Ben Howard
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Slow and Low Beastie Boys
@@ -1729,6 +2098,10 @@ Yes Childish Gambino
 Somebody Told Me The Killers
 Meme Generator Dan Deacon 
 Don't Stop (Color On the Walls) Foster the People
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Shine on You Crazy Diamond, Pts. 6-9 Pink Floyd
@@ -1746,6 +2119,10 @@ Dance Yrself Clean LCD Soundsystem
 Don't Lie Vampire Weekend
 The Mango Song Phish
 Eye of the Tiger Survivor
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Ghost Phish
@@ -1763,6 +2140,10 @@ Fire  Childish Gambino
 Climbing Walls Strange Talk
 Just A Friend  Biz Markie
 Slow and Low Beastie Boys
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Don't Lie Vampire Weekend
@@ -1780,6 +2161,10 @@ I Want to Know What Love Is Foreigner
 Poke ft. Steve G Lover III Childish Gambino
 Meme Generator Dan Deacon 
 Northern Downpour Panic at the Disco
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Poke ft. Steve G Lover III Childish Gambino
@@ -1797,6 +2182,10 @@ Meme Generator Dan Deacon
 Lisztomania Phoenix
 Not Going Back Childish Gambino
 The Mango Song Phish
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Northern Downpour Panic at the Disco
@@ -1814,6 +2203,10 @@ U.R.A. Fever The Kills
 Steam Phish
 Meme Generator Dan Deacon 
 Erase Me Kid Cudi
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 U Don't Have to Call  (prod. Ludwig) Childish Gambino
@@ -1831,6 +2224,10 @@ Hudson Vampire Weekend
 Computer Assisted Design They Might Be Giants
 Wavin' Flag World Cup Heroes
 Alive (Nightmare) Kid Cudi Feat. Ratatat
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Baby Doll  Childish Gambino
@@ -1848,6 +2245,10 @@ The Mango Song Phish
 Meme Generator Dan Deacon 
 Not Going Back Childish Gambino
 Elephant Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -1865,6 +2266,10 @@ Erase Me Kid Cudi
 Wavin' Flag World Cup Heroes
 The Mango Song Phish
 Virus Deltron 3030
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 I Want to Know What Love Is Foreigner
@@ -1882,6 +2287,10 @@ Little Motel Modest Mouse
 Hurt Feelings Flight of the Conchords
 Friend of the Devil Grateful Dead
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Elephant Tame Impala
@@ -1899,6 +2308,10 @@ Metanoia MGMT
 Robots Flight of the Conchords
 Always Look On the Bright Side of Life Monty Python
 Friend of the Devil Grateful Dead
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 17___7-3-15b_The Usual TyM
@@ -1916,6 +2329,10 @@ Friend of the Devil Grateful Dead
 Meme Generator Dan Deacon 
 All Yall Childish Gambino
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 New Person, Same Old Mistakes Tame Impala
@@ -1933,6 +2350,10 @@ Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
 Sober Childish Gambino
 Cool Song No. 2 MGMT
 Outside Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Mr. E's Beautiful Blues Eels
@@ -1950,6 +2371,10 @@ I Can Hear Your Feet (Sunrise) Childish Gambino
 Hurt Feelings Flight of the Conchords
 Cool Song No. 2 MGMT
 Friend of the Devil Grateful Dead
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Robots Flight of the Conchords
@@ -1967,6 +2392,10 @@ Friend of the Devil Grateful Dead
 Expectation Tame Impala
 Little Numbers Boy
 Cool Song No. 2 MGMT
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Beyond Daft Punk
@@ -1984,6 +2413,10 @@ We're Both In Love With a Sexy Lady Flight of the Conchords
 Sweet Disposition Temper Trap
 Forest Whitaker Bad Books
 Another One Bites the Dust Queen
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Can't Tell Me Nothing Kanye West
@@ -2001,6 +2434,10 @@ Girlfriend Icona Pop
 Diane Young Vampire Weekend
 Reality In Motion Tame Impala
 Marijuana Kid Cudi
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Careful What You Pack They Might Be Giants
@@ -2018,6 +2455,10 @@ Can't Tell Me Nothing Kanye West
 Girlfriend Icona Pop
 Another One Bites the Dust Queen
 Forest Whitaker Bad Books
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Reality In Motion Tame Impala
@@ -2035,6 +2476,10 @@ Forest Whitaker Bad Books
 Mad World Michael Andrews & Gary Jules
 Girlfriend Icona Pop
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Marijuana Kid Cudi
@@ -2052,6 +2497,10 @@ Somebody Told Me The Killers
 Can't Tell Me Nothing Kanye West
 Girlfriend Icona Pop
 Awake My Soul Mumford & Sons
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 Betalove (RAC Mix) Ra Ra Riot
@@ -2069,6 +2518,10 @@ Diane Young Vampire Weekend
 Truckin' Grateful Dead
 Girlfriend Icona Pop
 Reality In Motion Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
@@ -2086,6 +2539,10 @@ Meme Generator Dan Deacon
 All We Ever Wanted Was Everything MGMT
 Brown Sugar The Rolling Stones
 Easy Way Out Gotye
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 All We Ever Wanted Was Everything MGMT
@@ -2103,6 +2560,10 @@ I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
 Brown Sugar The Rolling Stones
 I'm A Winner ft. Amber Petty Childish Gambino
 Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Brown Sugar The Rolling Stones
@@ -2120,6 +2581,10 @@ Low Lights Kanye West
 Do Ya Like Childish Gambino
 Tree Hugger Kimya Dawon & Antsy Pants
 Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Plenty of Girls In the Sea MGMT
@@ -2137,6 +2602,10 @@ Hiphopopotamus Vs. Rhymenoceros (feat. Rhymenoceros and the Hiphopopotamus) Flig
 Naive (Jean Tonique Remix) The Kooks 
 Have a Cigar Pink Floyd
 Harder, Better, Faster, Stronger Daft Punk
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Cells They Might Be Giants
@@ -2154,6 +2623,10 @@ All We Ever Wanted Was Everything MGMT
 Low Lights Kanye West
 I'm A Winner ft. Amber Petty Childish Gambino
 Tubthumping Chumbawamba
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr sc mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -2171,6 +2644,10 @@ I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
 Standing in the Way of Control Gossip
 Do Ya Like Childish Gambino
 Naive (Jean Tonique Remix) The Kooks 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Standing in the Way of Control Gossip
@@ -2188,6 +2665,10 @@ Hurricane Bob Dylan
 Almost There Childish Gambino
 Meme Generator Dan Deacon 
 Sleepyhead (Remix) Passion Pit
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -2205,6 +2686,10 @@ Meme Generator Dan Deacon
 Almost There Childish Gambino
 Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
 Hurricane Bob Dylan
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
@@ -2222,6 +2707,10 @@ Meme Generator Dan Deacon
 Sleepyhead (Remix) Passion Pit
 Hurricane Bob Dylan
 Yolanda Hayes Fountains Of Wayne
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -2239,6 +2728,10 @@ Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
 Almost There Childish Gambino
 I Am a God Kanye West
 Can't Stop Falling Into Love Cheap Trick
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
@@ -2256,6 +2749,10 @@ King of Spain The Tallest Man on Earth
 Let Me Dope You Childish Gambino
 Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
 Do You Want It All? Two Door Cinema Club
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr rms mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Harder, Better, Faster, Stronger Daft Punk
@@ -2273,6 +2770,10 @@ Almost There Childish Gambino
 The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
 Meme Generator Dan Deacon 
 On Sight Kanye West
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Words I Never Said (feat. Skylar Grey) Lupe Fiasco
@@ -2290,6 +2791,10 @@ Brown Sugar The Rolling Stones
 Cells They Might Be Giants
 The Hotel Majestic Fountains Of Wayne
 All We Ever Wanted Was Everything MGMT
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
@@ -2307,6 +2812,10 @@ All We Ever Wanted Was Everything MGMT
 Cells They Might Be Giants
 Kiki's Delivery Service Joe Hisaishi
 Sample In A Jar Phish
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 FML Kanye West
@@ -2324,6 +2833,10 @@ All We Ever Wanted Was Everything MGMT
 Ya Hey Vampire Weekend
 Brown Sugar The Rolling Stones
 Words I Never Said (feat. Skylar Grey) Lupe Fiasco
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 All We Ever Wanted Was Everything MGMT
@@ -2341,6 +2854,10 @@ The Hotel Majestic Fountains Of Wayne
 Revolving Dora Fountains Of Wayne
 Brown Sugar The Rolling Stones
 Both Hands (Black Rainbow) Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 Boom, Boom, Boom, Boom!! (Airplay) Vengaboys
@@ -2358,6 +2875,10 @@ All We Ever Wanted Was Everything MGMT
 Tubthumping Chumbawamba
 San Francisco (Little Daylight Remix) The Mowgli's
 All Those Friendly People Funeral Suits
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr zcr mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 The Hotel Majestic Fountains Of Wayne
@@ -2375,6 +2896,10 @@ Meme Generator Dan Deacon
 Words I Never Said (feat. Skylar Grey) Lupe Fiasco
 I'm A Winner ft. Amber Petty Childish Gambino
 Brown Sugar The Rolling Stones
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Words I Never Said (feat. Skylar Grey) Lupe Fiasco
@@ -2392,6 +2917,10 @@ Sample In A Jar Phish
 Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
 Drugs Ratatat
 I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Drugs Ratatat
@@ -2409,6 +2938,10 @@ Head Out Mild High Club
 Fucks Given  (prod. by Nick Banga) Childish Gambino
 Candyman (Remastered LP Version) Grateful Dead
 Rawnald Gregory Erickson The Second STRFKR
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
@@ -2426,6 +2959,10 @@ FML Kanye West
 My World Kid Cudi Feat. Billy Cravens
 Meme Generator Dan Deacon 
 ?Whodunit? Mild High Club
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Skiptracing Mild High Club
@@ -2443,6 +2980,10 @@ Fire Fly Childish Gambino
 Both Hands (Black Rainbow) Childish Gambino
 Gotta Have It Kanye West & JAY Z
 Easy Way Out Gotye
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Tree Hugger Kimya Dawon & Antsy Pants
@@ -2460,6 +3001,10 @@ Skiptracing Mild High Club
 Meme Generator Dan Deacon 
 Easy Way Out Gotye
 Can't Stop Falling Into Love Cheap Trick
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sr mfcc zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Insomnia Electric President
@@ -2477,6 +3022,10 @@ All We Ever Wanted Was Everything MGMT
 Candyman (Remastered LP Version) Grateful Dead
 Easy Way Out Gotye
 FML Kanye West
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Brown Sugar The Rolling Stones
@@ -2494,6 +3043,10 @@ Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
 Insomnia Electric President
 I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
 I'm A Winner ft. Amber Petty Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
@@ -2511,6 +3064,10 @@ Insomnia Electric President
 I'm A Winner ft. Amber Petty Childish Gambino
 All We Ever Wanted Was Everything MGMT
 Revolving Dora Fountains Of Wayne
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Destrokk MGMT
@@ -2528,6 +3085,10 @@ Insomnia Electric President
 Cells They Might Be Giants
 Do Ya Like Childish Gambino
 Easy Way Out Gotye
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 All We Ever Wanted Was Everything MGMT
@@ -2545,6 +3106,10 @@ Midnight City M83
 Plenty of Girls In the Sea MGMT
 Meme Generator Dan Deacon 
 Can't Stop Falling Into Love Cheap Trick
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 All We Ever Wanted Was Everything MGMT
@@ -2562,6 +3127,10 @@ Juice (Prod. by Nate Fox) (DatPiff Exclusive) Chance The Rapper
 Virus Deltron 3030
 Insomnia Electric President
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc sr mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Standing in the Way of Control Gossip
@@ -2579,6 +3148,10 @@ San Francisco (Little Daylight Remix) The Mowgli's
 Every Man Has a Molly Say Anything
 Fire Fly Childish Gambino
 I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Feels Like the First Time Foreigner
@@ -2596,6 +3169,10 @@ Seatbacks And Traytables Fountains Of Wayne
 Traffic And Weather Fountains Of Wayne
 Just A Friend  Biz Markie
 Vampire Antsy Pants
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Seatbacks And Traytables Fountains Of Wayne
@@ -2613,6 +3190,10 @@ Someone To Love Fountains Of Wayne
 Strapped For Cash Fountains Of Wayne
 I Can Hear Your Feet (Sunrise) Childish Gambino
 Motherboard Daft Punk
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Contact High Architecture in Helsinki
@@ -2630,6 +3211,10 @@ I Want to Know What Love Is Foreigner
 I've Got A Rock 'N' Roll Heart Eric Clapton
 Yolanda Hayes Fountains Of Wayne
 Outside Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 All Those Friendly People Funeral Suits
@@ -2647,6 +3232,10 @@ Let Me Dope You Childish Gambino
 I Can Hear Your Feet (Sunrise) Childish Gambino
 Doin' It Right (feat. Panda Bear) Daft Punk
 Piano Man Billy Joel
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Les Childish Gambino
@@ -2664,6 +3253,10 @@ That Power Childish Gambino
 Life On the Nickel Foster the People
 Friends Flight of the Conchords
 I Want to Know What Love Is Foreigner
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc rms mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -2681,6 +3274,10 @@ I Can Hear Your Feet (Sunrise) Childish Gambino
 Crossroads (Live at Winterland) Cream
 Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
 Money Baby Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -2698,6 +3295,10 @@ Chasing My Tail Mild High Club
 Hannah Hunt Vampire Weekend
 Buzzcut Season Lorde
 Breathe (In the Air) Pink Floyd
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Cry (Just A Little) Bingo Players
@@ -2715,6 +3316,10 @@ You're So Right The Strokes
 Meme Generator Dan Deacon 
 Bohemian Rhapsody Queen
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Buzzcut Season Lorde
@@ -2732,6 +3337,10 @@ Posse in Effect Beastie Boys
 Manners Icona Pop
 Meme Generator Dan Deacon 
 III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Sunrise Childish Gambino
@@ -2749,6 +3358,10 @@ Glory Childish Gambino
 Meme Generator Dan Deacon 
 Giorgio by Moroder Daft Punk
 Brown Sugar The Rolling Stones
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 One More Time Daft Punk
@@ -2766,6 +3379,10 @@ Florida STRFKR
 Cry (Just A Little) Bingo Players
 I Am A Rock Simon & Garfunkel
 Posse in Effect Beastie Boys
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc zcr mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Betalove (RAC Mix) Ra Ra Riot
@@ -2783,6 +3400,10 @@ Fineshrine Purity Ring
 Love Always Remains MGMT
 The Great Gig in the Sky Pink Floyd
 Brown Sugar The Rolling Stones
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Billy Breathes Phish
@@ -2800,6 +3421,10 @@ Yes I'm Changing Tame Impala
 Suzy Greenberg Phish
 The Line Phish
 Ways to Go GROUPLOVE
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Not Going Back Childish Gambino
@@ -2817,6 +3442,10 @@ The Most Beautiful Girl (In the Room) Flight of the Conchords
 Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
 Don't Lie Vampire Weekend
 Cool Song No. 2 MGMT
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Step Vampire Weekend
@@ -2834,6 +3463,10 @@ The Mango Song Phish
 Meme Generator Dan Deacon 
 Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
 The Line Phish
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 The Mango Song Phish
@@ -2851,6 +3484,10 @@ Friend of the Devil Grateful Dead
 The Most Beautiful Girl (In the Room) Flight of the Conchords
 Don't Lie Vampire Weekend
 Hudson Vampire Weekend
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Supersonic Rocket Ship The Kinks
@@ -2868,6 +3505,10 @@ Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
 'Cause I'm A Man Tame Impala
 I Want to Know What Love Is Foreigner
 Friend of the Devil Grateful Dead
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator sc mfcc zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Hudson Vampire Weekend
@@ -2885,6 +3526,10 @@ Evening Sun The Strokes
 The Mango Song Phish
 'Cause I'm A Man Tame Impala
 Alter Ego Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
@@ -2902,6 +3547,10 @@ Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
 Tree Hugger Kimya Dawon & Antsy Pants
 Yellow Cat (Slash) Red Cat Say Anything
 Sleepyhead (Remix) Passion Pit
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Harder, Better, Faster, Stronger Daft Punk
@@ -2919,6 +3568,10 @@ Sugar Magnolia Grateful Dead
 Call It What You Want Foster the People
 Meme Generator Dan Deacon 
 The Dreamer The Tallest Man on Earth
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Tree Hugger Kimya Dawon & Antsy Pants
@@ -2936,6 +3589,10 @@ Call It What You Want Foster the People
 Hurricane Bob Dylan
 Desire Be Desire Go Tame Impala
 Nothing That Has Happened So Far Has Been Anything We Could Control Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Yolanda Hayes Fountains Of Wayne
@@ -2953,6 +3610,10 @@ Sleepyhead (Remix) Passion Pit
 Meme Generator Dan Deacon 
 Hurricane Bob Dylan
 Almost There Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 Standing in the Way of Control Gossip
@@ -2970,6 +3631,10 @@ Call It What You Want Foster the People
 Meme Generator Dan Deacon 
 Let Me Dope You Childish Gambino
 Almost There Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sr mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -2987,6 +3652,10 @@ Hurricane Bob Dylan
 Sleepyhead (Remix) Passion Pit
 The 59th Street Bridge Song (Feelin' Groovy) [Live] Simon & Garfunkel
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Strapped For Cash Fountains Of Wayne
@@ -3004,6 +3673,10 @@ Robots Flight of the Conchords
 Feels Like the First Time Foreigner
 Someone To Love Fountains Of Wayne
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Les Childish Gambino
@@ -3021,6 +3694,10 @@ Meme Generator Dan Deacon
 All Those Friendly People Funeral Suits
 Traffic And Weather Fountains Of Wayne
 Planet Of Weed Fountains Of Wayne
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Molly Boxed Wine
@@ -3038,6 +3715,10 @@ Strapped For Cash Fountains Of Wayne
 Meme Generator Dan Deacon 
 Just A Friend  Biz Markie
 Little Numbers Boy
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc zcr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Layla Derek & the Dominos
@@ -3055,6 +3736,10 @@ Feels Like the First Time Foreigner
 I Want to Know What Love Is Foreigner
 Contact High Architecture in Helsinki
 Danza Negra (Cumbia) Gerardo Sansón & Fred McDonald : Piano y Ritmos
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Dearest Buddy Holly
@@ -3072,6 +3757,10 @@ All Those Friendly People Funeral Suits
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
 Acid Rain (Prod. by Jake One) (DatPiff Exclusive) Chance The Rapper
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms sc mfcc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Hurricane Bob Dylan
@@ -3089,6 +3778,10 @@ Waste Foster the People
 Meme Generator Dan Deacon 
 Feels Like the First Time Foreigner
 Call It What You Want Foster the People
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Breathe (In the Air) Pink Floyd
@@ -3106,6 +3799,10 @@ Rich Girl Gwen Stefani Feat. Eve
 Buzzcut Season Lorde
 Meme Generator Dan Deacon 
 Why Won't They Talk To Me? Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Why Won't They Talk To Me? Tame Impala
@@ -3123,6 +3820,10 @@ All Yall Childish Gambino
 Breathe (In the Air) Pink Floyd
 Andy Last Dinosaurs
 One More Time Daft Punk
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 You're So Right The Strokes
@@ -3140,6 +3841,10 @@ Cry (Just A Little) Bingo Players
 Balaclava Arctic Monkeys
 Bohemian Rhapsody Queen
 Breathe (In the Air) Pink Floyd
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Starlight (feat. DC Pierson & Amber Petty) Childish Gambino
@@ -3157,6 +3862,10 @@ Buzzcut Season Lorde
 All Yall Childish Gambino
 Within Daft Punk
 Homeward Bound [Live] Simon & Garfunkel
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Why Won't They Talk To Me? Tame Impala
@@ -3174,6 +3883,10 @@ Buzzcut Season Lorde
 Andy Last Dinosaurs
 Balaclava Arctic Monkeys
 Breathe (In the Air) Pink Floyd
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms zcr mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 Within Daft Punk
@@ -3191,6 +3904,10 @@ Past Life Tame Impala
 Shine on You Crazy Diamond, Pts. 1-5 Pink Floyd
 Manners Icona Pop
 I'm Stickng With You The Velvet Underground
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 New Person, Same Old Mistakes Tame Impala
@@ -3208,6 +3925,10 @@ Meme Generator Dan Deacon
 Friend of the Devil Grateful Dead
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Metanoia MGMT
@@ -3225,6 +3946,10 @@ Crossroads (Live at Winterland) Cream
 Cool Song No. 2 MGMT
 Careful What You Pack They Might Be Giants
 Outside Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Let It Happen Tame Impala
@@ -3242,6 +3967,10 @@ I Want to Know What Love Is Foreigner
 I Can Hear Your Feet (Sunrise) Childish Gambino
 Careful What You Pack They Might Be Giants
 Metanoia MGMT
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Friend of the Devil Grateful Dead
@@ -3259,6 +3988,10 @@ Ride the River J.J. Cale & Eric Clapton
 Amie Pure Prairie League
 Meme Generator Dan Deacon 
 Help I'm Alive Metric
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Outside Childish Gambino
@@ -3276,6 +4009,10 @@ Metanoia MGMT
 Friend of the Devil Grateful Dead
 Meme Generator Dan Deacon 
 New Person, Same Old Mistakes Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator rms mfcc zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 I Can Hear Your Feet (Sunrise) Childish Gambino
@@ -3293,6 +4030,10 @@ Crossroads (Live at Winterland) Cream
 Contact High Architecture in Helsinki
 Outside Childish Gambino
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Brown Sugar The Rolling Stones
@@ -3310,6 +4051,10 @@ Florida STRFKR
 Words I Never Said (feat. Skylar Grey) Lupe Fiasco
 Children of the Damned Iron Maiden
 What I Got Sublime
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Sample In A Jar Phish
@@ -3327,6 +4072,10 @@ All Those Friendly People Funeral Suits
 Disciples Tame Impala
 Kiki's Delivery Service Joe Hisaishi
 Hannah Hunt Vampire Weekend
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 The Hotel Majestic Fountains Of Wayne
@@ -3344,6 +4093,10 @@ Betalove (RAC Mix) Ra Ra Riot
 Rocket Man (I Think It's Going to Be a Long, Long Time) Elton John
 I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
 Brown Sugar The Rolling Stones
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Words I Never Said (feat. Skylar Grey) Lupe Fiasco
@@ -3361,6 +4114,10 @@ Glory Childish Gambino
 All Those Friendly People Funeral Suits
 Both Hands (Black Rainbow) Childish Gambino
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
@@ -3378,6 +4135,10 @@ Balaclava Arctic Monkeys
 The New Style Beastie Boys
 Cells They Might Be Giants
 Brown Sugar The Rolling Stones
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sr mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -3395,6 +4156,10 @@ Ni**as in Paris Kanye West & JAY Z
 Get It (Tightrope) Childish Gambino
 Ya Hey Vampire Weekend
 Virus Deltron 3030
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Stop And Smell The Roses Television Personalities
@@ -3412,6 +4177,10 @@ Buzzcut Season Lorde
 Chasing My Tail Mild High Club
 Posse in Effect Beastie Boys
 Breathe (In the Air) Pink Floyd
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Breathe (In the Air) Pink Floyd
@@ -3429,6 +4198,10 @@ Chasing My Tail Mild High Club
 One More Time Daft Punk
 Buzzcut Season Lorde
 III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Chasing My Tail Mild High Club
@@ -3446,6 +4219,10 @@ Meme Generator Dan Deacon
 Stop And Smell The Roses Television Personalities
 Touch the Sky (Featuring Lupe Fiasco) Kanye West
 Betalove (RAC Mix) Ra Ra Riot
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc rms mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Sunrise Childish Gambino
@@ -3463,6 +4240,10 @@ Glory Childish Gambino
 Betalove (RAC Mix) Ra Ra Riot
 Posse in Effect Beastie Boys
 Love Always Remains MGMT
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Andy Last Dinosaurs
@@ -3480,6 +4261,10 @@ Meme Generator Dan Deacon
 Breathe (In the Air) Pink Floyd
 Cry (Just A Little) Bingo Players
 Balaclava Arctic Monkeys
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr sc mfcc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Fineshrine Purity Ring
@@ -3497,6 +4282,10 @@ Love Always Remains MGMT
 Ya Hey Vampire Weekend
 Skiptracing (Reprise) Mild High Club
 Posse in Effect Beastie Boys
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Andy Last Dinosaurs
@@ -3514,6 +4303,10 @@ Meme Generator Dan Deacon
 You're So Right The Strokes
 Buzzcut Season Lorde
 All Yall Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms sr mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Rich Girl Gwen Stefani Feat. Eve
@@ -3531,6 +4324,10 @@ You're So Right The Strokes
 Andy Last Dinosaurs
 All Yall Childish Gambino
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Buzzcut Season Lorde
@@ -3548,6 +4345,10 @@ Cry (Just A Little) Bingo Players
 Andy Last Dinosaurs
 Meme Generator Dan Deacon 
 Rich Girl Gwen Stefani Feat. Eve
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms sc mfcc
 Playlist generated for Meme Generator by Dan Deacon 
 Amor Fati Washed Out
@@ -3565,6 +4366,10 @@ Within Daft Punk
 I Am A Rock Simon & Garfunkel
 Bookends Simon & Garfunkel
 The Good Times are Killing Me Modest Mouse
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms mfcc sr
 Playlist generated for Meme Generator by Dan Deacon 
 All Yall Childish Gambino
@@ -3582,6 +4387,10 @@ Cry (Just A Little) Bingo Players
 Meme Generator Dan Deacon 
 Breathe (In the Air) Pink Floyd
 Balaclava Arctic Monkeys
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr rms mfcc sc
 Playlist generated for Meme Generator by Dan Deacon 
 Meme Generator Dan Deacon 
@@ -3599,6 +4408,10 @@ I'm Stickng With You The Velvet Underground
 Extreme Ways Moby
 One (Your Name) [Radio Edit] {feat. Pharrell} Swedish House Mafia
 Starlight (feat. DC Pierson & Amber Petty) Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 You're So Right The Strokes
@@ -3616,6 +4429,10 @@ Florida STRFKR
 Giorgio by Moroder Daft Punk
 Bohemian Rhapsody Queen
 Betalove (RAC Mix) Ra Ra Riot
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Suzy Greenberg Phish
@@ -3633,6 +4450,10 @@ What I Got Sublime
 Brown Sugar The Rolling Stones
 I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Casey Jones Grateful Dead
@@ -3650,6 +4471,10 @@ Cudderisback Kid Cudi
 Florida STRFKR
 Bohemian Rhapsody Queen
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Brown Sugar The Rolling Stones
@@ -3667,6 +4492,10 @@ Suzy Greenberg Phish
 Sunrise Childish Gambino
 Giorgio by Moroder Daft Punk
 I. The Worst Guys (feat. Chance the Rapper) Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Buzzcut Season Lorde
@@ -3684,6 +4513,10 @@ Attics of My Life Grateful Dead
 Betalove (RAC Mix) Ra Ra Riot
 Meme Generator Dan Deacon 
 III. Telegraph Ave. ("Oakland" By Lloyd) Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator zcr mfcc rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 Glory Childish Gambino
@@ -3701,6 +4534,10 @@ Meme Generator Dan Deacon
 Suzy Greenberg Phish
 Sunrise Childish Gambino
 Flash Delirium MGMT
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Easy Way Out Gotye
@@ -3718,6 +4555,10 @@ Do Ya Like Childish Gambino
 Words I Never Said (feat. Skylar Grey) Lupe Fiasco
 Hudson Vampire Weekend
 At All KAYTRANADA
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Rawnald Gregory Erickson The Second STRFKR
@@ -3735,6 +4576,10 @@ Head Out Mild High Club
 Send It Up Kanye West
 Meme Generator Dan Deacon 
 At All KAYTRANADA
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 Easy Way Out Gotye
@@ -3752,6 +4597,10 @@ FML Kanye West
 The Rocker Childish Gambino
 Do Ya Like Childish Gambino
 Northern Downpour Panic at the Disco
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Finger Back Vampire Weekend
@@ -3769,6 +4618,10 @@ Skiptracing Mild High Club
 At All KAYTRANADA
 Insomnia Electric President
 Low Lights Kanye West
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Nellie Kane Phish
@@ -3786,6 +4639,10 @@ Meme Generator Dan Deacon
 Yes I'm Changing Tame Impala
 Hiphopopotamus Vs. Rhymenoceros (feat. Rhymenoceros and the Hiphopopotamus) Flight of the Conchords
 Head Out Mild High Club
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sr zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Julius Phish
@@ -3803,6 +4660,10 @@ Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
 The Rocker Childish Gambino
 Money The Drums
 The Line Phish
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Friend of the Devil Grateful Dead
@@ -3820,6 +4681,10 @@ Not Going Back Childish Gambino
 Harry Hood Phish
 I Want to Know What Love Is Foreigner
 Cudderisback Kid Cudi
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 'Cause I'm A Man Tame Impala
@@ -3837,6 +4702,10 @@ Meme Generator Dan Deacon
 Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
 Friend of the Devil Grateful Dead
 Elephant Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Computer Assisted Design They Might Be Giants
@@ -3854,6 +4723,10 @@ Not Going Back Childish Gambino
 Hudson Vampire Weekend
 Billy Breathes Phish
 Supersonic Rocket Ship The Kinks
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc rms zcr
 Playlist generated for Meme Generator by Dan Deacon 
 The Mango Song Phish
@@ -3871,6 +4744,10 @@ Hudson Vampire Weekend
 Friend of the Devil Grateful Dead
 Supersonic Rocket Ship The Kinks
 Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Don't Lie Vampire Weekend
@@ -3888,6 +4765,10 @@ I Want to Know What Love Is Foreigner
 'Cause I'm A Man Tame Impala
 Meme Generator Dan Deacon 
 Elephant Tame Impala
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc sc zcr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Evening Sun The Strokes
@@ -3905,6 +4786,10 @@ Friend of the Devil Grateful Dead
 Meme Generator Dan Deacon 
 Heart Of A Lion (Kid Cudi Theme Music) Kid Cudi
 Hudson Vampire Weekend
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Let It Happen Tame Impala
@@ -3922,6 +4807,10 @@ Eye of the Tiger Survivor
 Elephant Tame Impala
 Metanoia MGMT
 Baby Doll  Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms sr zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Elephant Tame Impala
@@ -3939,6 +4828,10 @@ Cool Song No. 2 MGMT
 Metanoia MGMT
 I Can Hear Your Feet (Sunrise) Childish Gambino
 Amie Pure Prairie League
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 New Person, Same Old Mistakes Tame Impala
@@ -3956,6 +4849,10 @@ Let It Happen Tame Impala
 I Want to Know What Love Is Foreigner
 Baby Doll  Childish Gambino
 Friend of the Devil Grateful Dead
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms sc zcr
 Playlist generated for Meme Generator by Dan Deacon 
 Cool Song No. 2 MGMT
@@ -3973,6 +4870,10 @@ New Person, Same Old Mistakes Tame Impala
 17___7-3-15b_The Usual TyM
 Little Numbers Boy
 Crossroads (Live at Winterland) Cream
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms zcr sr
 Playlist generated for Meme Generator by Dan Deacon 
 Baby Doll  Childish Gambino
@@ -3990,6 +4891,10 @@ I Can Hear Your Feet (Sunrise) Childish Gambino
 New Person, Same Old Mistakes Tame Impala
 Metanoia MGMT
 49ers (Orange Shirt) ft. DC Pierson Childish Gambino
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc rms zcr sc
 Playlist generated for Meme Generator by Dan Deacon 
 Crossroads (Live at Winterland) Cream
@@ -4007,6 +4912,10 @@ Ride the River J.J. Cale & Eric Clapton
 Outside Childish Gambino
 Meme Generator Dan Deacon 
 17___7-3-15b_The Usual TyM
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr sr sc
 Playlist generated for Meme Generator by Dan Deacon 
 You're So Right The Strokes
@@ -4024,6 +4933,10 @@ Cudderisback Kid Cudi
 Virus Deltron 3030
 Buzzcut Season Lorde
 Meme Generator Dan Deacon 
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr sr rms
 Playlist generated for Meme Generator by Dan Deacon 
 Andy Last Dinosaurs
@@ -4041,6 +4954,10 @@ I Want to Know What Love Is Foreigner
 What I Got Sublime
 Cudderisback Kid Cudi
 Suzy Greenberg Phish
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr sc sr
 Playlist generated for Meme Generator by Dan Deacon 
 Bohemian Rhapsody Queen
@@ -4058,6 +4975,10 @@ Harry Hood Phish
 Meme Generator Dan Deacon 
 Flash Delirium MGMT
 Florida STRFKR
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr sc rms
 Playlist generated for Meme Generator by Dan Deacon 
 Cudderisback Kid Cudi
@@ -4075,6 +4996,10 @@ Ni**as in Paris Kanye West & JAY Z
 Buzzcut Season Lorde
 Virus Deltron 3030
 What I Got Sublime
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr rms sr
 Playlist generated for Meme Generator by Dan Deacon 
 Flashing Lights Kanye West
@@ -4092,6 +5017,10 @@ What I Got Sublime
 Andy Last Dinosaurs
 Clint Eastwood Gorillaz
 Monster Kanye West, Jay-Z, Rick Ross, Nicki Minaj & Bon Iver
+
+
+
+
 Playlist for	Dan Deacon  Meme Generator mfcc zcr rms sc
 Playlist generated for Meme Generator by Dan Deacon 
 What I Got Sublime
