@@ -131,6 +131,8 @@ class PlaylistGen:
 				if counter % self.k == 0:
 					song_index += 1
 		else:
+			if cluster_range > self.k:
+				cluster_range = self.k
 			top_clusters = nsmallest(int(cluster_range), self.cluster_heap)
 			while self.get_num_songs(top_clusters) < self.plength:
 				cluster_range += 1
