@@ -60,8 +60,8 @@ class PlaylistGen:
 	#training for lambda means clustering for layer 1
 	def train(self, feat1, feat2):
 		if self.lambd == 0.0:
-			self.calculate_lambda_bruh(feat1, feat2)
-		self.u.append(self.get_dat_mean_yo(feat1, feat2))
+			self.calculate_lambda(feat1, feat2)
+		self.u.append(self.calculate_mean(feat1, feat2))
 		self.k = 1
 		
 		for ite in xrange(self.iterations):
@@ -171,7 +171,7 @@ class PlaylistGen:
 		return count
 
 
-	def get_dat_mean_yo(self, feat1, feat2):
+	def calculate_mean(self, feat1, feat2):
 		mean = np.zeros(len(self.library[0].getFeature(feat1)) + len(self.library[0].getFeature(feat2)))
 		count = 0.0
 
@@ -180,8 +180,8 @@ class PlaylistGen:
 			count += 1.0
 		return mean / count
 
-	def calculate_lambda_bruh(self, feat1, feat2):
-		mean = self.get_dat_mean_yo(feat1, feat2)
+	def calculate_lambda(self, feat1, feat2):
+		mean = self.calculate_mean(feat1, feat2)
 		s = 0.0
 		count = 0.0
 		
